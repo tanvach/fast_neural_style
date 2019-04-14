@@ -1,13 +1,13 @@
 # train
-python3 neural_style/neural_style.py train --dataset /mnt/dataset/datasets/coco2014 --style-image /mnt/dataset/datasets/fast_style_images/Bamboo.jpeg --save-model-dir saved_models/out1 --checkpoint-model-dir saved_models/out1 --checkpoint-interval 2000 --epochs 2 --cuda 1 --alpha 0.25
+python3 neural_style/neural_style.py train --dataset /mnt/dataset/datasets/coco2014 --style-image images/style-images/TheGreatWave.jpg --save-model-dir saved_models/out2 --checkpoint-model-dir saved_models/out2 --checkpoint-interval 2000 --epochs 2 --cuda 2 --alpha 0.25 --use-small-network --content-weight 1e5 --style-weight 1e10
+python3 neural_style/neural_style.py train --dataset /mnt/dataset/datasets/coco2014 --style-image images/style-images/Bamboo.jpeg --save-model-dir saved_models/out2 --checkpoint-model-dir saved_models/out2 --checkpoint-interval 2000 --epochs 2 --cuda 2 --alpha 0.25 --use-small-network --content-weight 1e5 --style-weight 1e10
 
 
 # Evaluate
-python3 neural_style/neural_style.py eval --content-image /mnt/dataset/datasets/fast_style_test/small_bw.jpg --model saved_models/bamboo/bamboo.pth --output-image /mnt/dataset/datasets/fast_style_test/small_bw_out.jpg --cuda 0 --alpha 0.25
+python3 neural_style/neural_style.py eval --content-image images/content-images/room_large_bw.jpg --output-image images/output-images/room_large_bw_out.jpg --cuda 0 --alpha 0.25 --use-small-network --model saved_models/bamboo/bamboo_small.pth
 
 # Save onnx
-python3 neural_style/neural_style.py eval --content-image /mnt/dataset/datasets/fast_style_test/small_bw.jpg --model saved_models/bamboo.pth --output-image /mnt/dataset/datasets/fast_style_test/small_bw_out.jpg --export_onnx saved_models/bamboo.onnx --cuda 1 --alpha 0.25
-
+python3 neural_style/neural_style.py eval --content-image images/content-images/room_large_bw.jpg --output-image images/output-images/room_large_bw_out.jpg --cuda 0 --alpha 0.25 --use-small-network --model saved_models/bamboo/bamboo_small.pth --export_onnx saved_models/bamboo_small.onnx
 
 ### small network
 python3 neural_style/neural_style.py train --dataset /mnt/dataset/datasets/coco2014 --style-image /mnt/dataset/datasets/fast_style_images/Bamboo.jpeg --save-model-dir saved_models/out1 --checkpoint-model-dir saved_models/out1 --checkpoint-interval 2000 --epochs 2 --cuda 1 --alpha 0.25 --use-small-network
