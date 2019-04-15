@@ -45,7 +45,8 @@ def train(args):
 
     transformer = TransformerNet(
         alpha = args.alpha,
-        use_small_network = args.use_small_network
+        use_small_network = args.use_small_network,
+        use_separable_conv = args.use_separable_conv,
     ).to(device)
     optimizer = Adam(transformer.parameters(), args.lr)
     mse_loss = torch.nn.MSELoss()
@@ -140,7 +141,8 @@ def stylize(args):
         with torch.no_grad():
             style_model = TransformerNet(
                 alpha = args.alpha,
-                use_small_network = args.use_small_network
+                use_small_network = args.use_small_network,
+                use_separable_conv = args.use_separable_conv,
             )
             state_dict = torch.load(args.model)
             # remove saved deprecated running_* keys in InstanceNorm from the checkpoint
@@ -216,6 +218,8 @@ def main():
                                   help="Reduction ratio for width of each layer")
     train_arg_parser.add_argument("--use-small-network", action='store_true',
                                   help="Use small network architecture")
+    train_arg_parser.add_argument("--use-separable-conv", action='store_true',
+                                  help="Use separable convolutions")
 
     eval_arg_parser = subparsers.add_parser("eval", help="parser for evaluation/stylizing arguments")
     eval_arg_parser.add_argument("--content-image", type=str, required=True,
@@ -234,6 +238,8 @@ def main():
                                  help="Reduction ratio for width of each layer")
     eval_arg_parser.add_argument("--use-small-network", action='store_true',
                                   help="Use small network architecture")
+    eval_arg_parser.add_argument("--use-separable-conv", action='store_true',
+                                  help="Use separable convolutions")
 
     args = main_arg_parser.parse_args()
 
