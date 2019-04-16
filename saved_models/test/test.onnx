@@ -1,42 +1,19 @@
-pytorch0.4:ƒê
-ù
+pytorch0.4:Ù˙
+û
 0
 1
-247"Conv*
+225"Conv*
 	dilations@@†*
 group†*
 kernel_shape@	@	†*
 pads@@@@†*
-strides@@†2©/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(54): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-∫
-47
-3
-448"InstanceNormalization*
-epsilon¨≈'7†2ˇ
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(54): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(76): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -50,84 +27,13 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-ß
+®
 
-4849"Relu2ñ
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
+2526"Relu2ó
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-û
-49
-5
-650"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2©/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-∫
-50
-7
-851"InstanceNormalization*
-epsilon¨≈'7†2ˇ
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-ß
-
-5152"Relu2ñ
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(56): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(77): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -142,43 +48,172 @@ neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
 ü
-52
+26
+3
+427"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(77): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+®
+
+2728"Relu2ó
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(78): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+ü
+28
+5
+629"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(78): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∑
+2930"Relu2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(79): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+Æ
+30
+7
+831"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(79): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∑
+3132"Relu2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(79): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+Ø
+32
 9
-1053"Conv*
+1033"Conv*
 	dilations@@†*
 group†*
 kernel_shape@@†*
 pads@@@@†*
-strides@@†2©/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(56): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-º
-53
-11
-1254"InstanceNormalization*
-epsilon¨≈'7†2ˇ
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(56): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(79): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -192,432 +227,15 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-∂
-5455"Relu2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-55
-13
-1456"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-À
-56
-15
-1657"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-∂
-5758"Relu2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-58
-17
-1859"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-À
-59
-19
-2060"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(57): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-π
-60
-5561"Add2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-61
-21
-2262"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-À
-62
-23
-2463"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-∂
-6364"Relu2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-64
-25
-2665"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-À
-65
-27
-2866"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(58): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-π
-66
-6167"Add2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-67
-29
-3068"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-À
-68
-31
-3269"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-∂
-6970"Relu2•/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-Ø
-70
+∫
 33
-3471"Conv*
-	dilations@@†*
-group†*
-kernel_shape@@†*
-pads@@@@†*
-strides@@†2∏/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+3034"Add2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(80): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -631,18 +249,181 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-À
-71
-35
-3672"InstanceNormalization*
-epsilon¨≈'7†2é/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
+∞
+34
+11
+1235"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(114): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(80): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∑
+3536"Relu2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(80): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∞
+36
+13
+1437"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(80): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∫
+37
+3438"Add2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(81): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∞
+38
+15
+1639"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(137): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(81): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∑
+3940"Relu2¶/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(81): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
+/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
+/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
+neural_style/neural_style.py(162): stylize
+neural_style/neural_style.py(265): main
+neural_style/neural_style.py(269): <module>
+
+∞
+40
+17
+1841"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2π/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(138): forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
+/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(81): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -658,12 +439,12 @@ neural_style/neural_style.py(269): <module>
 
 ´
 
-72
-6773"Add2ó
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
+41
+3842"Add2ó
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(139): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(59): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(81): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -677,17 +458,17 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-274"Constant*"
+243"Constant*"
 value*J  Ä?  Ä?   @   @†
 ü
-73
-7475"Upsample*
+42
+4344"Upsample*
 mode"nearest†2Ú
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(2429): interpolate
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(141): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(165): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(60): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(82): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -702,9 +483,9 @@ neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
 °
-75
-37
-3876"Conv*
+44
+19
+2045"Conv*
 	dilations@@†*
 group†*
 kernel_shape@@†*
@@ -712,33 +493,10 @@ neural_style/neural_style.py(269): <module>
 strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(144): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(168): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(60): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-º
-76
-39
-4077"InstanceNormalization*
-epsilon¨≈'7†2ˇ
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(60): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(82): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -753,12 +511,12 @@ neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
 â
-7778"Relu2¯
+4546"Relu2¯
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(840): threshold
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/activation.py(50): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(60): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(82): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -772,17 +530,17 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-279"Constant*"
+247"Constant*"
 value*J  Ä?  Ä?   @   @†
 ü
-78
-7980"Upsample*
+46
+4748"Upsample*
 mode"nearest†2Ú
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(2429): interpolate
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(141): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(165): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(61): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(83): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -797,9 +555,9 @@ neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
 °
-80
-41
-4281"Conv*
+48
+21
+2249"Conv*
 	dilations@@†*
 group†*
 kernel_shape@@†*
@@ -807,33 +565,10 @@ neural_style/neural_style.py(269): <module>
 strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(144): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(168): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(61): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(489): __call__
-/home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(197): get_trace_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(192): _trace_and_get_graph_from_model
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(224): _model_to_graph
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/utils.py(281): _export
-/home/tanvach/.local/lib/python3.6/site-packages/torch/onnx/__init__.py(22): _export
-neural_style/neural_style.py(162): stylize
-neural_style/neural_style.py(265): main
-neural_style/neural_style.py(269): <module>
-
-º
-81
-43
-4482"InstanceNormalization*
-epsilon¨≈'7†2ˇ
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/functional.py(1639): instance_norm
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py(55): forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
-/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(61): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(83): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -847,13 +582,13 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-ß
+®
 
-8283"Relu2ñ
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(91): forward
+4950"Relu2ó
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(113): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(62): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(84): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -867,21 +602,21 @@ neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
 
-†
-83
-45
-4684"Conv*
+°
+50
+23
+2451"Conv*
 	dilations@@†*
 group†*
 kernel_shape@	@	†*
 pads@@@@†*
-strides@@†2©/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
+strides@@†2™/home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/conv.py(320): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(93): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(115): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
-/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(62): forward
+/home/tanvach/codes/fast_neural_style/neural_style/transformer_net.py(84): forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(477): _slow_forward
 /home/tanvach/.local/lib/python3.6/site-packages/torch/nn/modules/module.py(487): __call__
 /home/tanvach/.local/lib/python3.6/site-packages/torch/jit/__init__.py(252): forward
@@ -894,102 +629,125 @@ neural_style/neural_style.py(269): <module>
 neural_style/neural_style.py(162): stylize
 neural_style/neural_style.py(265): main
 neural_style/neural_style.py(269): <module>
-torch-jit-export*<		B1J‡<u±D="˝9=‚”ºà¬F=±düºı(<?˚ΩË	=û E=ÆáGΩf_N=·<- J=‡{e<-‡=9qNºÒX =∫36ªΩ3Èº˝Ç†<™1≥ºòNÖ;LÉº¨:=ñ≤rΩ’~<ΩÆ¡Ωı7Ω'˛â<'7GΩKó=œO;Ωjº7=Póªmµ&Ωù€»<π›ó<ë3Ü=ÊJ±<©Œº4ËÉ<jm Ωs<úü$=ÌŒ“<«çºÈI=eÑ∂<=“WSΩ§[¢Ω¨ Ω*pΩ8/@=«6Ë<ô	=)T†<‚2Jºdƒ=ª*nΩ»âª…@Ωª¨Ö<h‹èº{Y<Ûº˙v=l÷cΩ…7EΩ0Ü0Ω†Ã[=jçU<ÇOm=¯∫éΩ2.≥Ω˝”óΩÕ⁄rΩ‡ëè<Fì<ÁÁ8=I√=ΩÙM&ΩØ◊˛<≠ Ωñß=ƒsÉº¯Í=@ΩêΩ°(<‹2Ö<·«àºf_$=gJ=FKΩI‹ºcFs=øÎﬂº·õ Ω¬ˆjΩ·øÚº^»Ê<D™Ê;pßΩ˙;›/GΩâΩÄä=Ω‹EΩª‹ºÇh©=‘π=.G=≥yΩyïWΩ3Ωƒ^´9j9ΩΩª:º¨≠ºéV<•è¥ºË@mºı÷gΩ≤€aΩ>ß*Ω™˙º∑÷Ωaeà=`)ºJ˙>=fò–;íjÖΩ®(= f}º$EºΩw6ΩïΩV <+’œºçç<&˙]Ω˝S=T„-Ωsuªé(<ñ¯£<êã=éÒ6=8'eΩ”ré<–º∞¬º≤<IΩ§m8=åãâΩ˛j<3˙ <ñ◊Ç<–ΩEÜ\=Üó; É<á¸tΩøØπ<ûzjº9(ÚºzÑy=_«<	‚ ºuH≈ºøìíª„	=ßézºóˇº¢^º“üΩNÌ<ÿ¸[=¶jΩKe<Åu=ÚpÆ<»Qº∂—A=GÎ*=ÈÏ»<0’sº∫Oåº˚C<ÊÊ∫ôÿyªñûs=¯∏ã=¸Øfªzìãº°ûª0Kªâ8∫<F´¸<8€/Ωµi+ºÇEo="ì∞<ú„ª"Ω„≤ΩK=ΩÇ≤ˇªık=§1==´è⁄<è±Ω™ÈΩ™bª{#ó=‚®<äSÙªØˇ<;¥„ºÎe<ΩC/C=øÆØº,ˆ:pΩIΩ§V=ÏI=ÌvÇ<laΩßuãΩGªFΩ™cm=	1=ÄœÅ=dû=1#<É;ºŒ•qΩ˙…iΩ#ÎaΩã›=t€ºº!Eº;˘ ΩüΩºs$@Ωñ)¡ºíËE=Á;<¢˝Å=!d;Ôﬂº–¥‹:˙ø»º°¥ºè*iΩÚ0S=x£≥ºEuu=Ãl=På=J`Ωƒmc=äRΩÒ»‚<µ&í=ä´;<pË<˜8ë<&ùÕºôP)=Ïv[ΩÉ(!=ÃE=B
-ä=uä;ªK'Ωüí=áZN=ÍkJΩñ‘;q◊º ;.¯Øºnx=º<2ªº¿)ΩWáí=|Ü=R<µ)1<UıÕªEÖΩÚç&Ωñ‚5=‚ôéºøÆ€ºŒwv:sÓºG,ª(
-=‹dê<0Ãî;1éºu\Ω˚hÜ=dñÚº®8´<πSº«m=j…≠=OÃK=≤bΩÒ∑-=‡ïì=VÔe<øÎZ=–uù= ÄW<˚ú=¯O≈ºH°<TÕá=–2=ΩÿΩqUDΩègGΩ¨)AΩ+eÕº3
-$<Sã=!V=à‰ÿº?E-Ω¥é=ÜÙTΩ‹ŸùªCë0= ’ºybò<ùU¡<UŸ-<_àπºë#WΩﬁzΩ_≤ΩxÏä=Å(pºùq∞º{â1= 8=±Õ=U÷P=7•‹<©√êΩ68<tK=∂˘Ω;†˚œº.pñ=Ã÷vºfËºÿú]Ω|ô;ß=ß¸Î<Û<èÇÛºs©+Ωm]<_·å=Ÿ:=B‡º:}<6˜º\EHº[ı<æÜJ=$µX=˚Û_ΩØ*P=ß©Ωºg≥J=≈!ô=Yoé<,€ô=ô‰6ΩÿÃΩÅ(=©â#º¡Í; .éª=Å=⁄J=7ì"=«‹ºì|kΩ—ªj<iÙ·<Ÿ2º≈åH;ÒÌ}=N»<óÃ≠<$ºqÌTΩscΩdΩ0ÌñºõU#=ìJØ:Eäıª#T©=zƒ%=ˆöm=H…º|«·ºõß«<≈…Ω^˜Ôº´zD<7.Iª≤"„ºCÄP=AÅk=⁄Öá;ÂbÑº‡ÛΩN∂Åº¥Àﬁ<>15=ç?<‡éºù]-=»	kΩ -‚<(_Ω1;û:º‹=-<,l?ºÒÅl=ë»<∑\= Øq=Ë@Ω=ñ+Ω…Ss=«å}=eıΩ√∏∞:¿0fΩ\Ì5ΩN•<‹|ﬂ<⁄§Á<3Üª†¡í=ôäÄ<(~9ΩOj©ª|9ë<öø= Á∆º!È$=Äﬁ∑º(-0Ω^ÚºÈπM=¬E`=ó$v=˚V=⁄™Ö=8—¬;.©¡ºè5=`õıºIPΩ⁄‰[ºÉ2¨<lC=ˆpº¶\≥º7n∫<@z⁄º !Ωìv=k:`ªÓà=ÙÒê=Æ≠Ÿ<≤§ÿ<À¿P<É+€ªªs º.<Uˇ<"
-Å=V;Qº>o•ºDõ;ºç≈Ùºté;6==fpK=M‚˝<òÑIΩêΩî=º2‰#º3∫˛;ˇ!ÅΩóm™<=fΩßÎ4Ω∫ÈbΩ¡ÄD= ôÉΩ˝V=R·©;≈ªnùU=}ùº,≠˙<ÅT)=BÇãΩY≤≈<;ÔØ<0ô»<˘kœ<d!=ÛNΩ”Ω∆ºí~\=W!¯<∑ >ªPOΩöñ|<l~ÕºÌæó=πlΩâ»ºqØ“ºV„µú˝i=;¡‹;aH<=8Oz=HHã=õÕΩ€u‰º4À<Æ°ºlÊ=TÍqª;ﬁº¡≥3=⁄Õ€<
-5q<î	n=èÙ5=îeo=¶ö <G^"Ωƒ•Âº§_‡ºJÁ;ΩÒåººÌ>LΩµLIΩ2Ú·ºÜãZΩàùΩò„<˘ L=æ≠úº+bºÄ1=,.ﬁº5Û“ºËÃG=÷?GΩ≤/`<3*^=¨®e<ÊÃ<—sΩ≥æï∫˙f;∫Ü†<›Ì<J*Ç=jÌ:Ω5Ú	<Ü„ΩUÿSΩ√z¶ªUp|Ω>ñ.=ndI<çx¿ºÖC.= u9Ω˝6Ω“;ëº"•iΩ˘»LΩÍb'ºÍrj=ñXì=3b=·˜xº7	\Ωˇß5=>ù<¶è·ªû&<"2Ω¯[$ºmÿ†=>JÀ;È+îºG˚âΩì.,Ω!éºÅn/Ω—}Ùª=Ø=pXΩ(Z=)ldΩãj0Ω√≠ß<°ÔM=∑ãsº®0ñº#m5ΩñŒñº∆ô'Ω_√‰º9=Û;≤—sΩÃKh=å/==JΩFΩ@˜dºXƒ=mª9Và;B sºpèà=vÀûº∆iä=lUf<h$ë<ﬂN=îKªPU≥º“kw;∑˘y=‡ ΩCS‹<n›\ΩY*=Ÿ%÷<Ÿóp<`∞,=/ê7<ÔÀ=‚∂FΩdk≤∫=n%°='2=≈_Ω*i=∞Üºù*ºà7vΩWÜ‘ªﬁ†c=Dvÿ<Q©´º∂Ì'=>©º˚v=∏≈TΩ¡…ΩºL∏cΩ,¯DºÜi=:ëß=∑ä=Eﬁ`=fö„;≥n-= N=$Hj=q…º§dï=4l=´áº˘u&ΩÌ∆tΩa§<r&SΩü-‹<«[æ<:;@Ω·ﬂ<ØÇ<≠ªª<®=˚ixΩ47Å=]m=@˙=_èDΩ≠T3ºÌ=Ÿª1€ÃºˆQ=?„<QìV=˙ôº‘˚=C=Å«4ΩµäeΩøÍ‡º±√[=‰PΩ2Ωò∫@=Í%$=Îlg=å@(ΩÚ,5Ω√⁄*=.yá=◊§K=6Ñ§<˛ô“<â¬K=î‹mΩà«ΩGÒY=*=Òºøµæºq‡Z=lO”<≠z≠<Ç)ΩñÚXºed=™[	Ω2Å<=B1=7é%Ω’Å=gΩû>÷º§ï◊º|5(ΩπÅ[Ωìç8=38—<ﬂYäΩ'œKΩÌÓu=C"”<]ˇ=Àººææ,º÷v5º(kº¯óVΩŸG;27V<âl=<™*˝<Bé ª≈B˘<Ic<‹p=ΩkHíΩ¢_=Bj–<ê∞Öº≈a•=‰˙yºÛYF=VM<ü#éΩiÈ=ã‰`Ω›`–º”NÈ9\c)Ω)Çe=N µº Ωí;`ÔêΩçä=‰#õºuÓ(Ωœ{#<œß<¢K@=áFΩÇü⁄º/©¨<Æ&Ÿ<ﬁT=GB/=Í…Uºç´=∫7=uÅ∆ºNÈ\=”‚!=C’Ç=¡ºiÚº=—ÔºíŸ=º÷—=›ΩŸ¸;=∫Qº5–+=ë?†9 siΩ|y/Ωæ¯bΩ®EÙ<nöΩkÜ<·B≈<ÔΩ»RÜ<Æ,ãΩ…—ZΩ≈Y|Ωˆ	Yº’ºΩ!É<ˆ——ª?ﬁã<ùÆ6={2ï<7i•ºJ∂@ΩY4=;◊!ºœz¯<n√=˙Ói<f§d=”Cé=E«=‡‘≠ºû¢=“_Éº*Ωí£-=Ùn1=|ﬂƒ<oÓÑ<k‹Ω!ÑB<!ùô=˝J§<,/nº∑ÙÿºIZ◊ºä‡>=FŸê<ÙÑa=)'º¯b¨<Qî<}sºˆ<ä∏"=S‡â=Öóy=[q^ºØrÇΩà|,;æº^√íºŒb◊ª–Ï<≈xr=•e‰<ê∂ºµo‡º˛wº€ºëõm=Uı!=ùÖ=H Ô;ﬁaà<à©ç<¯äΩm≈;¶®:“Åﬂºf*ΩÈ®u=3d=Øæ=ØCr=ˆ;Ûºœﬁº∞=ä§*:Ê¥ª‡^ΩÜ>ç<  Ωﬁıå;	Ëé=f$ÙªõA*ªE∆0=?ßº≤t^º™X=KÃ»º~ ΩÆõlºÊì1<∑Ç≥ª¥»Ω-@©<ÏÓ¡;<	ëº¯ﬂ
-ΩÌ;˙ú»:ˆ(É;Ûm ΩÛπ;ÔWdΩ=[Ωëº(Ω{7;=†rº\Î≈ªˇîÖ=p-=ÚÒ·<ëäΩê1ΩÚÙ$ºÜ˛í=g9¥<5Ω¨'DªûíWΩÔa¿º
-!êº—\Ñ=¬É= ôb;%±à<'ºº™6´<óí±<	ë<∆#Ωà´˝<Ís˝ºˆΩËM9=ÂS=êé=õáä<á£«ºƒ√û<ë\-=ÄúãΩXÌîπ‚‹ºXÖﬁ<_<=°hòº-ã.ºTg≤<íºù-Ω:é=8#[ºÁ∂;	…;4çºÖ´ÅΩYs=GJGº&qºÙ=&vºÎƒΩºÁ˜º®£*Ωû∏ º°~ß8“ù2=F”ªº…Wjº¡ÂA<·Xe;_Uô<‚wxΩÄÓ=ﬂ‹z=˛∞Å=ÄÃΩ˘a.ºMÅoΩD˛^ΩùÃ¥<≤™2º‘·&=æjtº	®Ò<◊.˜ºòü‡<Ë…&ΩÏÈÁº3hΩÑ{ä<◊íô=z?=MÒº8- ºr¶ÆºànÉΩ˝ÆF=,]<È/=‡PòºS∞¸ºe∫D8É;ÍÉª`$ΩMëà=•Ÿ;*≠≥ºéﬁ ΩJH=Ád º+Æ¯ºÖµΩx´>ºA%3ΩtT=Ω—*=∑∆H=Â9=4dwΩ,CÎ<#ÿ˙º¯g=t1v=ÀåY=—7$=«√=¨ñ˜ª˛¨˘<|›@º“o9=`◊Œ∫3◊<hcΩ‰‡’º’@&ΩÁ{≠ºãëÊº¸`Ωh≥<lKe=‚ÆÑ=ìÏ<PŸAΩÌ°ÇΩπç=òµs=Õ˘ÍºÊ"(=8s=∑ú£ªπÚjΩ≠Ω=# =Å%É=	öºìéo=Î§Ωßb=ê 5Ω∑ÿ√<WÄ<Ê€‰<&R<Åf+=7Ã´ºÒ˚äΩo.Ω¯…!=∂åbºû©$=∂bº>v=8|$=N<>DΩuõÑΩ“‘î:i≠™ºx¢=B∞oΩ˝®ƒ<ÚH=ˇj<øw:†nêΩ1gä=fÎÛ;·h ΩPÄb=ñ0ΩºÑΩ™y=Æï{Ω»EΩTB_<i<$ºY[<=æÑΩ+HÖºå<Ω4ü>ΩOB}Ω Ø(=:Iì<èújΩa~.=ˆ~ó;XRªY•:Ωa"<W•ã=r£Q=o
-DΩﬁÒK=	Ÿ ªô$a<zl#=º"b= #&Ωu∞Å=Çπ$ΩÇ»4πÈmuΩòÏºyâÑº∂~ºnÄˇ∫#œÅ<*è=–¶=Ëp£<êØ∞;¨=x/º¸\<ºÄ«<3@Ω9RΩ ™¥ªó”1ΩÛgºS÷^ºÿb˝;Q=?´rºlM=µÚ'=ÍhÅΩöwoΩ®ïIΩ<…Éºw…ºªu∫Aóº!∆;ΩπoΩ©£Ω6Ñ=x»ªFüº»Êœ<ÊJ/ºu=˚(≤<äy)=(á_Ω›˝A=‰?ë=»o\ºÙÇ=¸ΩW=üN<—ß=ÌïÁºÅ»ÇΩUÏ{;HYÃ;∏PΩ«z=è“%Ω›Mì=÷Yò=¶Ã<'ΩXAÏ<ﬂ!;‘†< ﬁ˝<óÍx=±»Eº#Ú:_ﬁ<õÇ<5èÄ=†∞Ωñúªy8è<ÊXº3€o=jƒû<ÃVPΩ†∑:LÜçºÁ\L<ám
-ºg—mΩô¡HºíF/ªU3dº·CÖ=Ê2º2G==¸®™<YdΩ˝zˆ<ï‚G=6Ω∑€*Ω[á=)àa=^Ω¨˜(=aºèz1Ω∫aJ<ˆU”<Ωèhºπ‚
-=i95Ωce=_fÜ=we=ÈÅ=5/=tv¸ºÂ<ÉªØÊ<øJ∑ºÒÈΩõ!W=?V=∏Ω”√&=Ñ€B=˚êù=ï#O=çÃä=4ÒÖº@?=Ó—g="ºgΩÓ2Ω‹2ƒ<c¯.=ÿ\·º9ƒ	<zˆYªÍU<g%Ωª30=—k=†„÷ºybÖ<åŒi<‡{ı<@‡Ö=¨ü<A√wº	Zã=ŒL8º¸—Ÿ∫Ê·∑<€›ΩëÓò<æÇÎºz<r<{@<Ø˘q<zk?Ω€Æ@ΩE≈-=t á=Âä=Ω∞ =≤ΩÌ-Y; òÑ=ZâA=¬€9Ωªÿ7=∞5)=ud<òî=ï®®ºœﬂçºÁ®Öºﬁë;O_<†ª;8c˜ºSaÀºéxÓ<ùöFΩa~ºπõ<Ahùº∞•€<k†<≠¡j=M‡¥;?åÂºô•l=2vz<#Ø;óí›ºªåÚ<§RΩà…¯<2V7=f=<Ω“FΩÃVΩÛáö=¯µó=°6Õ<àô=&&.º∞!dΩ<·’<»–µ<Í∑Ö=Ë;Îq=„‡L=WãL=‘yΩuU=•ÙtΩÛßP=°zº™?Ω„ =zcû;ù‘.Ω∆ÖZºƒ›5<ÁZ=œß¨º~ =ÉDü<Phi<«ˆﬂ<ÿ'‘ºœÒ'Ωπ$5ºƒ∫IΩ©XÃºèß;Ï[!ΩÈAµºù÷Ω∫◊ñ;-ÂºõU„;`©˛∫Ú_∑<∆º—:U≥ÒºC”º⁄Æª•æ"ΩW|€;Bÿ^ª€vﬂ<÷ÿè<x<?=zï?<ˆvSΩ≤ »<à—7ΩmC«ª∆´º∂£ƒºãóƒº◊v^=π0]=…∏<∑GÄ=VÓ[ΩÉ™<ÀèO=Ø0V=ª2ΩÔûø<]ïºV/<,
-@ªrÏ9ΩBÂLΩúª˙ºzo=GN=¸·VΩµXºXŒj<U©'Ω€o?=èá=[Ÿ|<õ¶BΩŸó<<ì<Ò«@=éóΩF§sΩè®ß<kPºÁGΩc>Ω≠°Ω‰(J=Çïº&ó =˙nQ=P∂*é;¥%Qº◊=œπwΩ¡¥<æπºÂ%|<3Â5º6ïΩy∞>ºå
-=?Ω à+Ωù éºˇœ'ΩuL∆;Ç˛Ó<àÛmº∏ùo=óN’º-ÓΩ-˙„ºW˙FΩ<}ΩåŸôΩméΩbk/<oP=gõÉ=8Jc=xbvªDƒ;(IMΩIí:<A°íΩé|¬<ı;rõ<OÆ<"óΩZ¶>=©ﬂ<"§=≠óM;ñ=ó=ƒy¿<hª6=zåºµß=3∫ó<,)=°Å=∞>Q<„RÌº¸¨tº––<ùu™:¢,Ÿº|	Ä=™§P=éÄ˚ºŒ∂€πidºªHΩºBº∫m‚º —Ωc™ûº:]òº∫Ü=ùÂ≈<§˛h=_•?<á?<ﬂ%ˆ<¨4u<ÈTΩÂ# ΩÚúvºè∞æ9xcª<$…<uûV=¸Åì<h"ûº='XΩÓÍ[Ω˚(Ωò<=QÜÉ=Ü0_º◊â:˙_ÄºÒ¸#ºSY<ÔÁªûØç;a©u<tœ	=9K9ºQ1˚º£Pí<qÇºÒ•ΩN¬æ<BDj;>∑∫«¢ºÁ+∆∫E5KΩ`äc<ÑŸÕπ†˝=˛ùÇ;Nh;w–©<oÖ\=‰ºG!=`«S<ãΩí%⁄<£d	Ω)Éº=¥„º˝I.Ω©T=dUlΩ4Á<W:Ω∂‹K;∫‘L<Ö–T=&´º^â<¬‹Ø;?=!}EπI≥/=•Ä•º(gÎº∫ˇå=ãÅ'Ω-EºcBºÅM{=õJº<f?Ω„cGº‡#=—è›< eN=“5Éº6çÓ<º+^Ω≤=»–˙<ê-=ÖVΩ-[ÅºHÁÜ<Œ™0Ωj"BΩÃRbΩ4<´Ë"=%ûb<(´í;ª7ƒ<@ΩÉôg<o´ºjπÕº\ç{=¥ZΩ^Xh;mΩß∏°:éﬁÆº;£˝<ı	›ºgÚI=Ê=Ωv“=’™[Ωî=  ¿º
-<´GÉ8ØlJ=§R‚<0õNΩDÊ<ü;Ω¸<J=≈äU<"cºß∆º*Ã<æÄΩS_=ƒ‰,=¥ˆ2=K"≤<X˚XΩ~B=◊ÓtºèIdºzFãª†7Q=7Òw=∫ô<˜$=≤ÜbΩ¥é:ËwqΩ`”õ<Ùõ?Ωoˇ≤º‘2t=©∏õ=Q+‘º*—⁄ºÆ‘Q<ª%»<SâJº/òñº¸ÉΩ9n≠<ò'`=⁄e9ΩL∂ä<ïì∂<çE=©ªJ∑;#C=9Á<Ñ´@=ñ"Ω¿GV<[:'=tãΩ√º<YºÌt%=ˆ`BΩ ÓkºK[≤<xcÖΩ)†EΩõãºéH]= øE=ê{JΩkpIºdbΩD+6Ωv-G=Á“=^¶ª¿•≠<Øù1<NŒÒ∫°8ΩÇJfΩ|Ã˝<Hõ;»…˝<ÄÂÜº©==h"=Z°<3b÷∫÷Í@=y9º÷<ÿ©o=Üt{=∂GÊº9Ö3=ÚÉ`;kOº˚KK=∑ãΩƒë4=Úx=”"@Ω_LΩY*ëΩ`ùº„8XΩ6QìºË õ<„≠4=±ˆ<3_Ó<Iàú<OA6ΩùF\ΩéÄk<ºó=cL<†◊™ª]e=Ω®œΩ€ÕWΩ—ıT=ÇπÃª ù`ΩˇÂ;iÔ-ª
-íjº}*Æ<,ﬁ&=Å:OΩ9ì$Ω ´:&–Ω∞ÖΩ°ƒ?=åº∏ŒŸº¨¶’ªB]Ωòv=ùoºÙÜ5Ω¨AkΩøÉ¸<ŒZòª
-$<lg∫;ü3Nº1£<ÅzL=áTVΩ¿$ˇªéUΩÒ1”ºOœì=`Z´<;û=`ﬂº-;Ω§˛SΩÀE=êπKΩ≠d*=É∑ﬁ<ì® =›S3=¢>ßº-“<§HxΩÉﬁÚº*=B=ˆô…<6“tªkı%º≤ÄΩ#a=Ëé{ºÉsa;Cºà<Úº`=xµØº«™xºDÉA=t#=£Ê ΩzáΩs◊⁄<
-≤:=≥u—<U¸_=G¢?Ω˚<=M(ΩAƒ=≈M=Uﬁ=Î©ë=ç·ºπÒBΩ‰/cΩ;!9=Dﬁ<a%Ωt»'=ûB|=‡Ã}Ω¥Ï!=:á:;Õ⁄ù:ôu`=Bãc=Aø«<øû9=ºùﬁ<ª;Y≥ÑΩyü„;=Ç8Ωd]Œ<Uã<„£\∫≈˘IΩÀü-Ωcé,=\Õ<C=CÔ4º´Œæ∏]º≥Œ0=¥7Ω	‡Í<†§=…ÓÇΩ_P	∫8º≥€ºòı˝<ﬁ[`ºÆ|=9`RΩ9¸£<˙vΩ∂ôΩáLp;õN=’v˘<ûüÑΩ	YRº~ûCΩ°Áº∆ﬁwΩqÏ“º«•=·àãΩDzéΩd·qª
-˚4º8ÃOºs˙J=≥v/Ω›¥Ω_†XΩø®ºKl¬ºK=⁄†[ºÔ~≈<cÍ·º3H=ÉRW=VÉΩ˝Á”ºp`ÉΩs≠≤<Â{Ω»„‘º7“ã=g }ΩÔ£/=Dó∫·ÆC=ÎkΩ=±%=àÄ5<*)B2J tñº ∆%=ÜlaΩ¨ÉΩ˝ua=ƒ3*Ω(Ê_ΩH,êª*)B3J ©•¬>%√⁄> ∞,>öÆ1?_ß…=é¸?ÖäE?À$?*)B4J √„A=¨ì_ºtPgª[ <KüŒ<Ç˛}ºùLØ;D∆=*êB5JÄ±èÄª∂x<<î¶∏º«-ıºI“ΩıîΩ#¸nΩCüÙ=∆n¯ºFw√<S¨Ñ=Æb…ºw∏ñΩF∑Ω«
-SΩ≥¨+=ÏfœΩ≥Œ4ºå´;=é∆='¸=Ñm›<Ñ“Æ=‰ˇ{=D∑=ÜÁΩ7æΩ(PΩ‡ºZ ®;Œø·º"j=Âñ=ÀäΩﬂuæ‚lîΩ/RòΩÉ^=˝íΩ«∏Œªƒ∑áºB9çΩHXå=grSΩN÷óº∂Ã•ΩHïÚª‚≤<\πÕªﬂ@Ω¿ı¸<
-ìΩ»ïΩ≠≥Ωá˜Èºd° Ω«êÁ=z=jΩtì#Ωﬁì¬<Uÿ˚<%{ºØh•=ßr5ΩDÏä=/8g<ßàΩB£íº˛@=t°3=Œ8∆=°8¥={¨ΩàΩÔiΩø◊Ωç<@Ω-<⁄Ω€<ù4è= >;‚tëΩúlûΩõZΩÛD?=˝’å<%=Gx˘=∑'è=µê!=f∑Òº≈lf=›ã0=£ç·Ω‘”ÜΩ2Ê§;Ú3)=Wºi=®ìΩc®¯Ω
-«º˛à≥ºÛ¸ <cSHΩ¥ºì=¯ÚΩª^à=nƒ·Ωı$+<ŸÔxºìΩöX‘<üã	æ≤¥=ÅøºÈ:˝C?=ÈÒ:H<0=7’ç=ÅìŒΩ°yé=÷º¢=ΩE~<å¶™=°ΩÅÕèΩæ≈=n.•Ω€Ô=2>xªÔW>;"»ï=;ÖbΩ1Y{ΩÇõà=,áè<èbÉªï-¨ΩÅàË=ÙŸ<ac&ªfu¸º¡ú"Ωoá•<ºCΩOõÑ=ë[@ΩjJAΩÖÍ<ˇöΩÌ&&Ωä,=DS∫=Ä˚∏<Îà¡=r¶=ê=a=^=≈»G=„*≤<Ú5¿=Rb˚=Êwê=≈/; >"%`Ω˘Í=© =wﬂ=‚~<˙*ÅΩpÙÈ= Ωêl,=ˇã=Á»øΩÓC2∫ß›åΩo*ã=—cÕΩí\=—e=ªE=ä7‚=ÑPõ;á‡ΩŒkƒ=‹Äb;•;8›ΩΩ!ÏÕºUÕ5Ω°>Î˛∑=´ÇÕ=˛NÃ=Àæ»ΩWúúΩ⁄ÈSΩÂo´Ωªv=O=(Hn=‹
-Ïº¿+ÕΩ{QΩ´æÑ=‚è=ù<k&Ωì´±ΩÂ8ëΩ4‘ß=—ôdº∂†µ=ÁÈ7=gmSΩh∞==úHΩ◊∂∑ºœûfΩÃ(æ7∫<„òP=RJ$Ω>ÕΩ=
-∂∞Ωf&¡ΩÚVΩhw´º?ÏÃ;IfÇªêüA=vá“ΩÕˆ<èƒq:µö-=˙é>=∑¶=5.Ω∑ÑΩSÅ±º¡≠ΩN∆Ñ=!∫O<≤óÍ=?9_=%\ºréb<)≈<´Íº®3R=æ\ıÇ<˛4æ …!æ]‰åΩJb;⁄Ñ=~Ë=Kå§ª¥´z:c15Ω p∫ô¯Ö;Ú4”=≤™†=]´ΩËü§<ßÍòΩÿ∫ºêƒΩ∏Ëü<aºΩù¨Ÿ=?ñ=Œ™ΩV-ÓΩPnº_ßΩ/Ìâ<I⁄±Ωf≠ô=\…”ΩræΩn«º)Ö=%´¡;±T◊Ω‘8lΩ•—;Ωy–Ω≈¸»<∑—N=]JwºlpΩ»;;<^}ßΩårΩÍ"<m˘Ì=ÏNÀºãﬂè=>ﬂΩ™Ù$Ωâà˜Ω G∂=∏—‹=è(3ºÁ_á=æº=õ]O=√{P=≤√‹ΩPÿΩÍì∂ΩÁÑ=9}…Ω1Õ≤Ω…⁄pΩ„õ€Ω#Bê:î√Å;íãßΩ£Ü=ÇmΩ0å;Ωy2û=Ñè≥=◊6ÿº–u«ΩßéçΩ8 π;€Ÿt=O•H=8uΩ?EÛΩ>uÂΩJf4Ω©⁄ªπ÷jΩ˜_»Ω«ˆÚ;S•≥ΩmππΩ®ÀΩ⁄:ßºì†‹=≠Å#=˜Â‘ºN'Q<j<=ín,ºmÁÿΩfy©Ω+∂ΩrIºE◊ÔΩ@Ä/<ﬁ±ãºb‹=?˙˛=Óå=xŒ∂ºSŒ‹ºw%|;yU‰ΩÍÎº=ªÀ∫≤¡âªxZΩΩÔÒà=8˛Î=â@ΩoÓI=∞⁄;çnºπ†ºd%∂=ÌÆ‹;ˆNØΩô>Ω©9D=ìˆ˛<WÁ; «ºØ∂%Ωrâ›ºªú1Ω(·!=ô!o=∏[Ï=BºTπX™“<1Eæ=áÓI=åòyºñT= €∆ºﬁHæ{xºÿ!âΩÎ{=KiŒ=zYB<&≈=u:hΩ3’=ÄQ◊=+ΩÜππØΩ1_Ÿº'˘ªÉ\§<≠·Ωuæ`=kD˙º¨Ÿ§º∑c*Ω¡l¨ºi¢ÃΩ¯öΩ©|€º6ë=6|ë=t”æRO<l÷Ω( æ)ªÄºôR÷ΩªæÀïæèø·Ωﬂ}õ=üHc=èLÜΩ®◊≤ΩÌ®πΩ°måΩ@¶LΩcÊâ=ﬁ®&=Ú+ΩÇñ™=ËûΩºy≈Ω…äÛ<ÇÑõΩ®RÚ<ö∫ø=UÅΩˆN≥Ωa=ü∫ËΩw∆∆=ΩùãΩ$A=˘¥ÚΩó;ÍΩ‰éOª›õy<Ú™Å=ãò†=¸ÖﬁºD—€ºA©…;ıÆ»ºˇï<Ñ(ÙΩ÷2∫ΩŸµ=£”yΩqﬂ=®áÄ<∫Í◊<P¬÷=≤áÑΩwπºÄÓ<íQ2=eÊΩı’H=â~ìΩYAº„Î`=#3ñº9U´ºü©ÊºÖ¡=Àà^=Ò,<svîΩé´Ω∫ë≈=¢¬=XÂi=ÒÌØΩhæ=≠ ºóM¢=i≤±=Ù®à<Å&SΩ’f =~B°Ω‚–f=¶•æ≠èΩˆ}
-æ}ÁâΩQ=èÔ÷Ω ôæ§ £=!?E=kÁœº[Y¶Ω‚ÃΩ¬]Ωq„Ä=?âUΩÏúPΩ≠b∏ΩkÄΩ¶j={ì=≤≥å<»7ΩÙè∆=¸éó<†ü,Ω“ÆeΩ€∏‹º_ì)=‰¢=∏à=7º_¥>ÙÂ1ΩÌÜΩ“Sùº:å–Ω‡ÖΩÎu«ΩS•<î}=∞ö"Ω^òøΩ7X∫=kq[Ω'1=Œ´ó=:!∫Ω¬ÜººπÍÅ=¡ùÊ=£M7ª◊rõ=˙çæﬁ¢ùΩ_tŒ=B eΩ≠=ÊÔ.<ΩØvΩÂ1π=’Iû=∑àº(–≤ΩˆŒNºA˘®Ω3o™=¡^\<*)B6J 2x=÷qì=ÓO'=Æ_ûΩﬁÃ…={£ã=ËÆùΩƒ”√=*)B7J .• ?≈ª«>€Ω>üÔ>%ÛS∫@¬H?$V?∆å¿>*)B8J ∆á%ª/=Í<·∫:ÚoY=î¸IºöHÆ<|Mﬁ<˚•=*êB9JÄ‚R∏=Em≠ºúu=bπyΩØÜ±;´ª§<~Q†=	ö∑º˜˚¥Ωx=¸òÉ=Ú¯≈;’UΩL•<ÂOΩõ©ö=ÿº›ﬁ•º0ƒ<ÂÅ=ı~;°(ª=oi==≥ΩIÆªgÁÃΩm§∆Ω.o\=“	9<ØuvΩv Ó=)FµΩ%®ΩmècΩ‰VºMc=≥≠Ô=«V6ΩøË^ΩπC<ﬂ ¿=#Œ=öc=*vY<+„Œ=Å“ç=ªÄ==NGÖΩô´æ+◊—ΩwyH=≤®=^Ò_ΩÎÂ—=blìºZõ<ı!ø<ySº˜vı=P{*ºpé©=ÅóœΩÁ7±Ωú˛á;Ä∞ù=pM=ä÷<ìÇ‹Ω◊‰Óº⁄∫øΩÙÃΩ<π<îï◊ΩÒ˛Æ=UÖTΩ“}=äÇ=4≥¬Ω«ò=n¥ﬂºUê<Q¯¬=Õ≈ºiàºp˙=ÖvªçÍ‡ºì–	>V|,Ωühıº„ õ=«E=jÚéΩC≤Ì<–¬ΩÖãΩRd≤=Ωﬁæº˘ÅΩt=tk•=ÊΩíèΩÄ‘·Ω$"1=˛L|ΩWÂ´ºx≠-Ω;ÖΩèbŒº1~†Ω¯9SΩS_+ºk◊Ω∑√ΩWﬂ¢=Î9º;A ΩWÃô;§iπ=1LØΩôæõΩTK¬ΩYÍ8<lE¢º«M’ΩBM=˘©ÒΩ8¶=;ÅùΩM§ãºü°H<|ÒºõîÌ=p Ω‹c“ªGÑÊΩS?ªπk6Ù=Ñ«=mÎôºü'LΩàZ	>+¬ªü+º=oöΩvE∞Ω4ÃÍΩt4„=K◊–<¥ ÎΩﬁ#§<‡‹÷ºäßP=b“=)üΩ´=ú”+ΩÇ
-
-=:±æÈK=Ã◊>¨ñÒ=æŸQ=Âçƒ=å∞˛=‹*/=Je=X≠é<–·Á=EÎÿ=lG≈Ω<i˘º5ô≤ºgî=<◊ æ[=≥äfªçÓé=pj=“oRΩdfÇ=L¥A=É∞√Ω+Áˆ=µ'æ=	pó=fπº∫Í
-=∫a~ΩÖ;Ω,},=œ`=]DV=k7æ–tƒ=66ÁºI[≈=≠⁄∆=aó;`¯Å=
-Ó=©u8=√b9Ω’/ô=n/=Aã¥=ΩìºüU»=+7⁄=ØõÍΩUÕÿ=GLΩoÀΩœ—‘Ω}ó=~ÁŸΩ∏CÄΩﬁ:Ωì≠ ºµvﬂΩo §ºë≈<˛ë=Ô—CΩ©Êè=ª6UΩË¿Ω6WÚº3ûΩèÚË=Ú–Ω)≈ººÙ≥S=ÆœΩ ÇÃ=WªΩ~GΩ.IÉΩ+€œº˙BΩ¿a”Ωk*P=0l.ºøFπ=9|=u<>Û∏ô=ué<=Z† >‘WÎ=ï&˙Ωi]íºNŒΩWÿí<π≥ΩæOÁ=ıÔ∆<Äﬁ…ª#˚•Ω÷4ÃΩ™t=l∑Ω8óΩ{…=±ñΩCØîΩU¢î=òW≠<ágøΩ\œ=ﬁ¸=ÃÁΩ4Mèº¨òØªΩø™;Ø+°=˘ˆ¢ΩPI=àMµΩNéËΩ˝˜≤=FZ∑Ωì¡√º48ã=O·ΩÆØæ ‰é<íV
->‰qΩZâá=⁄^U=^⁄≠;czΩ;ƒ=Kú=‚0S=µ4Ó=›|ÂΩÁcò<~‚ºπÊ-º
-
-3=w¢ã=’!Ê<«ÉΩ…¬Ω‡8ÇºDÏ4Ω¬çÓΩ`ˇø=‘]=º‰—ΩT<L®Ê<l˚†ΩÊ1i=Ö*Ω‘Z¯<6ÓÈ=§=©Nì=ä≈;Wœ¢<pò=⁄óµ<√ú˙ºßÀ;Ìt<Ω∞ÇéΩ4SÊΩXE∂ΩÚ®êΩjã±=&d;»VænaîΩ∏Ó<%`rΩr¬HΩœLΩ∑ÇΩqŒR=cºìm>=F)¨=Ìt¢=	ñô<42Ω•D<ÎgΩÖõ=bs	ºÃÄ¬ºvÁ≥Ω.ºN=„«=õ≈Ë=ª√àΩ¢75=—=êHkΩ”πòΩ√Øø=∂#\Ωx¥π=%‰ã=∏∆E=/ôä=Øñ1='DÅ="ó=NyΩè˙eΩ÷GCºæ´=Q;©=Î1ö=Lﬁ^ΩgÁº«à≤Ωü\=^EÀΩ¿0âΩe•=kà>∫§ΩfYfΩj{°ΩüÙ¥=ÙÍ–ΩŸÍ=%HÌ=É⁄ºJ*º`UÍ=RY=Z⁄=ÜP“=∞π≥Ω€?x=µdQ=–[±ΩA≠/=<ãΩH
-0Ωë~Ï<™Í,<π3Ω)ÃÆΩ#aü=[¿Û=à3ΩluëΩ¢øuªÑ_‰ΩPÎ·Ω|ΩÅÔï=∞p∏Ωï1ªá)Ωá;¥Ω∫ﬂÅΩ˜OVºÊ¶äºÉã=^%=∞†Å=˛~=8Ë=y˘d=q>0Ω©¨Ø=2€´=‘Ô„ºË™›:E=ùΩ^›Ωq±Aªæ.=__oº…¨1=; ΩBVÖΩZÖ∏=p)≈ΩWâ<’›=~–Ï=‚ï”<ÔÖˆΩØ6í;‚·fΩ„5ΩÕl§=0ıeΩΩ…Ω∏3„Ω,
-∂=ä⁄zº,E∞=ñFÈ<ÓΩ¥ê	=ëåﬁ=ˆpÌ=)Xâ=å∂∂ΩumêΩO&¢=º´ΩÊ≠Ú<ÓM:ºQi=æn[<Ä&¥Ωn˚Ωéˇ÷=Ã \<‰d=∞ì Ω˙í>¢Æiºx≥«ª	W[=Ñp∆º˝Æßº%°Ô;ﬁï(<O?hΩ?1=rx„ΩÚé=≠'Á=ŒŸÖ<ûΩ›≠ÂΩË‘4=âH¢=˚Çæ=åªT;,—ó<‡„=ßº;±úΩ
-∏Ω`¨ô<¡#r=}Ê=,å7Ωπ±ß=y©5ΩˆôÄΩ8ı=–í«Ω!˚E=)"e<çv£Ω˚P=ÄxeΩxmÔºßF™º=ÙﬁΩPÍº∫∞–{=Ì—Òªf$Ωi#<¶§œ<âÕºÑX◊ΩÊ“)ΩX÷¢∫ËÅÔ;‹D>lØ
-<º,ê<I‰=Ë·µΩS5„º€„∫=´¨≠=h!=†ΩR	î=´L≥ΩM≠ë=ûqm<#öë<ùï≤ΩnÎ°º^= =‰ı+ΩD®‰=_kQΩÍ—Ωe¨ùΩ÷ÈºÿΩ‹Ñ»<’ÆΩ¬$ΩU{ıΩe ß=5&LΩRàˇΩñ±4Ω^GÑºiß-<öã0Ωè{'=”ìxΩs±]ΩÑàÄΩ**B10J ´®¬<2∑¢=º!ºêŸ®=◊˛£=¿"vΩoƒGº”óyΩ**B11J ﬁf8?©›®>‡z?AT ?ﬂ„>å<4>¡»Õ<-ï`>**B12J †∏h=n∂=û<◊/j<ù;N∫MÉ{<ﬂ}v∫˝^ôª*ëB13JÄT≠M=å^Ä<c°Ù=«u¯Ω•∫=árÔΩk∏„º⁄Òq=Íæπñ=«ZΩrµΩ=œwèºZú-=}âõ=åfΩÇâyΩõa=-åÍΩI(Å=“œ†ΩJÂò=Á1õΩP}mΩ#Tó=*≈ôΩWŸ=ep±=uÈˇ=ZaﬂΩÕ±Tº©¨7Ω[ˇ2=ÍUΩ3∂æ<íÉô<EöΩ@ÎΩß£{=ÕÎÄΩì®≤=IW<◊¡<{3Ω¿∞EºΩæÅΩΩÑ6†=¥£Ω√ÄL=$åœº"ãõ=;hª=∂≈Ω¡á«=±Jí<πç≠ΩûYd=œ´ô=F‘˚=ª˜…Ω6’=b~ö=%˝æ=º©=R≤¿Ωﬂﬂ√=
-˝∏= ; ª`à±<Û¶=˚ö⁄=,Ô¯<A[°=˛‚Ωçˇºf√Ω¸ò£=⁄P≥ªY˘ÏΩ3ΩyE9Ωê»
-æ;Ì=≠;íΩ ú=S)ñº∆∆sº∂‚‹:%åï=hıº#Í«=Ûòd=£6Õ=ÎΩî5SΩ˚∞Ω%¿§πÀΩËñÑºÇå=w∑O=ƒΩY≈øΩÂ°U=À\≠º´—û<æ“≤Ω4™º∑ï€<g„ÒΩÛdù=àﬁ<”$mΩ∆eVΩÈâƒ:Ÿ˚ª¡ÿ˚ºÒ¬=«≥Ωâ®ΩâÄΩÚﬂ;‹"]<aΩâ~>Üæ*	l<ñIKΩ¨7Ωg•æpòæ°œ
-æO(Ì<á"ΩoD=W◊“Ω⁄ùû;wÄ;Ê£≈=ìºöΩ‰ô=5‘ó<ñçG=Ïñ•=TÜ=BññΩ@O˛∫Ñ0)ªçü≠=T\fΩNT±=ÕvΩÜFò=}ŒTΩ√8£Ω›JΩ8„Ω%p<7ŒêΩVy…ª`,?Ω,OΩC/¥<>®ºhÿ6=#6= `Ωrå=3$ÊºöÏVΩmbNΩkä`ºﬂ∑=nΩG‰ºª}j=∆VB=kÃ˘Ω
-™èº8uºXΩS·¨ΩÈß°ΩSè=~’ƒΩÏé•=õ√∆Ω˝íwΩø•öΩ√a∏ΩdÈÇ=◊…≥=>rΩÇŸΩ™ı≤= ÷IΩÍì=∑?=ÜäΩ+≈NΩˇ"ºkëºë_äΩ•dΩ—úbΩû‡⁄=ÖOC=Ñ—o<¯j=0Ω“>∂”\º=è„;æEá=j@\Ω<ﬂ€;y⁄ΩÉÂƒ=±æV<èÆéΩ*è <]= 5¡Ω˝à‰=èd-=EÃ<Ä~2ΩBr◊ºº¡BΩ8h=—§Ç=)¬Ω‹ >gÄ=⁄òΩÓI=øUgΩ$,1=Ã_¶=Cã´Ω≥‹MΩ-*ºFÕ$=â‰ÖΩ2 Ω˛º¨º¡BDΩv%=ÚÇ Ω[U"<¥+√ºs·IºÙºéˇ!=qiï=íÅ;ΩÜÉ™Ωñ∆è=,T›Ωât‹=∑≥ë=Ç[<©›ºﬂsN;nÕ„ΩEöõΩM¬=ﬁF∑Ω&√‚Ω¬íΩcÃü<?ªY<yd_Ω[˘Ωñ¶∂º ﬁò=¡{ÿ=ÍAà<_fÂºOÙ÷=ÎAæUô#=kã„Ωçœ=f¬æŒ…ç=€ΩRh¸<◊µ.ºTú>nÕﬂΩqfÚ=è¶±ΩÉÖ≤ºùª¯}—º2ÛΩØﬁŒΩJIΩÉ∫d=Üzπ=+m∂=RΩÎÜΩ”_’Ω4Ø=	iíΩÕ◊˙ºªΩ:Ω»æ;=¢ÄC<:Ï	=Gé!º]l#º†Wï:≥≠◊º@D=ç–3=é£=M“∑ΩÍc∆Ω©Â$Ω±'œºoYf=¿ï >á•¬<CNiΩ∑3T<-=Â=ÿï8=+äΩŒV¿:ï–ˇΩﬁBYΩ\+ä=ô9∆Ω√9∂=yÕæƒsı=É¸˚<ú¨=Ûzî=¯Æº…"Ω‰î∫Ω`œ“Ω≈˜Õ=Áãâºyëˇº!õæ$˜(=,Ÿ°Ω Ê¶Ωï≥ºÉI¡Ω®€º“µÜΩ˛Ç=¡Ωæ§;F=÷˚ù<[Q±Ωì¡í=∂Òk=†,#ΩΩ$;Ω_†O=Íb =§ƒ=Z æÖ~8Ω6Iæ˙◊JΩËéëΩònRΩØ0≤=eƒ∑ΩêÒΩ
-8©Ωq‘ÇΩ6≈=⁄∏≈<œﬁ<ÀSÅΩ0hßΩÁqºÕ‡<[-u=D‚ª=ÛŒ:ΩΩr∑Ω¶Q>ìÍΩ)"c<ﬂYË;Ûπ∂=0â≤=‹úîΩÖ¬ŒΩ|≤¶<úÜæÛÈR<('Ñ=›≤\<r’˝ºˆËΩª–¨ΩbäÒΩHÖ;‰¬ñºô8Ω∞Ù*ΩGÙΩç%ä=ﬁ>›<¥/W=i€Î=n–æ`r<Ω÷V˘ΩÀ\»=wı<<tˇ®=¢•öΩhè∂Ω◊æ!>ì(ÁΩµΩº¥©<£˝ﬁΩπ2†ª$J‘<≈≈û=˙[∫ºq'©Ωd¨F=ÚœÌ=t—›Ω‚Â0ªÃyæΩEWΩ>)=eÕQ=¢qå<Á&ﬁΩDÿΩÓê=⁄™uº§3¡ºkmΩÉÑ>Nl”Ω;≈Ω—äª=ßf+Ωt,¯<Ã‰LΩ^K2;n»˘º>…=≥Y°=Lú=—¶B<ÊOÊºÆ√êΩ*eΩè3è=13rºã∆Ê=7á=8Å<¡-]Ω&í=µªæ6=Z|=∆”A=£x=3x}=Ïü5ΩÒ∫ØΩÔhæÙw€=°Hû=¯]≤Ωu’e=rû•;.Ù∑=GŸ˙ºÁﬂ=œ2¢=)ô=Ûñè=%â∆<l=‰æØfΩ÷]mΩ52=D
-¢Ω%b=w=£<q-[=wâ3Ω– ß=ôgûΩp£=äqLΩœ\<â∏ˆΩUÑ¡=k˝Ω«ø‚=„Ñ‰ΩDëÎΩ¿:;ΩdÍΩazM=òÑÑº‹]qΩé;=C≠==o¶·Ω>{ÃΩÑu†=û"’Ωø´Yº—œ3Ωv¢:=˘¬ØΩ54öºáe¶Ω∞©wº9≤Ω: =‰=6M¶ºŒ∏§ºœ
-ï=‚u†=#≠aº∫}¯ΩÄ#g=!8=;éªàΩ`«Ω∂\;ó@∑=CeﬁΩ˛1∂Ωuóºåæ¢XΩ8⁄u=ß˝™=∫Ü¬Ωq0øºàâ‚Ω˘ﬁ!<øﬁåΩØW≠Ω>	SΩÄxΩçµÅ=œpΩÂ™Äªm{”=¬ÇrΩ Ö=XÀºº™∆=Üc^=**B14J √EB=œ“~Ω ’=¬à=¢;›ﬁ=‹»ß∫§¥≠=**B15J Ñß=Ôo?º¸w?Rt>eiâ=ìQ¥>÷ûI>£4%?**B16J 4é…<Ä8=å⁄Õ<g4=é∑©<∂NA<ΩSß<”¡^=*ëB17JÄIy=Küu∫áÙ=S€w=Ù{;ıVòΩ'â=î“æ”Õh<ıà=ŒgpΩÊnL=ÒB¢:^
-ƒ=.-?=ﬂÆ–Ω»ä®Ω3|cº…ejΩ∏·5=x´´Ω”ÂΩŸa{;*≥p=•“_Ω©êæÜÔ<ˇ·í=Å≥˙=ÂÀ‡:ı{›=è±Ω7;>Ì˘Íº˜œºüÅ="çΩdZ÷=ÑVΩ»Ï=]Ã=( =p÷Æ=îá›Ω\€§Ωh∏Ö<zˇ
-=ÙÌΩfH=µÊúΩıØΩ# <vöΩ«ñæÊ¯f=m&}ºûì=E5◊;Ô@âΩl◊æ⁄ƒ»=#Ø·ΩoTß=⁄Ëà=ø¢=∞ñôΩÍÙΩ„›¨ΩVØó=bÃÔΩ‘ZæˇŸ»Ωá¿>c9=˙†÷=Rªá=Ÿ…"Ω¡ı{Ω/√zΩ5ƒe=˝=vxΩ<ü~ßΩi˛ãªéˇlΩ¥[Õ::u≤ª¥£=≠ûæi€=i9YΩãl`=>Æ}=Ò“É=™ä©=Ò˘<j@ô=‰Te<h¢=Nä¸ºmá∏Ωuje=Æœñ<0$,Ω«xnΩáj∫ªfaX=Í!…º}Xˇ<ïzB=k€≠Ω·æ;…ÿ±ºB¢jΩbZ–=Ù‰'>ÈWºPπ≈=‘h•Ω7⁄<‹t[ºâ≥iΩ˘*}=®}zªú7ºª÷(=È⁄=é≥‡=x˛=ÕôÛ<Çm=Û07;|çëΩ`8∆∫x.xΩu(%Ωés°Ω`¥=Á(WΩa%àºéç=ò=≈=Y˝ù=EJ◊Ωx€‹=–‰æ¬£°ª^À”=GßD=@3º’5æP™=◊@=I‚ñΩsœ|<gïΩ˝w=
- Q<p˛=^˜VΩ}lÊΩ‡¶º©ÛûΩoçnΩSÊI=tHæJ—6<ú´
-æ«0∏Ωi2¸Ωô$∞º≠‹ÆΩ!È=1Ì˜<„ãœ=˚^uºm|	ΩõoEΩuòì=åˇ÷Ω_‡Ë=/È¯Ω4⁄ÆΩC∆<ô»¨Ω˜|Ü=‡(â=Kÿ¿=ƒ=¢=òˇ,Ω£éºt^Ω`Üw<‡WΩNÃy:‹Ó”=ÌΩZ¶=¢†B=Â8Ö=π=b'ùΩÛ˚y=ÍµΩÒÓìΩQG¨= ©‰=∞Ω»8∞=ÛÍ˘ª’{	=é—ë=UŒ=I°ΩËÿ=)%ΩaºıΩ&ﬁ=≠ÊÖ=ëÀhº#&=Ö§< LΩ ¢<Né<Ωdéíº*˙â<ì˙ùΩ∂Á>^£À;[iÑ=æÎ ΩCÇ=ÙÀ4=·Ö<=∞<<É;ªÀñ5Ω\ä=%c =Î˛à<7g∑=ﬁÕÑ=Å>Ê¿˝;…Ñ≠=œß<dÄáΩ1ŒV=„Sã=…ﬂΩ¢Gñ∫i˚NΩó"üΩ5ù=A‰F=æ.=∑<’Çü;K÷º5ÈΩ£ÕºcÏµΩŒ·>dfEº’†Ω0JºI9‰ΩÉG<âx¬=”4¢ºjIå=ˇÊÿΩƒ7ºb:=
-‡ôΩIΩù‰=ªK;=âRø=¶Ω€Ωpë«= —ΩE…é=•ˇì=Ñ‹üΩh)I=tÑ√ΩëJ >W@=ÂﬁéªH2(Ω)Ö¨<S§íΩÆöÉ<¥ô=àWùΩöóΩ ;™êw<±cº{º=È¨Ω±ÊZ=πê¶=˜G=ºiÔ¢=ßàÇ=gµu=≥àdΩÒ)ﬂ=√Ì{ΩñP=fVa=ºì=“ÊÒΩ§ä˘<Î◊Ωßπ§=#Õ=ÓbôΩ|ËdºÑ˚;·E=Ì˛Ù=`™=˘∫Ë</ 9=8êæk»=y-Ωk9»=∏1=QßÀº„Rœ=œ.áΩ€˚ä=°‰e=¶Ä•ºŒ'4=èºæ$™rº{•=Ìºm=¶{€Ω‘œ;=Ùö;sº=^l´Ω±Ï ºtäΩÿ éΩtbªsø
-æ„ä◊=≠J Ωãöï=g–:Ω=¶0<SóΩî\é=°˝µ=8´Ê=¢vΩΩ–=sKÂΩ
-íN=.Ω`˙¬Ωï·õΩk≤ΩΩ(7pªË∏ºÔxêΩ£"Ú=,ÅΩ†.&=£üºëåo=≥Ò}=m∫L=éTU=h∫KΩ•êŸ=	F2Ω;å¨Ω*Ú˜<Ÿf<ö¸Ω%YC=±guΩçdyº´PæΩµPƒº2–º≤È<◊N∆=-&öΩ%NèΩòΩëù=vLéºåã0Ω%»ºÊ%£ΩC◊	><Ω¶÷º|}õΩJï=õﬂô=ΩGΩ–Ã<1—Ä=¿_äΩï¨ΩÔtﬁºÅr<_bHΩ∂˝éΩãÇÀΩ≠'=Z¿=œ À=™@ΩE©Ä=Q ˚Ωè™ƒ=\ﬂû=®B¶=6‚ÄΩblÿ=Ka…ΩèÊ#ª"h®ªh¯æΩlÓkΩH-sΩ74G=<?hºïMA=¢º”l>èˆºá>Xôπ=AçòΩ√™¢Ωqß¿=¯dÕ=˝”ΩèÍ=<6Ïºoa¥=ºrØ=øÆ=&ëA=äÜ Ω–˘±=èp=Ω^Iuº˚HãΩddTΩ#Wßº(=ŸºŒ˘1=˚9íΩä‘0º
-6=?'äΩ¡Bø=¡Ωïp*ºj∫ƒΩÆ≠·Ω°]ΩK“ú=¥ÿñ=ßÄ =LÃ`=õ¬óΩÛÓï=&¡<≈1ÕΩ#{òΩ:#ú=ÁèN<◊·ØΩI-•ΩÒ÷=PyÖ<}∏î<c æ7\¯=(‘ÑΩ=€∏=W¥¥ªÆü–<3f\=zùÕºQ∂∆º≈=Wﬂæ÷Ü«<eΩ≤‰ºπ<X=eùf=S‘%æwˆ>∂S¡ΩÅ?¡=Ä∂≈ºg¶π=!µ <ìˆ<J:†<9=)H≤ΩK⁄ƒ=¸ia=T∫ªUX>^ËÏº#fAºãÔ‘ΩØØ=díñΩE„¬=ûâΩ-⁄∞<0ŒæùÔÑ=J=[=∫Ø=¿;“ºNdëΩÛ∂éΩe)–Ω…á∞=–IΩ-eZ=Ì∆=Y4∑=JÔ!æ˛5=U˜πΩ™ >ãÅöºú	OΩÌ>VÀêª∆dM=fÊdΩ¶5T=wÖ®;>p•Ω ô =?∆!Ω˙Ω¶s∞=ü ıΩ∆çYΩx˙ï=}øÆ<K‰›ªn§ <òÔÜΩ">o`@Ω,_<Å¡~</’4ΩSΩ≈+º**B18J /ÙΩ”å=b¶»Ω·àΩÂw>Ω]∑=-eÑ=1¿ΩΩ**B19J ⁄{%?êÂ?ÁHi?˘M??µ—t>A1j?G“>;‡>**B20J %ñ?=øô?=^çΩAΩä&=èœ=õ7ΩkjGª*ëB21JÄÒÕ<‹F∂=«Q∂∫HæÛΩ®»=HÍ€ªJkΩP€öΩ‰ygΩ,aΩnrq=âõÓ<¨∑>˚≠==Âã<ÅkM=o3=⁄ΩzÆ=<ùΩSÎÚ=å#EΩ∂∏^=∏Ë;‚à=%≤º≠∏çΩM%<À~3=TÅäΩ™ì•ΩÜWÃΩ¿π„Ω9∫©9VË;ˇw∫v?TΩÖX¡=Õò-<UÃJΩ5Â¡º~ΩbY∞º’˙æ8;ñÔöΩIqí=\Á∂= éΩ‚”¸ºéµ˛ΩàL=ÛTµ<≠§¥ΩËœÄ=û<÷±ÙΩcˇΩ‚\TΩˆ.Hº±Oë=œÒ3ºœ>¿Ω€ëY=U8 Ωﬂ—Ω0Ö =G.¥=‡C>‡ä2ΩQaG=5æz°ΩÇs‰º≥"=dYΩVπ¬<ìõ6=¸“´=ÒﬁºjyØ=Zˇ‡Ω–¨Üº9s=∆ÖÅ=’≈ì<j∂ùΩ‰ZÅ=´æ˚ZÃΩ’ö'<_æ˙ÉúΩ≈Â¸Ω?JÄ=¬;Ôºäº◊ ΩêÑÕΩbŸ…ΩÀ˙∆Ω^öΩ·lÁ<Û}sΩeÙdΩçÏΩdŒ=Lì<˛dæà	‡=üg=s°BΩ’√D=v2=v‘-;»**=¬≥ñΩEÛ=}*á=[›ΩÕ-©Ω*[‡ΩÕ5	=Ë-®Ω˘ËΩ@π’Ω^ë∏ΩJ¯Ω(Ω>§°Ù<Ÿ>M‰¯Ω{obº8KÖºƒ§,=~BÌΩ√=rﬁæ‡ŸI=Íô„=Qã=â¶á=¶¡Ω&ŸΩ¬M_ΩT’ªL≥dΩ‘,ìΩ<ÂΩ·ÌFºÌc˜ª,‹Ü<&PÙΩ7d˘=Y‡=∫5âΩPÈ3=ﬂr=Õ^…Ω~§æêŸ∫=Úö<~$Æ=‡ vΩıÉ=ƒ°è=´q<hpWΩúΩºº
-Èÿ=∫‰æh)¡ª+tö=¸÷;ΩOv‹ºcëÄΩìΩó¸£<…R¯ΩDÿ=ÂEê<∏Ω√Ù	=Qú==“. Ω[„æ îƒΩöΩ‚ãΩy‚P=çYΩ41©Ω’xΩIéºΩ„(= Ç.Ω’C—9Ò.ª<Èo‹ºñè<Á“:TÈÏ=6uÅºde—= ∫0=	¨V=ë°A=™oΩ˜„÷ΩîÜ=RM¬<‚˘>—ônΩ>8ΩS≥B=ÙÉã<'¿®=ª[Ω„T4Ω∞dŸº[l=h◊ΩKãΩ†=°pí=»Ü,=Œ<Ÿ-“Ωñ"±Ω˚uAΩ-Ï…Ω _=É¬b=K1ªΩ9hw=˜%+=4Iœ<TsBΩΩ="ªΩY\î=2ôΩ≤q	<‘ Ω_Âà=ôFæaa<UΩu\ΩaàΩÊAtΩ[ˇª	Nﬂ=≥∆CΩﬁ{$>¢É∫Ω•7fºû◊WΩ;Ωsÿ =«ò>π°ªbßΩ54Ω N¯<›[ æ}ò=D=Ç}8=˛{¨:·gòºé:ΩÕÅrº™Ú˝=øSûΩì”?=πæ]ˇùºŒ*åªLºΩKêR<¢x∫Ωõ6íΩæ…ﬂ=`Wò=Oããª◊¶Ω8≥æTq√ººIvΩ—Õ¢=Öl‹Ωmt=¿›8=ˆãΩ•çœ=`Øª=πV=RfÉΩS™˛;Ü=H»>sıvº…I¡Ωë‡«Ω$Éû=Ä>œò=ÕºLΩb´"=tâªäUã<üôL=Ä-úΩ8ºë=kº=},éΩèúÑ=Fáı=z/–=:méªA∆ºÖ†°ΩEÇ=øò&Ω¡zˇ=›í‹=§≥M=ÿ1™Ωú±∫=(√ê=£ìΩLÖpΩæc˘ªYZÆ:œÚPΩîœ°=è_±=tﬁHΩƒ?ºâcøΩ2∆œ=÷Aﬁ=÷•U=vã≤<g~<0>SiÄ=L©º/&<f˘€ºÛ$Ω≤tΩ$	Ωá∑<O,¥ΩÈÏ«=ª=Õ=n8óΩÄì<œA›Ω®Q</®í=Ëº;d„Œ<YMïΩn“”=≈õôΩE›ç<à/9ªÇ≠=ø4√;[ù6=É$á=ˇZè<g!\=ïq=€É†=¨~Ω¨7ºâ)π=»‹==∆ªËΩÃ5î<Tx÷ΩbQ"Ω∏ûªm∑=U±èΩ˛◊·='o∫=ó±~=xÎ∞ΩnzõΩ%0Ÿº†f©=ˇ¬˝º„∞∑<Ã˚»=è–ΩÔ[∆º9¥î=πŸÙºé©Ω=∫7ÁΩ˙BΩ£D•=ZmlΩ~^®=cU
-æ(>Åè.ºìÔ=∫4“Ωä¢†Ω-ôÊΩ.r∏ΩÕ•È;• éΩEõ´=–ríºö‹≥=£’,<π∫<JZ= ¨ÊΩµPΩÓÚ=≠√ºJãΩ©©`<É•ΩE≤ø<Ü~dΩ⁄8R=ùÇºä•ºòÎ~º˝≈ö<˘é=Œ>◊Ωn¢ùΩ$ˆΩ¿N=døº=≠ÔΩ·=0bˆº¿ë?Ω”ˆG=¬ ≤=âÚ=@+∞=9ä,ºƒıºΩ”ËºPÆ<ÀaΩΩ“ä==˛˜Ω â5º€˚áΩ#§Ë<-§É=çezºb¶˛º;5+ΩËÕ‰Ωœ}ÛΩ:-R=Å«ΩΩ…éÀ=/(íΩ„Ö=l©=¯„¿: ÕÔ<*ÿ÷=ÆÆªºp˘Ÿ=zX»Ω6°˙=’˛-Ω"xËº¥¨—<9<€¸æ=°äΩÀr°Ω∫,†=j}úΩÌ‘ä=$A¬=4¿ú=4OΩì¶ª>ÛÿΩz•ΩCÀOºuÏ√ΩáŸà=2b•=≤Æ!ΩdwRºﬂÏÖ=5ç≤ºˆ∫É=ò¨ì=”âΩ|∑ÕΩØÊ>Éó¥Ωê”>Ä…ËΩ-Ùé=<@≤<≤≥+Ω´–¡=Ê≥æ2Ïº°†nª…Vë=◊p=!‰v=åp=‘`w=ñêãº6ÔáΩeÄû;hÉP=±◊^Ω¢Í=!?[º›≠=ë>ˇÈ›ºˇ“=±‹eΩ S˘ΩÅõW=]ù=^tª=Ä†=„fiΩ/ìΩ≤˛.æö’„<ªY¶=°“Ω<§CëΩ ∞=(á»Ωc∫®=O>æ’ËäΩXSVΩ=,‘ºÏO=q&=*v,Ω=ﬂŸºuYZ=™ØΩ:»<”¡x=éù:Ω*ì==i÷=‰#;<“≈Ò;ëœ´Ωg'Ω?0Ôº{Rﬁ<**B22J ¥øv=V†˜ªF®∑=õOÙº>&=÷WΩYVÙ<¨	¡=**B23J H› ?-g?7æü>‚>º˘=±>ﬁ=îô]?–>±>**B24J åN™ºLùO<≥‹g;8ò6=¯Êº¿e\=ÉP*=sŒy=*ëB25JÄ™.˙ª˝àãΩ‡…ºœå=kì=∆L=ΩÁ»í=·™m=8«>CZ€ΩßÒ)='hÍΩ<6ÊºË ï=4nëΩÕ2Ωuhr=FáÂ=†Ÿ„Ωû}ΩóÄº·å‹=¶Ú›=¬@&=‹ü∞=ìﬂ»º=y>Y>∞ºO∞=UîΩlµ=”Ö7=∆˚ÑªRºÚ=W“æºVœã<KÃÏ=Ñy∂=∫™PΩe_ïºó…™<‰–J='˛#=SLÙ={Àå=∂1ΩBô¿ΩÎ7˛=11Ω∑*Éº9Œ®ΩB>¢€ø=RuΩ|∂Ω|◊>±Õ=EíÔ<´ûæ}‡ú=¡íÀΩb∫=´ââΩaö¡ΩÄ›∞Ωö˘˜=Q•=nìøΩœ∑=NÊ´ºO¢Ω˚â=é¿=m`r=M8ıºòoq=L}òΩ?¡=°á<‡PΩV{√=√=øΩ.º<–^<"õa=∞Æ<§á<¯q>˜›GΩ◊æ	>ãlûΩÄ.Åº¸”:=Ÿlò;H˚=ª≤æ=4ãΩ[Ω∆:ê‰&=l˘>∆±=%¡êΩ·f=8ë≤=)ˇñ=õi±=O˜é;Ôæ/ΩêRC<õçΩ^É>yç==zùΩ√≈¸ΩÜC£=Ä‰ñΩë˘r=ß÷ΩÂE∏Ω±\9ºujˇ=V…E<îª=Yπ=/>Æè= 4w=‰(>«ΩRΩπ¶;°U:î >‘RΩjXêΩS«Ωõø<ΩR	 ;ûπ‰<«gîΩ5⁄Lª `GºÄ»’Ω\¬>9ÏHΩ“SºEÜ=è¨]∫fx´=gì≈º8c§<üRØΩ,u¥<gºÃ=!YÊ<e≥/=–çÑ=o%>£oó=
-‚=ì˘<6Æ{Ωa®3Ωˆ:ä∫ºÉ&=KíDΩŸ „Ωuów=%gu=/»Ω©›=>âΩõÄ=È˛≠=zl†Ω”X=:!]Ω˜.ÈΩÖL€=cÜΩÒ¿ëΩNcá;+4Ω¡ô=˘à∑=ÏY=˚<ß›1º|4Ã<DA=à"=¡^=/’à=‘ÄâΩ◊êÅ<ˇd;©„Ó<ßÆ>óéΩÂµ”ª~∏¸;I◊ÔΩÂèΩÈ†^ΩØs–=AM‚Ω îì<ˇUß=¨›ªΩ>£‡∫DHë:±}'æH¯Ωf·æ‡È£=˘èí=vÓL=º±°=˚8•=hπ>ógÖ=∆óàΩBM÷=¬n=+=Ω≥.º'MÁ=^(=^4a=Wqãª¶Î˛= ƒ¬Ω`L}=_Ì0=”g=å=”=‹Õ=¨–ºjãë=–ƒÔ;©=>∫Â˚fΩ´àºÉπ ªgHp=¿}ñ=)æ’ùΩÈ2	>fd1ΩæF˚=Ä\¿=ÄπºôPåΩºÀs=iMN=~Á¿=˚BÃ<≤Ø=~ÅçΩ=˛≥ºTD≥<h>≤—Ω€r“<…âæààqΩ,>
-<Ûvk=Ûª=‰H=ƒÚôºAI]=í<=À¿»ºı·ºJ◊Ú=“=3ÇΩ#ÙØ=œ…Wº◊)=ÇÉ>‡/Ω¸>=∂tæI∏ÉÄΩtΩÌΩ±±ΩE€=ƒΩµ»Ô=ß≈ æ°,)=ªà=#ü=h¨Ω)ÕΩü¬ïΩ£_¢=Ãeºzú=´&∫ΩÜ±ÿΩKã=H±<1x£Ω2óﬁ=¸sΩ¨±Ω#õ«<èeΩó¯äΩ ÌrΩ7wã:v†ú=¯π=ﬂΩÄÉΩn≈„=_S≈ΩjôoΩ~3WΩÛΩŒ≥æPa~=¶œª:ÎÀºa~˛<sıF=∑M=√yQ=îÇ=)í=Î3Ö=wOiΩ˛1;5!‡ºÉ¥ØΩºÇ‰=]r
-æB/€ΩHüÊΩ‘ΩA K<Î5∏<‚øΩbïõªœΩÏ5;ÂrF=y¶÷Ω1¥îΩ;#π<?ÕΩ'È“ºbnÙΩ[Må=Éáº‡ÇBΩ◊¬ =≥´=[s}=¬ΩP[<qÏ¯=I‘¿=¸{eºï∑Ø=s≤Øº5	f=	3>ö&=ÓïΩRá9=ÏtC=„v¥=l-Ωµ«+ª¬©á<ÏpÖºÙŒí∫ ÖªH5= Yï=—øΩ*§¥=7‚Ôº qH=ŒC±: %Ω-ä= kºí=Ér¯Ω÷]êΩ,LÆΩ‰≥ÑΩúÉ=˝xÜ=˜-‚Ω„QΩ≥´=J˙OΩ¸®è=êK◊;“Ëæômø<S^ÔΩrW=6—æ?≠>ÛΩQ,∂="·uΩ⁄ﬁΩ	ë-=∏ä=X»Íº}ùøΩ>ÖΩw›]ΩŸä[=˛†˜<ôÁ´=L>⁄b™Ω‘ø‡=i◊k=æ`=Ä æ9j;Ω@cs=ZÙç=/G=∫j=—MìΩwDåΩüŒæΩ˙Z,=ˆù≈;»>ñãÄΩÜ:π=>`º=‡$“Ωˆu	Ωk∏mΩêóJ=≤á>óÄ=ˆì®=z/‡=GG¯=œΩΩí¶GΩ€âWº¢æµªoKPº!˙=™/œ={Ô8=∑?Ωf>9=T÷=÷ˆ>j*<º∏K=ì¿K=Ó§Â=ﬂ£¥=êåº	ãΩ≥õ¡=øD<ç=9ΩA≠’ª/ˆè=ØXΩøm≠ºt-=€=#(úºΩŸ/ΩÛ™Ω’¿Óº‰#å<éç}Ω„¥=2ö<≠|ûΩ&ñ=ÎH1ºp>LÌ;âYè<SÆΩ!üΩR¯Ä<v¯>æHpΩzå=µvôΩ«áyΩóÓŸºŸ,*Ω˜àΩH1⁄ªcqßº˘æ2=mÂá=óÅNª0¥YªPù∫<6ŒΩæh–=–™ú=bËÅΩyŸΩ˝øΩ∆@{<#vÔ;i±
-ΩıÊØ=∏n◊<√ÁœºâBæπ0Â=ti∫=wâÀ<ªÄ±ΩùÁ='‘=/%º~`>yÌæo…å<ä≈t=’¨NΩ∂V«9GG∞Ω»¯5ΩYú=Ω.•=z∞üΩsfΩ&)=<ΩÉÌ¥º©œ.æ$˛=\≈<Jgà=ºπº§‘¶Ω“ØB<õo:’Ωÿç>⁄<ùº<˘<ôπ∞;˚¶ß=ãﬂΩG:B=≈lçΩmÖúºu∆∑Ω”>˜˘*æ«û=ÃéˇΩ¯£«=π¯T=#T¡Ω**B26J |ÖÂ<á}>>Ü=YîﬁΩJØÙº®ƒÍ=S⁄e<E¢E<**B27J ±=?ÒI¬>Ó¡>*ãˇ>GS?d'¶>¯˙Ω>ä•$?**B28J 1ˆ<J¬(=Ú*=ÂÏu<x…=	ZR=(t3º„D;*ëB29JÄ¬ˇ!Ω÷„=≤•®=É0=ΩøgΩ´$)=^l{=Áé=OEH=ÌP!ΩP¡∂ΩΩ”Ÿ†;Pj◊=ËÄô<˚NºˇºÌçáΩ≠?èΩßÛdΩDQ∏±{¬=∏È=√pK=¿€`ΩŸÀ=∆∫=p3VΩßY*=õ
-¬=/òº…sw=79=y˛±=]*Y=L[ÿ=yB	>X„›Ωqh=7aΩÅ©úΩ’ÙŸ<ÏæΩëubΩ#æì˜íΩÜÇü:]˘ã=)=$=…B,=©Z =C¨ΩÊW÷Ωa‚;6Ï„ΩzÙ¯=ã±<e´º¯”=™Ü=êõ∞=ô”>p$5Ω¬_‘=ô4Û<∏œ™∫î∑ç=⁄ΩV·`ΩY√=ÌJ∑ΩﬂbŒ=Që=ã¶ÿΩÀG∑∫‚˝Ω˙U…=ÇãΩ6mπ=@¯¯Ωú’=Ì	Ù<≈˚,ΩWôèΩÓŒΩˇ
-)º\$=Í"sΩ¢“µ=b ºÎæºÇc‹=îÉ¶;˘≤=ºr5=√ëΩ IØº>å±=¥.|ΩÁ…ˇªøˇ<‹vsº Ö®Ω‘>;Ëc©Ωa«`=|q®=V∂Ωvä=ΩÈ¢‹<öD>4H÷∫∑√ß=Ãˆ¡ΩS=/ =	≈≈=@sÛªÏLñ<~P=ÿô≤=‘âüΩá'dΩ˜ö=Íyº0$ª=7yÑΩ-.<ˇöıΩm3ΩËÒeª˝ˆΩwåƒº>5d<Å—=B]≠=Ìª;ΩÒ}'=(mÍΩS2“=X8;˜ﬂ>ãLΩÃ/›=ÆTx=‘ï¥=~dTºQ‘∫Ω«fæ˛ó™Ω«ì«<ÉöΩézΩ(‚7=>™ô=âµ;¶á=r+=WãΩ=\‹Ω¬5Ø=”’è;^ IΩæ≥È=ÊÁ^Ω>Â`Ω† é<›;º–ˇúΩuΩhΩ√ªïºC<˜ΩNu¬<õBxºÕB=ÿπERÃº’πΩo
-}º≥Õ<±l æÜÎVºicí=<)ºÇÎ·=ßöÆ=÷xÓº?£ﬁΩ’vô=5îµºƒ+´=Æ*ÀΩUy=æ√ûºaÌΩ(ì}Ωƒï<P≥ä=Cx9=?”GΩ˛1‚=Èz≠;$sﬂº∞ﬂ"=¯Uï=Ïæ=«Í¥=6\≈=©5Ωö¿º3TÁº`bΩZ¨>I±æ⁄OÇ=…·oΩ°z<$
- º÷tRΩy˚=:mΩv˘Ü=ËÁàΩ2jà=°s-Ω¥AËΩhÉ=b7µºÉ©¬ΩdÈ+:;ıfΩ] á=ò¿)Ω¥ÂÖº≤ÂÉ=0ç=ÛÚ>+˚Hª)d5ΩMó Ω6ùWΩtoéΩ≈óΩãmÜΩü 6=ÇÄ<ipí=$ê"æ—ÊR=@ÙØ<'tΩC¶=ÍßΩ≥ÌZΩ‰∆∫=ùPà<-8>åˆºü§ã<s¿<c[\=ÃXΩÂ!6ºN'∞;÷©S=ŸØxΩ^æ˘FóΩ…=BﬁΩQ∏;lèÊΩkÕå= FbΩNû=:˝¥ΩÒ(·Ωû]-=–÷ΩR•;=eÃ˛ºŒü{Ω' ›=…√úΩwßu=+◊VΩÆ‹<$L˙=~ûı=ïΩ+¸Ω˜PcΩH|<≥ùä=∫=mtÅ<^±>iáæ‡‚Ω˜Ò∑ΩÙù>õCÕΩc‹ª=∂S»ºßà=Ïò›=LÆË=à2u=÷∞ºA‚^ΩGÂ$=Ytù=^Ô!<¸~1ΩÛ\¶ºno¢Ω˚xT<)æè’·=/≤G;DøΩÆÀ†Ωﬂ˛{Ω¨K\Ω2ñlº◊%=˝nvΩèé<èæ›:‚î÷=πpΩˇ«Â<‚*ªF\≈Ω≤
-ü= 8Ω{¯Ê=ü∑=Í{•º¸l≥=‘–æ&◊i<%⁄æ<sŒºOdµªm¬´=»ŒÆΩ+a8Ω([Ω–ãºS0ìΩ˜ìΩCÃ1º‡@>qVs∫|™ΩQó=s8’=”≤Ñ=f\û;+ΩÁ‚=·ª=óL·=¨=YÓΩA>?⁄=uùµ=! 
->bÖ∑=Éào=«˘	>à_xΩ]”Üª§	Ω—åãΩ¯§â=⁄= ‰º[ÒBΩ’ ¶ΩF¢}º√ËÒ=Úø®=)Á¬=FÉí=ú¸™=˘dÚªã®Ωh¸+=RΩ™Ω®làΩÆâ<=ﬂ„ã=>Ω‚Â‘<fÈÜΩäŸíº—¢=s<êBΩ⁄Z.Ω,D>a≤òª%Iéºùó=Ú(ΩyªÖ|ïº#t√=c/ÃΩàÛ7(1ÅΩô©œΩ˙µ<ãYΩÚíµ=•π¸Ωf©ú=$c˜=áO˛º]s4<zùœ<"P¬Ω~J∂=3∂ˇºPÆó<U=ì —=í&ΩAÍùΩäj—ΩÁ¨‹Ω ∂˚º˝:%ΩSÖ¢ªóçΩˆÁ=ƒ™=ñNç=äè∂ΩŸD«Ω"≈q=+,óΩpí–=∞M'æÇÍ	>∑≤OΩPú°Ω(˘;◊ú&Ω”¸ΩóÉ]=¶∆º=Õw=∂W={“áºyc…Ω¬{¥=]Ô⁄ΩG£¸ΩÊ◊∆=ŸΩ·5=ÄÊöºä∏Û=UΩ*ˇ›=}èÜ=∞è»<á¿b=X¢K=iøΩUvE=î›Ω8Ûcº◊j˛ΩIÙoΩ>,Ω°r¡ΩÃD€ΩPZíΩ⁄œêΩøü¨Ω/æï˚ºö\ùΩΩíÓ=ÊïÓΩ>ÇΩü™	æ$jî=W≈gº{Á Ω∆Äñ=©öΩJï9Ωê˚>ê˛i=—û8ΩƒoΩ™<s)É=nâΩE≈=Í7.ºy]≠ΩpR=Ò¥ÔΩ'ıõºúA	æµ~â<∑èìΩˆŸ¶Ω»0ìΩ´À¨<Ÿ$}Ωö=nªªë<$;XpªΩÇYº∞ΩÃ,=ñı´Ω*ìjΩúàÑ<IÃ=dDäΩﬂY<põyΩﬂ≠†Ωá∫º%Ñ¢<wqˇ<8Áê;fÙªzV±=¶≈ª;¿¬!Ω±$Î=yo‡=ô±=`ßó=7/◊=ãG‹=ä√=£CûΩ=)ÈΩ<üΩ^ı√=Õ><´=ﬁÒΩCWíΩP9=mﬂ=ó3ü<È*∆Ωµ>å˛=ä´ΩΩRõŸº•º<SNäΩñ‡©=Ω|üº‡ºÆπ:*CΩ6ßæπ¡O=î_ÅΩ¡MΩ**B30J °Õ=ÀÊÑ<wÀΩªtŸΩUVèΩY≤Ω:@U=–>ıΩ**B31J ≈‘>?Mw?]ﬂ?&|~=‘„?xUï>öV0?êØ˜>**B32J ãñº¨‘=)≤Ïº:˙>= Rï<˙∫ YÉ=n)t<*ëB33JÄX~A=∂h˚;œ@=¡≠ì=äΩ»Èe<™£=*WŒ=f§<î££9ï@5=Ï˜´ΩaÒº≠.>‰ÀBª˜Ïº<«;ËΩ÷O`Ωb_=,m™Ωƒ◊3ΩDÑ:ΩÁŸ◊<òá<@©ÛΩ"µa=8ÈºQqÖΩV¡’=Ü^ΩtªıΩk <é˝JΩ|‡;Ω˜™7Ωy∫
-´=·/√Ω%∫Ω«ã€ª\£Ω OQ=LﬂDºeΩ§=Ú‰æ.µ≈º®∑=b£õ<≈äz<->>œœÿΩáñÂ=«-E<Dí=î?Õ=dÏçºÃxy=îÎ Ω—°IΩ]q‘<&‡>{ì<—†∞<cøÀΩ%ƒ∫K–=<Ô`¨ΩÇY∑=˚o¬<Ç
-ï<~>=é;˘ºÁàù=5≤ó=ÊIG=êìèΩWû~<˜
-Ω˚∞cº4©UΩ‰2î=¨H>:ºæ√˝%Ω«!®Ω◊I#Ω˘&>*jΩC…Ω€&¿Ω√Ë$º∂É¢ΩòaòΩ`µ>∏œ´<µAê=†ò=HÁX=ö‰Ä=ê˝‚ΩäK=>z∏Ωﬂ’<°t|Ω7kΩˇΩát∫Ω‘†ÚΩ\õ]ΩLÁº◊Í≤ΩÜ∆A=¶À@=∫'æ'qìΩ≤y¡ΩÅ=R@>Ÿ:Ωä¬w=¿DÊΩOëö<ÖuS<íF´ΩÚ◊öºÏF=jö=•≥Ω+Ω3QΩëó\=a∏B<*öúΩåÓI=øΩêU@ΩÜõ=m˙Ω+AΩ¥°+æõŒ=Ò\…ª i¿=Jº®æ|‚:Ω`™=˛Ωu/πΩ∑”√=[N`Ω·ñôªMØΩ≥≤<‹’ΩìÄÅΩ_!«Ω‘b5=≈	Ω¡ﬂ5=≥≈º7‚–ºìúâºÚµ[Ωﬂl=Ü∏=±,ºÕoΩÔñ=L0ª=oÄ>°ãºØåæ<∫y2ΩêœΩØd§Ω˙óºÿÅÂ=ÑêV=πÍÖ<…Ë»ªΩe=§íáº≈d=+¡ª£≠´ΩîT≠Ω⁄Â¿Ω∆ö§Ωo‡Ω=iÜ=nÅ4=Hú	=ﬁ°GΩ<‹ºx*FΩcaí<°Bu=O◊≠º©"Ω,B<NΩ¯Û=ıFΩø	ˇ=õöΩÿœ≤=œVx=˜©C=¿}<(Z<ÊÛæYd≤ΩlIY=Ûœ+>±€'º∂Æ˝ºNù<≤”<•"rΩ+Ü∂ΩÇ±b=Ã ¬ºÁ8Öºÿ»ñΩ…{ã=nª†Ω°˘¯ªQF5=B^>DÎã=+´=jqΩÌ∑=ˆˆ†=~Ö<∫t<n±√;◊¢˙ºõƒG=®lÖ< :æ†Nmªˆ¿$æÈ˘≤9~˝dΩüìΩµ.ÅΩ^¡…ΩjﬁÚ=‘DºÿåãªjÜ=äCëΩÙùΩ‰FΩÖà∫ª6ŸœΩó9õΩΩEî?=û√Â=6¶Ô∫0±Œ=xà£=#ºåΩÂ±ΩV—8º•Mæíx∏<q◊á<ú‘œΩ°ïºÛæ)Ú1>}ò(=Äd2;Cëö=ÿ‡¯Ω‘qŸ=qäTΩj¸ı<°(ä= uﬂ<Wx%=˜|Ω*Æ=!—=Ÿ+Ω=xfΩláºÓ]ôΩN:&Ω]©;•ôâ=Õª◊;BKæΩ/êH=FÀ^ΩmÈ=<¢7ﬂ;¨o=ºÅNΩde®ΩÒmƒª∂œ‹;ÇÙßΩô5ç=ùa–Ωü;ø≤Ω∞++ΩÖÄóº∞ﬂΩ	°=°Q™ΩLä⁄ºΩûí;ºïΩ·+ô=°~=’B<Å‡ﬂºpË6=ŒΩ_pèΩ∑ÄÓ=,ÊtΩ£S7=Ùlö;⁄4≠=Üv>e¶ÛΩ$:Æº{˘Ω¥îf=‚_=+ŸvΩ)„ª& `Ω”ΩçÊŸ=BÙΩ∫◊dº≤ˆ•º„U æ8(ªU∫ò=ï–˛Ω
-ßL=fÿ£;ﬁ´‡=| æ◊⁄=ÙôéΩ3≥=3Ü%ΩiÌz<>º0ë=xÒ=ˆπÀ=Ô3ΩôΩ	H`ºlπã=˛‡â=Å¢'Ω”∞å=≤C¶=·√kΩõU®=#ÓÄºDäå<≠ΩI—)ºá†Â=wÚù=ÓÛüΩQê =œÙõ=é√®ºÍiª°§Y=±éΩ=A8⁄=ˇˇÉΩ6< æsjı=ËÕAΩà>xÌ˙=ëW8ΩÔ†=◊/œ;$LΩ+N>£¿º:Xºb€Ω£g‡=Õ«…ΩOÜÓ=e–,Ω ì
-;4Hí=T∆=bºmΩ∏ëΩ»Í_=2N~ΩnTEΩYHú=ê~∂:‹ò¶=^»Æº(”=+ø˛=¡_A=_`ñº?ƒ—=«*T=ÎÒ•;Ø:›=”%Á<SN…<˜)zº?ΩBEt<Y©D<3:Ä=«¸ß=<XF=mΩ≈=∑Ñ=Db=“Ω◊ºßΩÜKΩ9e=4…ΩÿBØ<•åæâ∫∑ΩR#pΩÆ`=°3=—≥Ω≈√Ω´ùÎ<öG)ºVÀÂΩ+‰ó<∞ûΩt‡Ñ∫n5=T6ß=†´æu∏ï=/ªZ=lh=S<4>œkΩ˝/<®úúºP)Ü=ÖÑmΩl	> Ìﬁ<›>‰Põ=Mº> ∏°Ωˇ/úº∫Ω!g4=ñ9)=˝’`=Ë=<·xÕ<yü&<üΩ◊Ω™Å<&´ΩÂìÇΩ*7dªèv>ˇ;úΩ·>uRΩÎYΩÇ∞ΩÀ±=òøÇΩµ'£=¥ΩEnmºˇöΩõvæΩı,ê=]∫kΩÑ
-•ΩØ––ªBHµ=QÄù<æí=Fm®ºÑØA=Yìmªí Ç=P<yÏÊ=UÉ=◊π=ö ÒΩ^äP=£G–Ωhî+=gƒº÷∑=à}ΩÎã∫Ωàc‡<dÏ¢=~´º$ì±<[Mœ=ªÜº?2®:ú;<%$>‰ÿ¥<*Ì={TW=ÇäåΩÇÅ@=b÷(æêaÍ=œÇ(Ω¸æı<ÇﬁGΩKRΩ∂ÍΩ»ã;#≈=`·<3ôÀ;?—Œ<Êú©ΩèÒÈ=Á¬W=›n®=—ΩÀª¢=Ä‘æª¥à‰Ω‰ë⁄=iI?=(ÂHºîœ>∑áÒ<ä>@ æS∑=!ﬂ>=+Ù≠ªUJÛΩffΩ5Fø=˙>bI=‰Ã\=˘÷Ω**B34J Ñ“Œ<ÉΩàûΩîg=3á∑=ñaπΩEƒ◊Ω˛Éˆ;**B35J ∑b±>CÈP>˛Úﬂ>ø?a©>†`?üÔ>?‰5?**B36J ≤ŒC=/£.=∑Eè=VF=+∏!=;UO=UàΩ/K~º*ëB37JÄÕuQΩ~.ºkÖ=ˇ[<ä÷æ√ÙºVπ=ÛJΩüyΩ*¿1Ω«Æ[=èÕ>[æ¢Ò∑=jïÕ=uEê=˝zdΩx&ÜΩƒ=õÊ<£§ÌªâÊoΩ√È¬=*:2ºã«j=H(Ω‡£8<UÍO=êÆHΩ±òUºR£ã;®Éæo~üº†bª€õô=ÿﬁsª9W≠ΩÎ≤◊ª”Ê>A∂æª†¬õ=≥˛4<–d‹=ˆOÑΩñG⁄=∂.<"º=Ωk∏Ø=q_n<2OµΩ:‚5<Ω÷=˚Å_<oHaΩ˛«ÏΩ"´ùΩ¶Í=P=‚ æGf<B=Û_ÀΩ ˜”=Ç(„º44ΩZh<º·ßa=Ä„ü;dyt=|®m=±ßΩ*Û?<Üös=>ÿOº^UªΩ™£ =˘Ï¸º~’æ◊®=hºÛ◊><“˝ª‘4Ç<ùñ=wé‘<Àx~=®?¡=IK =âA*º˝‹∞<ñ}ÑΩüù£;˛O•=AW=Jˇ≥Ωˆíà=ıƒª~]ΩO˛º#®∆º‰=¶Ì Ω›üHºåqù=6æèΩB⁄!=¯˘ºÁ∆®ªÔΩ=2f|Ωoπ˙<T>Ä£ãª¢&ÓΩä4Ò<r–=Ô;=µöΩ)xΩ¬1\Ω!=çøΩΩ
-ìIΩƒgB=æXΩ«ÓHΩ©íΩ™ﬁæ˚¨x=´ÙºR†Ω“ëΩ”£D=¢ú>«µ÷=he;ÿ˙§Ωb"˝ªPÍv<MŒ=9Q´º?(ÀΩ<Ò<ä+«º∏≤<qá=Ê^ç=è-^=î¿”ΩÒûΩ≥Z)>!‰=d+òΩ8å>£¢\=ñﬂù<ÁªÇΩÑ"Ω‰àÎ=˛qµΩ»ŒoΩ£∂£=Ë.=ºÎ„≤=;	"=ÇÂÿ=R◊r=erΩÏº∂=<G´=|⁄3Ω„öeΩñq‹ΩØãhΩD ¬<&ˇΩΩ ﬁ;X™è<9 <GG.Ω¯X=¶cΩx>Òx7Ω∏–h=TáåªÅôΩ,Ï:Ω,FPΩ4£ëΩ€6®=ªXTΩf^√Ω™ä∞º¥˝ôΩ®©àΩ&õt=∞eÂΩﬂæ‘™>=Ω>VÌΩ"<7íÔ=’⁄<c§õΩó£Ñ=¥;©<è∫£<ﬁÎΩΩ”ƒºE≥ßΩ{~Ω9m√=Ñê=T˚>=õ¶Ω©ã∞=q±=S Ú=Àﬁª¨§x∫÷åÊΩÓÌ=è◊
-Ω•ë⁄ΩW">OÄ◊ºÕÕÖ<äº§6«ºÀÚ¨=·€=E ´ΩY ë:öv€=ÔvΩú"Ω;wNÈ=ÏœÇ=π˝¸ºgZ=˘·GΩÉ Ω…æ’=y+=éûnΩY4cº|Ù Ωtµ√=ÚΩˇñYΩENÙ<ﬂãgº),Rº» Ö<f^Ì=‚±æÕΩı$< Ωæ7»Ω•„=˙Õo=˝˙eΩ6˜M=èÊ+=∏´:_ù§=û¡Ì9¨‡=∂ﬁñΩûklΩlµ/=3Ω=…
-GΩ4G†=@ïªΩ„c;Ω5|µ=9Ë”Ω*∑Ω!%vª◊⁄ΩÑ=Võcº? ¿<˚5=ìÀ‰º÷^}Ω#¥ûΩ~≥=^
-=òrï<‰¯ïΩ∞äΩû6ô=Ïﬁ∫=Ñ»¨< Ó“=¨„öΩ-¯ÜΩh≈=Î:m=’wK<©ÏÛºèp∞<BÓæS5πº‚≈ΩîZ=çjó<¨Éô<vøÍ=-˚Ω∞GŒ∫“l‘Ω1TΩøzÏΩõ^=6R‡=	]÷;B\>P≈<Sâ=<´ö=k,OΩΩZTÑ='˛ Ωx⁄kΩ˘RΩvÁlΩXœª¡&ÛΩñºΩ»ó=)”EΩ˝…=Œô‰ΩGﬂ÷ºëL`ªm≈ì=èº≈ΩÉ;â=5Ôª∂éçΩ™áΩ†ìç=Ñ¬Ω>Ñ=N∫ÀΩ´>ÆwVΩJ—«=Ü°±<i+æÒB3Ω27™Ω4l<ôiá=a°Éº·‰;VÖÇΩ	œÇΩGX“=ÚRΩè”&æﬂÑΩ@ê*Ωhéh<¯∫—Ωiëñ<-ÖΩRòæø>Àº)qˆ<¥’çª;æœ=vı;Œ0=„O‚<j»‰Ω#¡=Z…=d=ÌègΩÃQØ=‰»º˙∆:=‹’=2∑óª≈aΩÄñº€=ı—ºWƒºs5zºLÉΩrÅ<zè;<ñ¡Ó={≠Éª[÷ıΩZ¢¬=‰NÄ=£8æâ‡•ºI}ˆ<1F=˚ôΩ+<´<üÛn=˜ÿı<™Ôg=ôz¡=Q·∑ΩBäã=g(≤=∞ÕΩbÁΩÌΩñ<–ó–=ÏàQº)ØFΩîí)ΩÏh◊Ω£“õ=œ‚∞ΩÖ’ΩÌßæHQ†Ω«v∆="π<–=\ÿæ®∑æπ@~=:uí=åWø=|Ω—Cª˚¬ΩΩsjPΩP=ÖÌ·=‡Ø∫=[$Ω;[‚Ωx÷%Ω>=d:Ç=·ÃPª≥ªâΩÅ∫bΩy*À=q)Á=”qhΩÚ&3;9.=úÇé=n¯ÈΩ‰ΩèËé=‹§=÷H†=€A Ωd±ÅºÃè=ìÓtΩkX=nÏOΩ:¶˛<(Ú∆Ωi2´=‰áΩÌª?=— æó‹≈ª ¢Ω˝cΩbº¡O=èOö=ﬂ#Ω–´=4A€º≤©ñº_G˙º,Ï®º‰ )ºH\º‹ÂG=J¬æΩ•çıΩ»>ˇq7Ωw2=y»ö<¶ŸΩˆÔ›=á÷üΩΩŸM<ó/ZΩ	Å=π/˛Ωf÷§=9√;G8kΩGË[ΩﬂÏ=‚≈=K’Îª™ˇ«<ÚΩd]ΩøêΩÎPºΩ¢ºyºy4,=m8!ΩúïøΩ¬ºüT´ΩúÓ¯<ˆºDΩ™°∂=\ƒo=ÁòÚº®®Ω¡øæò»ü=ÍÉõΩq˘º°"˘ºt≠=€ˇ¡ºBz≤<;nŒ=◊6é<cIè=8ÜÑΩUú
-Ω$˙„<Í€ª05U=Q>∫#ÌΩŸç<[èà:cä=(`=€oΩÃqΩ¸ííΩ
-å<t2˜=öÍÊ<ö‹+=-=X—‘<¡IŸº æwYÂº˚ˇ=Eó†=ÓÏ7Ω§=p@w=2áæ§é˝Ω;yΩ'>Ω.¥!<**B38J …Ëu=m˜ç=ﬁÔ|Ωiz=Ô1u<“∞ÕΩÎ˙ΩΩ*V=**B39J år?Î$>mX?Úò=˛Qa?m£?ãû«>k}5?**B40J ñ©ªÄ%í;I›Éºgß4=õBº”L.ΩwÍ[ºˇb=º*ëB41JÄ˚æ´=*≠>ì‚ø<ª\=¿´ı=âﬂÉ=Å%Ωaûí<cb‘=ÜåWΩÉ-≤=Ì”y<M'>â∑ZΩJq>Q∂xº˛êˇ=ƒÒ’=ıê=¡°=”‹>’ºHàû<·⁄™=‚äΩl;{=∞Ó≤=h†«Ω1‹`ºΩã<A÷ñΩp™=Ç;yª´¨–Ω¯—ºÜoï<y‰Ø=y*Ω§X…=…úJΩpY∆ΩºYÔºÜ†óΩß<£≠ù=ôR9ΩVøΩNbÆ<:/nºn¿Å=á£W=;DΩΩÖ)=d∏ÛΩŸÒU=fjáΩ≈<t=>gµ<5àRΩvb=›L≥ºp6≠=ÆnÖΩ€XºËa6ΩÁ∞Àº1âª£ò‹º´œ1Ω&•;á*Ω7°µΩ„´=¡mmΩ0È=Ñ(^=!§=úŸº±Ω¯MÚ;!OΩÅ#D="V=—¬´=≤⁄òΩ`¿æ∫òB=VD†=∞dÛºÍ](=¸={˜…<"i¨Ω∑~dΩ<}º„=5;äΩ7:XΩˇëΩdàµ=A‡<Â”Ω!cáΩ›ﬂÕΩ71*>rÁÉ<©]ù=ÙúOΩ≥+€=o%>“≥b=ƒÈºΩÈjç=&ªΩ_E´ª JO= ÿ‹Ω¬#=,‚ÛºmÚ<Ê8]='(“<g]üºˆ#=:ÕÔΩ≠õÏ=,·¿Ωıí'>ﬁ≤=&^;çÿ <€˜Zºø&ªñO˚ΩÆÇi<¡Ìb=0:ºMd¿<¬ç¯<0Ω™‹	>XëΩñGÄΩbø)=3ÖΩ6SΩıõ∏:Œö;‚Ö=/[ò=ŸY∂=j§Ù=ıÇ+=Ù∫ª=øàªyM æAÒø<Y;†ΩÔ›ºÂAÚ={<H=fN >EÌÀ=Uäº%Ñº=Ç ±<è2®=¥∆=ÀwŒºµO/=ˇ‹êΩΩvºmøõ;¥‚û<~/ΩNé=ÈìΩúrRΩ˘∏\ΩB˘öΩÖÕe<‹¶Ωˇ+˘ºŸØÀ=¯:•Ω2Ø=ôg<>∂ı<et«=Äë¥ºvíÕºÖøDΩ/eØΩP..Ω¬á>=ËãæãıΩm+Ÿ<áX.=ƒÃSªó>ÉΩ8=l¯ç=@Áî=N.´ºµG&=òMΩÙUΩ)ø®;Å√Ωk∏hºy4…=§–<ª¡;Ñ¸Ùº∫˜·<+‰=¡^Ω–›∂<>KB=º<sµN=€	äΩGç–=K¶Ó<·óªÜ53ΩÆã«=’*k=˜8/=åNG=xìfº √çΩm VºkMâΩ4å¬=fæñ=”†€ªtgÓº;¡UΩ¶Œ¢<·/oΩ∆0º ô´=ôO¡Ωw¢>©«‘Ωx>=Fjº= a´=]û$>ñ§ >›˝)æ’Ωé=n∞æ	èÃ<ﬂ„*ºîËj=wñ =?(Z=ÏÈÑ<m◊ΩãHªΩ∫xÖ=«È,Ω@∂¿=Ù4ëº≈4Ωó,>ÈSÀº≤Z[ΩBÔ==Ó£<ˆ,ºQ;N~ÕΩƒ€ç=ÀaãΩ¨˝ÆΩEO=∂Ìó= z∫7¨ˆ;câ¯;Ê≈6=Z\ΩâAíΩ–ﬂª’-πΩkN¡<s?¡=È≈j= 9ΩUº•Q
-Ω1”<…à©ΩπrΩwﬁºàËƒ=b_=óU£Ω6 GΩìUÅΩÂÍú<-ãF<†ŒçΩ«WûΩÖÌºÛˇ<ÕD=Ä=¬˚@Ω/ˇ«Ω——ù;àq√ºÃp≠=∫ÿΩoè:-æÃ¢3ΩéàVΩ£3¢Ω¿2û<x2>6Ä–=wi >≤É=ƒà=Z[›=¿æ%nπΩ°Q]Ωû‘ï=˜‰Ô=ﬁ∫fΩÅƒzΩòÌ∫ΩËj∫=Rà;–5=Á9ôΩm¿>ì{=êÑ∆=AD =ô∂.ΩcF<pπΩ˘n}Ωöﬁ=UÁnΩÖuÅ=±\Öº=œΩ:3pΩ◊¸§Ω∏B≈=;Ω˚û◊=	â)=gí;V{ÈºÕaæ<áˇõº√#=ÕÍåΩ˘:#=¬Û˚<Ógì=^4Ω≠0;∏f>*q∆º¡ç=b
-]Ω…¶Ωæ%úΩÚßv=U∑.;Cìá=ö`ºWÆ¬=O¿?ΩLôÕ;Î"W=`5÷Ωyœ©=zUæºAF={uûΩC„æ!éΩëk’=I6«=)RS=¸}bΩˇ˙‹=,¯≠ΩaŸØ<o‚ΩûŸ<[ÇÇ=üW¬ΩO»‘=Üÿ<«]˝=ˆëñªNåß;k≈ºa√=bz°Ω|#ˇ=˝hàΩX%Ô=.ùΩôRΩXÖÑº1Çª—ı…;sOj=çX©=ëˇ=”üΩ{I¬=ëQº1îΩæÿ3=ÅOΩGÁ>[û=în>≥ås=Ä	ºz§=ÄHº«‰<{wÛ<øÎ¢º1Çæ=t⁄>£+=Ω†I¥=ÍücΩ¿P>Ωo=ƒH`=cºîn€=≈√å=??3ª…Y¡=& †=πÒM=)–rΩ∑Äm=
-@>\dæŸÈêº+»4æ–Ó„Ω	∑πΩä~"æÿe<ZBŸΩòû =åiÜ=8TçºözΩ»≠<øﬁ‚ª·ﬁ=^l§º8‡cΩ¿“˜º2ØÕΩΩ6:º±ãΩs-=≈JÜ=ê≈ÜΩ…2 =L˜(ΩX¨ÆΩò≈à=Á_˚Ω9≤ëΩ-ï{Ω9é»Ω4ªLΩ}v˝<=ip⁄Ω˚Œ3æ≥Ω,>>°™:Ç©„=!–9Ω©Õ<¥-˚ΩBˆù<§“U=ê2<>^ΩO†Ω‰E’ºè‚F=ıÜΩ Ûè=fFæ;´Èö=Í{πΩüB¬=stΩ¬ØΩgH¯;/^ ΩÙŸ@Ω£”Í=3≈=†8NΩËK=ÜsΩ1˝·=t¢Ä=`Ç=¶"øΩ•ÂjΩ+»fΩc:Ω°≥OΩ¢hî<Ì∑ æïÙJ<.‡B:d∏Æº[ßºà…‘ºÊ¡ΩÁÖKΩÑ*ß=Q21<¿Õ>>ç´<™e=ò€=b¯ÉΩ˛XΩã~8=k^Ω7˘Ω=™NlΩƒnÑ=Nºær∫<q){Ω¯Æ»º˘›<ñÊ8=,¢=:Ë;=IäUº/$>ÁçÛ<∫ÙL=m3Ω°ZΩ ‡¨=x≈—=˛ÚŸΩªr@=èôÕºB¥\=**B42J TûSº—‡øΩ'˜ΩüDº€-=CÃüΩ˙Æ‡=ó@=**B43J Ë=_?˙M?6+∂=E∞ı>≥T?õ€P?˛∞Ô=7óì>**B44J ^Ùä=M‰w=
-Ü=ˇ*ã=}\g=Ìùâ=∫å=V g=*Ò<		B45J‡<-¶=`õ´<—BE=ÌºX"t=ME´=∂uB=—¿
-ºm x=äj<}úˆº¿Ä;b¢Ù<∫µ=©=mπ=£=lm=ç0ªiåµΩ	ÀΩºXÄ=ÉQk=ë¡ë=—$Ü=|q∆=Ò=5Ó;2J º3ï=-ﬂ-Ω^(Ô; ∫=c=⁄\#=9:%=CMø=ÜYö=¸ˇº±Î¬º1•±=∂c=Ç˜=óÄ_=óÒ[=§‘=sc=®=g˝∫=á∞ª~qŒ;ûC<?®W=:ßW=ˇŸ<îûp=U`í=£i=_=™<;ËV<Ú !ºÛ&='Ò<E¬ê=˛ùn=´w¡<∏b=[§í=.'=›v Ω6oΩî=Ä	ª=‘ﬂ\=ì™Ü=ùkÜ=,∆=Ü©∑=ÛûΩ ÀóΩë¿;Ω}û=—Å±Ω¯æ…<x$t=|©=4ﬁ`=!üø<˘7/=Áœ°º,â´Ωw ≈ΩÙ™]=≥∂C=&ÃŒ9o¶å=[_U=Íˆ;=[êΩî°†ºMf=©ty=˙o‰º/ù=ÙWö=˛≥<˜ªîΩ˝†Ω0oÕ<6ﬂ=çÍº&–‘ºÆ¸ò=VEå<5r≠Ω	UºE£ =<]=∆çu;sÅ><ŸÈ=|&@=ñ›øΩ[	ΩÅãõ=øó=^ÅÛ;FáÄ;¿F=;ß∫=lõÕºıàDΩƒ‰M=$Y=Ln=Ë˜;ÑH›<k}=Ø¨ºäΩÌªwã=CWù=ä<¸ñ<«Ç=øê=ªõÇΩvRûΩPH"=+µ∏=‡ı<JèìºTπ=µÑ(=;™´Ω€≠Ωs±=–Y =VVf=èÒu<ﬂëõ<ã⁄Ω={Ç&=V⁄Î<?≤<’:Ï<uÛì=-n,=Ïñ;.∑fº€K;f⁄‹<E{^=¡"=1=Ñ…∑<¥¢B=è{Ò;ix/=”‹=_Hó=Áìn=Ü[=;|S=HË<™ºº™ <Ó‡ø=‡Œ=aâÏ;„û=7Ã„<9ûΩºJÇΩöì∑<ôã=À0µ=6^ü=›ê◊=/ØΩ=≤ùM=ÛÍeΩ5NiΩl6=;tü=(’π<;ƒà=ﬂ´>=¥≥ê<;&Ω,—=*m{=s—|=π´G<6ª<p∞-=ïƒw=(˘äΩ=SÉ=m "=ãzy=ø=(ö<28ä=‘„°Ωï<¡ã=∞ç==Óµ<˙äª<#BØ<(¢=dπ=5ΩÏ∂î=?â±=ÖK´º‰≈=Ú≈Ÿ=ß=WN=	9ú=◊Ã¬='ß¿=åéºó r<É)=¬≈É=)>=P º «:=olæ<≤e:f«ô;ìáæ=m}i=ln=≈˜j=ã-÷;P[ΩõÓ≤ª–Ωöà´=∂∏÷<Ø¶=U^=¥=«OÔ<çÃTΩofΩ•Z`=ì/≠=‰˚E=Ÿ˙C=põß=”ü´=KÙÿºpÎE<7Œµ=ÿ-=\r9ö K=$L»=ÿß˜<ﬁUdΩ¨m6Ωá=”=ß »=ÄYºˆ¨9}3n=˛÷?= åΩ:vîΩ¥/?=kßx= ,ı<&≈‡<Z=⁄›™=aÖΩÕΩo5‘=Ù•Ç=Üâº"◊Å=)6c=J+—=f%Ω1“ÖΩˇ=ËwÇ=´YÌ;P¬;=6“ë=¯Z.=7¢”ºÁ“sΩHç=õô=$äáΩÿ)∑º§_H=ÃQΩü¶äº±˛î=çiØ<ùØ(=#îΩçñe=∑CΩÇ√Ωñ√V<9O∑=Sﬂ=T¥a=_v‹<gÑÀ<*ØªU¥üΩ∂Ë[ΩáNÕ<j‰†=3Û=Sz=∆‹<19(=À⁄#Ω˘‹nΩOE=∆P£=≤ƒ=ıXY=]€<±˜#=j ΩZ(’ΩﬁEœ=/F≤=iDºEÒº:ä=¯¢í=ªjΩ”õΩQ~=ﬂ¿<‡•N=∏
- <≤vºÎ¢6=^K8ª9úØΩ"N=ÊÌ≠=⁄≥4=¶eL=˜T=˝-à=è÷º©ûlºÔ!¥=¡.ó=·*<ˆe<ëÖ=ÆWï=≠◊ªÀ9áΩ∫~ =ﬁmº=xÙ<º¡*ºêØ=Ë·VºÑ6™Ωœ]®Ω»;z=»Ωç=f_;=Óû“ª+É=taâºf*ïΩôç=.‚∂=_<ñ<•áæΩ«s•=Ó£Ω·´; ~•<"Oƒ=˘º=»–Üº∆JΩΩÊ®=&ò=räÂº≠f ªÑ&=„÷d<∏“…9›˜ºê¨J=Í25=ïpe=ëÄ ºb2…=6®<≤.Œº[hΩ‰N=Ó¥= é=`∏TºFfΩ=ÿƒ∫=iTßΩC££ºã%Ñ=âëF=V=˚·=ºOY=ﬂ3D=%b;gKΩ%◊‹<“Äã=8∏Zπ≥L{<÷|∫=µÆT=Ëe=çvΩÄt°<ï“ß=ò_=∫π±ºNõb={≥<—–ÃΩ»ª–<7x·<ú&=¿Ë*=:§=ä#±=RÛ¿=}πΩtïæΩ„√=åpú=‰6ò=AK=Õï∆=¢õB=0S@;S[…ΩÕjºŸÏº®KeΩ˚)=_ﬁè=º•†=ˇ_¿=6ï≈<¯ê0Ω:Iœ=±±=Ê¬µ=÷’Ö=iH='ô='±&=Óà›ºëä<ﬁ≤Æ=ü =ñn∑=há=◊∆	=k±=bs
-<úQù=AG°=ô`r=´À™=Ämæ=Kê=£“S=l¸ºLwù=⁄ †=∑Å=áh§=≤c‹=ôZ‘=Ù&v=»ÕªqT	=á·¡=VlZ<π;<1Zö=ÂÕ=!Òì=ﬂûÿºH≈ç=∂pS=™h…=¬)Œ<Ó¿ñ=ö≥é=∫„TºÈ˘<+à=G=ô∂<ﬂ©ó=	ï’=‘Ç=b(F=cVΩåË•=R∆G=D8=ª§Ö=¶©”=»¢π=mf•=î«¢<ÜSä=∏2è=)ó =∑EFª-zé=$ØM=úÕ∫=f?’ºc#=ùóÇ=ú„ñ=øóàºÅ/ =∞Qπ<9ú4=›íá=»sv=<Ö≠=ÁL<EgΩÄ°ΩhÁ@Ω	G:=≥É<é=5Æ==øQ•=ZŒ~º+î:Ω‘uΩÎæ¨=¥~»;èÙ;_æç=È´o=≤#Ê<\ædºXÅºçké=/ë=‘ñº¿€ª<JE¨=∑|E=œR∫ºµâÏªø—=€.¨=ƒ(z<@gB=ﬁÿ{=ë¥çºíKñΩ¿3Ωê=•È†=é<wï°=Z3H=
-‡Ë<“áºFîéΩ÷lñ=ÆxT=+5ﬂª‹eŒ<x™°=—v¶=†%ºì¯1Ω⁄z¶= Œí=IrØ<Fh!=Á¬Å=º]°=h[4ΩÎø’:o1|=∂R =LŒ´<e3∫ºµ. =ˆ±=ÕÔS<∆Ω—®Ä=\Vö=tFºπ “<Ò=ËgÑºDz,Ω],¢º¢û=.û=àf<L‚s<FûÀ=;qú=fÉ=ˆË”<h‚<K«û<m5¿<B/;˛N‰<8û=ØU=ø@å=5<©=Gä¡<Ωi=ΩÀ¶Ω'˝á:oB=vÆ≠=ÄKa=s
-∞=∫)=	ñ%=ı˛±º…Ûˆ;4‡ =ÚÂáºÏ·®=∫ó=u$©=e◊æ=í&ò=∞+g=[»ü=é7=G92ΩË{1=ºõ=€S=k≥<	„0=.…5=U^ç=©ê=]O=”·Hª÷°<ÙfJ=ñU=∫Mú=U,=Oﬁã=	G∑=˛n°=¥e:2∞<Aù<˘¥›<
-†=∫	µ="a£=îs¡=
-ﬂî=MŸi=iGh=8:ùΩb»ΩÛı*<Çnå=ê°Í<7i=ïã=ÎKA=,5=Eè∞ΩÍV[ΩlΩ≈ºò==q·_Ω H/==î√x=Z€'<4`û<)=l»MΩ]uΩ j5Ωqø√=Z¥=á]]=iõ4=ˇ7≠=‘+ì=84÷Ω˛<À<õ†ì=h€-=o…:+Ç=†…∞=Qñ@<ÀauΩH∑±ΩÏ€¶=∞lÍ<îŸÈªÆ∆º»xì=OŸ¨=®Ó Ω5»KºFæäºˆÂÿ<ˇ÷yª7æJº ≤Ï<õ’’<ñ⁄™Ω¬ﬂµΩöù=!É=úA´<~m.=ÛV
-=˜t,=ÍΩd†‘Ω·BÅ=Ú=Ìñ{=R/é=:é=Y¡®<NT€;BnΩ—˘<|∆¨=S¿É=YU=¶°o=íPs=«RÿΩ©+Ω[Õ<BØÉ=£ê…<πÃ=»âF=q¢=·¢Ω∂ÃõΩ≈}·<,∏=c˜	=∏-¶ª@∑^=G©=“D=⁄¬…=ÃWì=#…=}<‚=‹“Õ=2¬6=è…ãº„k=≤‰L=o¯â= [Êª8B=)∏Ø=¯å<¥ÂºÔ?#=ñ‹∑=)I=ﬂ´ÈªÎ«Ω=Û¿G=7Uó<¨Êôº¨=Q€â=ºQ=´‰ö<~M=%6ª=ø˛f;Jy§Ω]î=Ø´=®Òà=nßa=˛i⁄=ñ¯d=`yè<Ó´ùΩ–àaªAÓ´= *É=
-;ö:Á›=_˘0=H´=æ\&º¡d™<1œ=I`ß=K,!=Ë¥º=ó*=®éﬂ<ˇb¬ºçû=ûI«=lÙ—=≥}=≥øò=/ø8=Dæ–=ﬁD`Ωp,è=,®≤=Å√3=6ø1=Cßp=iœÃ=7≠=e4=pè¶º–%•=‡^«=±ÔÇ<√±Õ=rç¶=Ñ±=:$i=Ëÿö=™ß˝<÷Â†=î'Ω»˘O<ûôø=Åë—<¬ùº4	Ω&‚Ñ=¥#:=á-ﬁºhG≈<? ]=?ï"=Zº <ç
--=4Ã	<4kDΩπ¢°∫*u<™L=≈Ïπ=œe,=Zﬂo=ê[ƒ=¯<+÷\º7π¨º<À=\Å=¥úB=¢i=v#-=Dz∆=<GOΩÃ<*º˛o=5õ0=Ù=[≠f:á+å=tƒ=«ËûΩJs“ºvç=h„≠=ãÊFª∑ÈºÇ=ﬁk=∏RΩtÀæΩï_Ñ=˘«î=¡Ñ<C'<$∞=à≠¡<–âèΩå:Ωóº¬=¿P=¬Úã;jﬁ]<T8k=ˆ∞≤=…QºJlHΩ˙Í<°{Æ<…§=È\à=63∞=çeq=ïÕªóQµºl\=‹î°=Çy"ΩÛøﬂ<∆Uî=˚"ºÀ19gÖ©=Äˆå<&@I=¿r8ΩºJzΩíOêΩ'Æ"∫)sû<–öé=√=nêp=ûÅáº ıΩZêpΩ¸º?€™=R˜É=Ul‡<ŒÀ*=6E=3ÒΩÏu…Ω∏€¡Ωò"ç=—T∞=∂o,=ôÃ%ºa˙á=.2Å=∑kåΩ∂ûΩè%=xÖm=zŒH=›ÖÒª_c=Ñm=™àâΩ7À±Ωtã=}π=˙ù=êw'<lM<Ωï=«‚ΩZ¥ΩÕ˝ªÍ/=ß≠ù;å§=¯æ=˚˜G=‰Û0º¬¥SΩ ÷+=∏eﬁ<ä\:wa_=†µØ=ﬁΩ=ı”2ΩXaºC£_=6fÕ=MUÓ∫¸<
-õø<Pí=œS≈Ωì≈Ω	 É=Ô»=DÛÑ=Ò6=Ïüi=Õ¬â<wñΩ§"∞=‰8í=Œ:3=H'«Ω^=?’XΩªØº›≥À∫íâ=C~Ø=õ˜^=B#Ω*°=í“=Qt2ºä+–∫|È≥<,Éú=î	<◊∂´ºgê=*‡ã=d6Ç<≠zΩïú|=E:=àÃΩx∞ºá ì=º˛ú=Ø|ã=NK=f≤î=Ën =>(Ω†¬2ºƒì=#'µªË≥B=}%Ë<1Ÿ=n´∂=x*ÉºjÜ≥º´<A≠[=Ω:kΩ%Û=çãè=5»=Bú3=B˜CΩ¬˜0=ˇ≥=ä ºëŒΩÄk8=∑“ÍªËnóΩŸ+^=N=bZ˘<»Í<–Åd=‹íR=[2=ﬂÑnΩR‘ïΩÈµ<È¬L=Hñå=RÔÉ=≠+ë={ô=∑P¥;ˆ∑—Ω»ø ªÄx…ºÆ∞ºÚ¶;=»U=l®„<#üì=5s£=õL\=Ω=â ⁄=¥™ú=9§¥=a’•=înä=Z·,=¢-=õ¥==Ÿ∞–=Xs◊=˘ì=ÅãY=Ú%!=D=≠tj=ıá=çÊt=üﬂE=6ë=ø=+a¶=Ÿñ=;3ﬁªﬁ[†=ÿä=w@í<eSº=„Fƒ=x5î=[Ç=Yûê=® ‘=0õ=6kº=~â=»ù©=Ÿ|à=å}=ı]Ç=IôZ=œ”.=Æ˘¡=<·W=ﬂœ¡=À{=¡I«<Œ∞‰;6åq=P«û=K ="Z=∫ô=F"›={'&=⁄ß∏9Ù‰f=¯Äª=”µ=w°_=∂Ÿé=_ﬂ-=<7‰=ÑÆ`=⁄Ñí=†∏®<–er=Ó@Y<›Wâ=Û∫=>çê=YY6=4∞Ã=O √=ü?=èP£ª:5›<7]< °(=á8Å<?‘—<6m÷<—ŒR=T≈íΩå$èΩeÀlΩ]~@=…¯m=◊c=åπ=è5k=oJî<Cy,Ω<ëΩªœkö=$ôÖ=(á9=y®=OYã=“em=«ÅΩá3ΩUÓR=d®:=Ï˝Ï;Ωg+=#¿≥<Æ0Ω⁄'ê<Ù=‘è=MïX=2ßÎ<9Äè=ÄòÀª“´RΩoöúΩôW]=ÖS8=Íeê=ˇçx=˚KÍ<Ô¸G=„M©ºç¿ùΩŒ$#=7GL=t∫∫˚‰<Ûã=G∏<•¨°Ωú∞àΩ•t∞<PÕn=f(=Ø˝è=§t◊=t>±=íuΩt|˛ºÿò:=]õ™=—∞=/ =>ñ	=ìÄ¡=°∫Ü:Ã®ª· Á<Ò,≤=Ón;èœy<ıΩ∞=eíæ=»ïñ<›3=ê˘f=›âöºùP<:!¬º´ÙñºL¿˜<UFAº˘‹ﬂºôZFΩ∂;ê<$znºú-ãºõa^º:{=∫SΩå˘]ΩÒƒ#=zŸU;	‡hΩ∂öºBº¬ªúˆ+<µHµº€õf<Òoa=∑è®=>÷Ω=ù`ºfmáº“+ÑΩ Ω¸[ΩÚ£=	÷D=’=ƒ≈=∆]©;ﬂÅ÷∫í!ΩŸêΩÆY∑ª™PÊ;ucmΩæ’ºÌü$=/∫p<Çﬁ#º…múΩw'Ω°fHΩ¨®ÆºÒ¿@ª—jñ<ÅÚ§º·åΩeΩc—Óº&GÒº]j≥ΩE‚.Ω,òœº˜f∑º‚‚û<)õΩÇl±<∏ck=~öºªhôΩKà”º@ŸΩ˛ Úº≥=w”\=ôﬂ<	íº>PùΩø1=ªQ∂<°ﬁëΩ['ÜΩöºî*ºm®∞º/˛{ºSG)<“o•º_Œ≥<µ—åΩ˙ΩÅ:≥ƒøºú< Ω2SΩB3q<
-{Ω7Ø<¥ª»Ì±ºvÚ/=T>aΩT‹jΩ’Kºï∏Q=]ËºŸΩÃ7[<{/ΩNØΩ´_ΩGé˝<ü%I;¯ˆﬂºõ%YΩ˚z=≠√…ºíŒ„º‹ ¢ºE|º‚dJ∫b_Ω‡7Çºöõaª˜˝‹;◊Õ≤Ω°ÖQΩo∂«<w?⁄º–¬'ΩÃF0Ω–Ω<÷=jŒõΩƒ’[Ω˛Àº±3€<∆HñΩ#àΩ!cN<ëú ºÚqyΩÁ"Ωeöº¢g=%5ΩŸC≥<≠\=ƒG=•@Ωõß¨Ωçy =ÜÇΩ	cÑΩ“9úΩÉe∞ªœ;æ<r∑SΩ´∆øΩ⁄ß(=ﬁÇ±=6=ú<$í≠Ω÷N…ª∂AV<ö⁄ºUæΩ$‹|º±NéΩ¢:Áº~a:=˝.<‰‘ZΩE§Ÿ;ıÈ⁄<ﬂ[Ω›ÑΩ7Ã<<Í<†\Ω–∏ΩÔa!Ω·P=,*ºÛ+!Ω‰åÎºdwÆ<$a‚º˚"ÂºÇT<.hª;~é;¯|∂Ωƒ•Ωx†=Ú(ΩªÑ∑¥Ω§HNº@Ñw<'y=#¯<·Vã<4π˜:pâ~º5$]Ωã†º?/Ü<´⁄¡<é[Ω.a3º‘{ëºQ‚ºvìΩ∞ÍEΩD&;=,No=≥,ÿº lΩ¨≥¶9Y∞ª»KØΩc@F<Û”†<xë"ºe≈uΩ8¥Ω_üª•Â=”‰öΩ»√»ª”'	=’·&=F'ΩM^¬º –ñ;·¬¿ºê˝hºßÿìΩWª—ª˝≥ì=ÔÑΩ©_eΩÕ\º-/=hΩ
-◊»ºP5Á;’ı<c÷óΩ‚”zΩ√ƒ>=BXÑº°íΩ~ QΩoqïº£Â=ºâõòΩò ìΩÂºüJ=CkΩA6çº¬R;º˙?ªº$MvΩU{‰ºroÎ∫ ˘ŒºeÖΩßQ¿ΩÅ*qº(ûºÀ|Ω{öΩçù:<rÎº n•<¸”æΩ≈G“< i#º”=õΩ∆gœΩØ#Œº$TêΩí˚xΩcgÏºÁêØ<B:=äXΩ˙íΩπ1<L¬<i¿Ωnˇ%Ω°9§ºï„”º ooΩ¯“tΩùr"=x˝<£!ºúôΩ…d’<H‹=çèΩ¥ùÀΩH≠—ºcÂX=vØΩòç}Ωxî=é9£;ò5ΩPKΩ•sø<_P&<ƒ»Ω®Bâºi≠Åº‹]—<^À´Ωó·–ºr{m=Thjº;ˇΩÏæ+Ωç	=„& Ωó›âΩËÌÎ<TÔ=µ≥;©!ΩçFºê+Ë;O-lΩËcºÌ‡À<‹¯≥=Dû∞ª%´ØΩ¢ÀÈº)G=<Ë≈ºá`Ω>5Z;!è=hÏö;D[Ω˜€ô<%H-=cß§ΩRoΩ:µø<sd9=»*;ÈaüºC<#=qˇΩeaΩÍ…‚º∆ú-=Ø7<PîºÏ˜ºà£è;ﬂ7=i∂Ω™ÍäΩ-aºè∆πœãΩ/®Ωs
-‹;Í¥‘<˘4úΩíâΩ¢7˝<O¬< éöΩcaı:V‹'=üã©<ÿ;,Ω
-ÀΩKò∞<±.ó<™øGΩLçœº?€∂=πá≈<ªB∞Ω¢†>Ω≥≥;‰Cõ<Ì∑ºÒü<ªûﬂ º‚†Eº¢Ω´Ωﬂ5&=¸ﬁ∑=<≤Ωl˚Óº∫›•;èëªäôjΩ@`´ºóù™<õÍªMIPΩMœ™;¸$fΩÿCÇΩS]?Ω [˚<‘§0<óq<›†ΩÒ›º+‚∏<G/Ωä%|ΩáèU<Íº\¸Äº ;ŸºìKº®°<êÇÄΩØ=Ω˜ﬁ|=ªZ‰∫`'ˇºlîΩ,ÊºÆø <x‚˚;}á¿ºh1‰ºﬂ„H=ΩJΩºRøÆΩ¬ÿ =8HÄΩ_ÕGΩp}ÑΩNBáª®∏H=ì{9ΩÒEéΩ©ºZª∞˚Ïºµ‚ZΩ/Û\º€
-ÔºUD≠º"«[<›ÙΩ˙µ;‰k=⁄IΩ¥ñΩ]cºÏ¸JΩzÛ∂Ω9e‡∏‹Ùp<º˘)=zaÖ=ﬁ•6Ω∞Ø'=Ã_A=G∫ØΩ∫/äΩp®ΩŸd’<∂P3=A´K=ŒŸ<Òqx=p#ΩÅºÅΩ†Ïòª0 è<vrΩπA=”£<>’¡º÷.»;†ßàªÔéªÊ3=uM;ºwœèΩ±‘æ:ΩÂÚº◊9∞ºya=<”°8Ωfeò<ì=êÙÿº¸!Ω†WºÚ⁄U<®√£<Øı©ºÖ‹:Ω»aãº«íΩ›ærΩÒFûªÄ‘º≈KH<˘UΩ]æº˘4&ª£·zºÉ¶«º€ Hº§‘ì=¢º‹ıàΩ˝É=⁄WÃºhDíΩ°ÀÓºwLäº®T˛;É0ç<£ºlΩe¥À<U”‚<Ò/˜;˝è;º¯,Ωï ˘ºá˜XΩÛx§Ωy∫ΩbƒÖ=JˇÑ<0ﬁÁ9Û{ﬁºÿäù<F2DΩ¢Ω◊ÑÂ<'dy<tÚŸ<¸ÜΩˆ{‡<ØR`=êXdº≠e⁄ºÈd<®üEº]pÉΩpå˝ºCΩãnsªÃº=KYTΩApxª◊2–∫ÇFTº@Ö∞º_ª<;˝aΩˇ›œ:‹âË;bãÓºúw¸º˛„–<rìºØ≠ÄΩ~VÁºõ=í≠ÓºD∏BΩƒ…º∆£=’lmºJ/˝ºA:xΩ≠	§º	)úº,¥¢Ω_◊ºÎ´¨º˚%
-=Hã∏ΩÌ=øº9J™º5øÖºm±¢Ω|Ä Ωp—¥<≠d.ΩQdÀΩ“9Ω¬•t<¿µ”:È%Ÿº“ûkΩ‘€%=í6ëª`≥Ω:ª3Ω”LEº»¸Fº´∏&ΩF¡/ºß#≈ºóı÷<LtΩãûBΩÁK<ÖŒ˜ª@ZèΩ`pÉΩYsH=^÷∂ª> ºΩ•ëìΩ!4z;>p™;Œ<·"&<,'õ<¸ß6=K¿4ΩæHºıÁÅºQ&ªhgΩqÆΩ}E/ΩgV⁄<gZ›ºwhÆºØÓA=‚§)=b
-vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
+torch-jit-export*<		B1J‡<‘fÉ=Ñ;â=öMªâ»ê=Òmkª
+≤<E˘øºÕa@=ˇÛå=¯Ω¡„ä=i√≤<bc=tWt<Í=‰âìªÕ£f=¶<8¿íºQ…œ<5¿ºôvªö0»º+A0=LΩÙ.‘ºù\ºöÂº@>S<€‘uΩ¸’p=πcΩ&óB=59<Úuöº]h@=r–¢<{Hl=©(<\º™ºRát<7j¶ºzùÃ<ß1p=∂4='©îº÷ó.=h/Y<æ?=∑Ä(Ω#∆ÜΩÃÆ÷ºC€@Ω/ox=‚Ò<´x=¿xª<†z∫ñ†J=Ω˝=Ω⁄@é;àØ!Ωî_Ù<]}!ºL‚<Q/ºT≤c=∏ùΩ”˚ΩaΩ€HÖ=W*=Ræõ=ﬂ-Ωâ„fΩ∫,6ΩK`ΩT+=•˛<,Ü=ÕœÜºl¥ıº˘“==Msº[H=» ‡ªÙr/=“π9Ωí≈⁄º\(Ë<éá‘<Å…ªÖ“;=yıH=@`1ΩUåΩSœr=V ùº ˛ÖºoVΩj∞˜º‹]ù<ÑÆº€ÍFΩÙzª_BΩÑcΩ»_Ω{nEΩsÅΩ≤uÉ=ùk<CÆt<B˙ÜΩ6ôCΩi◊≈ºfK<qJΩBËÃºh-#ΩReÜªÈ±Ùº”s6º‹–JΩ·@ΩO$ΩyOwº…ãFΩßT=Ûåº!K=7€h<í0sΩlì.=∆¬_º#÷ÜºŸNMΩLßÑΩNu<ÕîºÚ{¨<\cΩ∂ùG=˙%Ωàë•∫úÿï<gÊ=—hP=+*j=ºSΩÂÑä<å∏ºj‡o;ËªΩö∆á=Ø/Ω`€=—≈–<≈Œ<<(ÂºLˇé=`D¯<Ïπƒ<˛,ΩC>'=S≠É;ﬁƒÜºÔöÜ=@π<º0“ºº…öºI‹=<óüF= )≈ªNò·ºãlºBÑ.Ω
+Oﬂ<U£f=Ë˝IΩ´‹<?π+=Ñé<tvõº˘®=´=dèƒ<'‚ºÙKºd–â<R∏ºªuÈåºW0(=t”\=Ö'ºYcáºÔªÏ:∞:;–∆<Vi≥<ÌoΩ»Ù‘º◊ÆP=bƒ∞<Œ∆ªFVΩãJ	ΩlqIΩa˝íºfà®<A{=à_◊<ÖtΩ'Ωæ∞ºÛqç=ıùô<qUºÁÁ“<∑©ﬂºﬁß4Ω]´8=—Ùº®ºªi]ΩÛˆ\=«[=“©∆<±û:Ω6]ÇΩí5RΩrO=à==REä=$-E=^…<Ïï_;|T<ΩZ1QΩï¥ZΩ=$≥ÖºÚé…;∂æ1Ω4öÜº iDΩÍ∞.Ω€ü∏< /Üº»ñ/=–¨éºÆ◊9Ω1°~º¸Ω«–òº∂ﬁkΩ¸)=JrΩdß!=©Å=Ö}I= óPΩ#D=¯ÜŒº◊Â=ßïè=gÆÔ:å©&<&Á∆ªÒ˝HΩè=RdpΩ◊–G=È{u=."ò=õDÉ∫v!ΩG§À<-(%=≠°xΩnQ–ª(Ú’º ó<_ñuºûOº«CØªÄëKΩÃrj=êVn=ﬂÆW∏3†Á;w’ºt#Ω¯à7Ω◊Z!=8∆ºf•Ωbít∫‡R<º’Öœª˙»ù<ºWñ;˛¶íª~º_G,ΩC	d=™æºÖ∑Ã<Ø+º™™<äπú=8T;=Bå+ΩŒ
+=°2x=öˇè<K≠F=´Tï=ø@;Vö‚<óÔ˘ºâJ∑∫1]=@t˛<ÉÒ>Ω6†bΩ_ƒ8ΩÚ‹}Ω,è;Ω=Ú+ºyπJ=˛˛ä<Ç3Ωñµ_Ω*!='¶6Ω}∆◊∫üD"=¡ùº#ïÄ;†í;Y˚ªJæΩ-[ΩÍ£4ΩsÍΩºúàö=¥ÈÑº˘âÁº Ï<ﬁæﬁ<ó;==ˇd=ÁÜB=“¯EΩ†º<O˛h=Õ><å£∏ºgií=¢áùº'÷ºü'/ΩÆ<{kF=ƒ=Á/=˙`ΩÏñKΩBÖÂ;[?ê=.\=Ú5êºöQ<ù«ÿº⁄?ºÃÅﬁ<`U3=’Go=’QBΩ©µr=x„”º°ã6=tò=ãëú<∂î=˙8EΩ4◊¨º£Ù>=yn8∏vÑ;«‹º¢~=«∆A==–=Ö
+ΩG)OΩKL[<LÙ<¸“ÄºÈÊ)ªâ‹n=r§ì<ç,6<gPwºf^áΩßàΩ°:ΩNEΩ5;¶<ùÙéºﬁ†ƒºª,|=¬a≠<˙ﬂ%=M
+Ωæ”÷ºóÏ’<ÈQΩ˜·Ω‘ı‰:+ä¶ºêöCΩ«=ç‡V=ñ=t<∂wªaHNΩ⁄dº•Ó <	c=òÀª¢ñ“º€=#=Ì•.Ω±yU=‰WCº¿&b<8∏∫¨`Å<,àºÂ‡G=¿ÉΩ;m~=ÖÔú=µ‚yºˆ6ΩæhÑ=â¨s=∑€;Ω‚“ƒ∫ﬂ6]Ω√BΩ≥vÌ<Ù=èﬂÙ<@Yºªjå=ÁÈ?<FRΩEF∞;(óÓ<óz=ô€ÁºÇ#=z¢ºk9ΩúUΩ‡ÒÅ=—Ÿ}=Û¥ç=*»U=¿7Ç=º~≠;¸i«º¢ß=ÔΩmΩ1ΩÉÅºÓ√∂<‘U6=¶GOº]⁄ºh|ã<ƒ˜Ωˆ58Ω4‘ˇ<Ë/ºE|=!Så=d.È<„|
+= ¡Ê<‡Dk<,‰⁄;◊& 8Hı‘<Z Ö="^„ªg˝^ºﬁ_!:®1]º?‰<÷’~=M=Ù†=}%!Ω*$≤º,g5;ï8˚;ò”<l!ΩD =0•HΩ◊ÔΩ¡f3Ω°‹ê=aè*ΩâBè=À®•<P∂_<¯¥l=ycœªZ÷6=€ég=ØT$ΩvÁ5=√≥=ÙY=À¢˙<y∑=Ω‚Ω,»ëªO/ê=ï›l=ü(Ü< !ΩÂ'»<äò¡ºÌ ã=…
+)ΩXL&ª°É·ª>¸¡<.«ú=IA»<çf=—åâ=Ö=»ª—º•÷hºı˛=±lºœ -=˚U9ÌnÍº’m!=ú<;t…<›Ø~=:=®^Ü=ë¸3<¬ı;Ω‘	ΩûÚ˝º”’QΩ‰*Ω’ﬂsΩ]VhΩªΩä\Ω¨Ω›º=” å=E‘∏ªÏp•º4€=.ßŸº-¢´º2åY={∏ Ω
+™◊<uŒô=1å‡<'´á<›gΩ_›Ã;8/Å<=0=7=¬Øù=TÁºh•<ÅΩ÷QBΩm+j;9›,ΩΩ:Ç=˚eÌ<ƒAº„c=AÇ*Ω„’’ºXcºa9Ω®ã”º<NSê=Wz≠=¯ı=G¢º$â3ΩÍÃq=^,=~ÃÇ<üÏ›<˛å¸ºÎ9;Ùß=q:ã«ªjbSΩ3dÏºÉ/<ˆ√º©2&<Ö8=*÷9ΩCz=]>=Ωgu Ω˚¸Ì<}|t=˜ë±ª⁄√Iº;Ñ1ΩßI£º8∏?ΩZæöºÁö<<˛oΩÿµy=ßÔC=€[ΩY∂™ºqJÒ<OºÜD%ºˆÙº˝)Z=£ ˇºÉ”x=Äcc<‰≈<w¬z=æC´∫óHΩº’f=L∆"Ω‡æ‘<¡ìIΩ´µG=îÏ=0ás<w¨◊<ñœ;4A*=Yñ$Ωm∆ß;g:=4≤ß=Ã¬K=EΩÛcE=√”=ºøÛ≈ªQ‡:ΩDNÿ;t´É=¥LÍ<WõºÔ=¥º-L|=!éAΩ∞⁄ªï@6Ω<∂øªg$=A,§=Ÿt“<û4z=9d{<Çy9=ãlÑ=bê=zhçºÏ°ü=QŒe=´eáº›]Ω∫ÀUΩ#ª<Zh&Ωo+=á∫=Ô Ωr?=G«Ø;Öz“<Bá=•sΩC{â=ä3Ö=‘ƒ=‚<Ωq–Iº$Aº|Æ©º5?=ﬁÃ<9ac=⁄åºyFÒ<◊˚<NAΩﬂ`rΩÇ¿ΩB@=èIdΩµKΩW2=8¯/==2z=Ã´'Ω≈—(Ω=r*z=Ñ∫;=‡„õ<û=Æuì=ˆ´˙º	g†ºhU=tb ΩU‚ºVj=¬=µ=z•Rº ]Q<pîê=KΩÒºEY÷;"7#=}ΩÆˇú=è6Ñº:ì:c„œ∫ÄáÁº3õXΩxg.=G!ﬁ<˙‘?ΩkŸ—º∞ú•=ów.=ï(0=‚¡º∞,çº⁄÷fªw±Â∫o{˘º4ïØ<yŒ«<ùx.<e
+‹<–$ºÚ5‰<ù¥ˆ<™î≈º÷ÖNΩØ∂J=>¸=_dºcv£=g`ºòü^=Iè=°á9ΩÄZ=ù˘5Ω“zõºAX‹;ˆ´Ÿº+Èú=scdªß≈Ï<ËbOΩdT?=∑g˛ª)`Ω\∆<—œ8=¥à=9—Ωã?˝ºˇÉs<(ô±<äY˘<˙Ÿ-=≈é—ªFy4=˚lb=ê˙$ºà≥D=Ùø=êÇ=$„º\T∞º∑C˜ªnqi<TFG=ÖÏÁºÚﬁ=[Ì|º`ïH=cﬁ<˘~.Ω‚˚´º'Ω·±5="ÖΩ†Ú9ü≤º<É]ΩºÏE= ¶?ΩSéº≥i,Ω)Â©ª®VFº!÷{<sö˛∫^J1=$Zò=⁄à%=≈ÅÏªÒt.Ω;b=å°ºˆ¥=ÁßW=Pı=ﬂ	ú=5g°=V5=í~Íº)Íï=≤kïº≈≤ ºo@Å=ˆ_Ä=∆º=-Ô±<ΩÓÀ:<dJû=gÁ<iS%<0˚•ª∆-º˚nW=˛/¶<Ôdq= ≠;ﬂ<-=ß=‰⁄[<≥º?=/L=cí=lLÅ=},∫∑à%Ω¸ßΩ<{”ﬂ;ê\âºN,º9Ï…;gQ=blŒ<–¢åº´ºU≈2º«Ÿ´ºûÙr=r|=s®Ç=mnÎ;˙‰©<Ÿv¯<>YΩﬂ”L<†Yd:ÁÆΩPæ1ΩM*Ü=∏=S¶&=mî=ˆÄºﬁ√ªûÓ˝<FÖºª]zôª∞.ΩΩ;<√s“º7#<Ävô=L‡ºóßKºH 4=U:tº÷s√;5&ñ=Ï=ºÍ˛º¡ƒ≥º^j√ªg≤º~Áº:~=bçπ<ê∂◊ª“.ΩDìëªÇYHºÙ‡ºt–GΩm;ô<òZΩ≤1ΩaÈΩ»⁄,=÷G∫º:x:ºrÅ=}1=tÇ'=‰îZΩßΩ¿}:ºéÚâ=ŒcØ<<WΩÒHD<y,ΩÎì7ºj˙>º…ÕÉ=?˚<U~:“kø<§‰ª™=Ï˝<bRÓ<≠Jºf‰ä=·Óa;≤{OºBöU=õ¯Å=œó=Ì<ı®%ºãù9=¯˛ã=)ZKΩá”Æ;·Ï˙ºUÑ«<;÷=QZÙ∫¥≥;K¬&=p;!`&ΩÜ¬Ö=ÍFìº‚ö·;R÷ö<ãô<€&PΩq7$=˙Oãºˇæ¢ºOﬁ˜<ßkëº∑eºÅ"›ªòEº⁄»öºå(
+º∑‡<ÑÌ Ωô√ºÿ˜ç<áà—<¿)S=fnÍº∂Ù‹<83=®p8=ã£CΩ=,!º%ÜΩ6î¡ºFjV=à˝ı;i±=Vw ΩÔAñ<?˜‚ºeﬂ;=P+Lº¿9'w"Ω‹sà<Ûœá=Hñ=⁄Ù‘ºÓB5<Ì≠;&WΩ¡PÑ=¢Fw<Ú‰<l>©ºùe√ºV#ï<=X¶«<Ç•º¸	ñ=Só:sıÁºŸê¶ºı	ñ=VA&<¡»!:¯îºØËº–“;ΩÖ#2Ω”Ü:=xÉ=ÿ,ë=!˛ΩC3=∞"˝ºN7A=Õ£a=Ä∞m=ÓSb=®hD=JÛ<Å=∫pº±‰=w”4ºU <∆õ=Ωü8ÿªâ|‡ºª}tºa	Ω◊ÇJΩX2e<Ü·W=Òtè=¨HH=Dè¨º«pΩ[1Ò<√,=êÖAΩd∫=saà=€Cã<à——ºGıá=ë ='B?=’¯Ω’M:=É}Ω±ù=∏\UºÌVX=!È„<ÖÔß<B≤æªå=Bñº@§IΩrW9º‹Ñ=∞83ªﬁ_=´Ä†º&Y="]8=ûˇ<¢S¥ºÅ=$ΩD·|<»*Àº>Há=pjΩ;=i™ê=€æ#=≠
+˛<ÈTΩã]ì=î«î∫Œ¡KΩ∫∏î=Ó;ÜºE ®;7ä=bäΩπ∏Ω¸ñ<≥Hê∫ÿã∫<ìd8Ω˘47<˙‹ûºpCæºÈËOΩ8Õ,='™<)Z<Ω¬¬t=ü€<ˇ∏†<ª£ˆºõä<Îdé=®¨V=»b'ΩGZä=◊îl<ú0=Õáe= zz=∏æ0Ω˙ŸÉ=úΩ™Ÿw<˙ΩzOªÇ~ø:ÂÍXª∏™ªè.5<ã´í=îC=⁄iA={Ù=
+ˆ{=\8&:ßŒ<x9ë<—>KΩ^P7ΩZwõ<˜ÑSº≠.4<gL	ªW<K¨8=1ÑÜº‰e=+Qm=◊û#ΩA˙ΩÜ#Ω´QªºySÆºêG#∫Âù$ºIœºuÆXº¸moºhËó=é&Tºd•Ω+∑˘<ú{J:]è`=ê?=Û—à=(mΩL=ππ}=tÊ¡ºÂÏ~=hâX=˙–ﬂ;Ú=√Mbº>>Ωø/‘<∂RÂ<åŒΩå√=U£EΩ[Ç=eHî=u¥<e√‡ºÊ∂3={∂<{Ä◊<∑c€<©/j=usàºc≤é∫öˆ=™º<â€â=›£ºW£	<#ï<πu˚ªÀf=…3∏</+Ω,:<tï<º÷Å±<DKî;áiΩ5-∑∫j ¸;XªK∑ü=Åæ;Q§v=ﬁB=è)Ωj3≤<5%Ç=Â|‰ºÕ¯∆ºE6®=mÃí=MáºÿÎb=´îî;§ƒiΩ¨p<”∫=ˆâ=ª¨?'=ÙäΩm“Ä=úXê=‡@=ì
+É<IÁÒ<N†ΩoÊ∫MH&<6¸òº˙ Ω∑Fg=rñV=H^Ωfñ›<äö=≥=î=ﬁ‘M=^ï=öèºTua=bn=Ã3nΩ—CΩiï<y4*=Vìƒº"rÑ<Uﬂ<_A—<õxŸº››"=æßE=A≥ΩÌu#<r:<UJ=~Zî=%˚<õáúªπ=-~ãº.˛º¸ä<‘yΩE≤π<‚¢‰ºN´<rEí<◊i<¿—:ΩCeIΩÂ.5=ØMì=·éΩ_)=˙` Ω]Çä<yïÜ=∏ún=[¸	Ω´pe=≈PU=Wü<≈2¶=iK
+º7°∫o˙÷ºP¸ú<(˚<Ûm≥<†·ãºGéº™å(=g" ΩÊıe;ôxì;y Öºƒ€=j¶<6ÕÅ=ˆA]<MH¥ºøë{=ÓL≠<tµYºx
+ΩÌ⁄<5˘?Ωƒ∞=PoG=ËY$Ω’°Ëº Ω/ßm=yz{=a—\<èì=/÷º≥»FΩpi=(V=xé=dﬁ;T∞W=û∞3=9T=wqkΩßﬂt=#BΩt„É=(n<;˘ı[Ω\°∫<sµŸªJLΩπiºì¶Ü<˘˙t=ˇ/0ºƒ8=åçJ<¨3<˛j´<(#Ωê◊(ΩìRªˇóAΩ-™ôºﬁM><|ÑΩ≥¡úºˇ˛´∫Ωm™;‡¨º?;î<®)∞;	p˝<\N<È⁄ºR›]º9Q3<ÍÊ“º≠<[G<s'=	yÌ< ∂o=LLg;ª:Ω»'=†ëËºB<~ãdªÂöºßº(*é=}%-=R–⁄<6/î=˛2ΩÀ⁄< m=ˇn=ΩdS=É˜Ω6≤;z'ª≈”%Ωq?ΩùJ‡º∑#/=#[%=¢(GΩ˘f•ºÂÛˆ;¬>Ω´Õ?=ª*è=–eæ<•{ΩoHΩ<á„‰<ºÓP=©ÙΩ8≠WΩóÂ=P˝O<K˜*º
+™}º¥ØÆº$˙=l7º–Q=÷Ö=≥Dú<`ûÿ<¶Õ*<ou=Ûë,ΩøÆ =s	ºî=-ƒ<Ç/ºH'	<ÇV=ﬁ8‘ºÂY∑ºñªõ:Û∞©º°´ˇ<πZ=˜
+È;ÖÄû=Á≠Ûª|º™ºK…ﬂº}S-ΩõÇRΩ\g@Ωöü¸<^f=éF§=ncõ=Í@ä<AÜÛ<≠∆Ω_Q =ÍRΩLb5=AºÍ<’ﬁ!=_h6=&fºﬂWì= ‚=l˜F=]5í<Q°X=∆ôn=c]@=O3ã=®-‘;K=h=\€õ<.*7=·ë=GP–<1Ç4ºî™<§≠=Ib“<ºÈÕªïS\=ÿä1= ‘	Ω÷}?; ∑M;I{Ôº6–ß<8Ñ#º1w⁄º˘Æº“iØºFìÖ=A¸<bÿê=u‹<u5Ã<Ô@=ñR≤<<ªIΩ∫AΩEº”1<Œ]=>ã=ŒEÜ=2®Ê<œºÊ?Ω¥g-ΩÆıº∑ˇ<âG=◊î=¢†<ª]J<;÷mª\∂°:º∂–<„nÙ;v∏<Îvø<\Ò*=Lπ≠-ùºè=ÕH∆ªbø«º=÷ÜZ<û≤Œ;ˆÚMº'r;<¶|Ωõ6 =.kr;ïò6=∞Ô\<E`î<wØ=“â=yp,ºúµk=Î÷=C"Ω÷“Ê<çÚº+¢º+'Üºˆ›€ºX]å=û>$Ωâõ<=	ã]ΩäªoëD<rkf=áâ3º´ƒ=∞Œ<ÓªT=ñ˛o<Xøﬁ<X&Ω	ôΩ5ËÖ=á˙Ω‹∞®π‰r=;Yáì=Öˆ¯ªSMΩù{º∑=o˚<ûs=§úºª{=çDUΩe1=£’ˆ<ç[7=¶È˘ºçµ	ººw–<Ω Û!Ω‡KMΩîêh<¢&=s¯¶<N¥8<ºÆ=.Èº•U•<j~ªqqîºå‡â=øÃGΩÀ&\<$°GΩ◊t<∏~º—»=Ω¶ºMøf=È) Ω˙!=§C5Ωáÿ+=ƒ8ÇºúY<ˇÅ;fn=ßı=@F1ΩC1<öï Ω•∫f=ÏB¥<ë DªAãºï≥=!πºÒ;2=ø¬=èå7=Ë
+Ã<x:ΩÕ¬o=û∂ªLéÄªkOÌ;%™m=å\W=–X|< ó=n<MΩû3<ô6Ω√Î==xΩˆômº‰C=lœÜ=¶ÅΩ∫êÊºBVÇ<E´=~â˛∫Å&Tº™ØΩÆ~ê<]Y='ΩØ®<õ?≤<4,=”–äº…„˙ªd¢=Í˚<à=[=u◊Êº8≥<C£=µ#ZΩ‹ÈA;€ì≈º=^QΩ4c∞ª-öÈ<?äåΩWÉΩGÙ.ΩÃ) =7˙=hß[Ωm;öï3Ω≠p"ΩL:=ˇ*≠<µ‡ºˇ⁄πùÎ';2X©;F&ΩwCΩΩ|=Æµü∫{vã<≤Ω†ï≠<±=gjÓ<éS˝;óñZ=Ú›"ºQÏ};{Q=Ö W=˝dΩL8D='ˇa<©·âºËƒ==◊0Ω•=Í\=Sª]Ω¸¡CΩ¥ëñΩyÎØºÛ ãΩˇºár <æ=Ï‘<;°“<kpà<ñ≤KΩ≠=yΩÈx·ªåR=à«ªiœzºm ZΩŸÕ*Ω?0sΩè›)=ˇ[¶ºPàΩ^@ª7KßªçkêºlçZ<ÃÃ<JrèΩX?qΩˆtQºçΩ•êãΩ∞∏?=‹≠pº≠Î)ΩE%Ω]|uΩ∫√$=,P¬º/<Ω‰ﬂoΩb5‚<ÿzôºaàºª¸Ÿºòd'ΩÊ›…:¨≈!=éò@ΩËŒﬁª”RpΩÉì#ΩÆ5>=5lºªïT=ë+≠ºà∏7ΩƒKEΩjs@=òårΩÆ√<m±«;Hè< f◊<°°⁄º¥ÌÛ<<yΩú{Ω˚=™<“îñºQ†Àºr‰HΩ}∞Ó<¬6Cº“@Bº¿e≤;"◊=èG.Ω√‡Ωzâ	=—Ç◊<∏Ï)ΩFñΩI∞;®Îƒ<˝2∑;i==ÌxΩ„„∑<¥LΩØÇ÷<[Î=0<	-=§UΩ^óâΩ™åíΩ∞Ì¯<©ÏM<Â“hΩ’Ï≠<ÃøH=I#ïΩ" =ˆïÏ9cZªÉF=£xG=£ê<˜+)=-^å<∞b:W˝ÜΩi≤#;3öaΩÍ‘(<ˆjË:ÀºAßZΩãFΩöﬁ=H≠±<˘«<›Íºã©ºVt’ºªg=©Ω»È¸<+	=&∆ãΩ§Ùº¥©≤ºÈÀ8Ωúî<¢ØéºGπ>=èãKΩæ›•<#…ÉΩœ*Ω{è©ª«$(=≠˙≈<X/ΩG&ª\îAΩ€ªüÄΩËº¥=â7åΩòÏêΩ•ñ
+;(µI∫XÛ¨ºà„>=b EΩoïFΩã∂kΩπ∞º•’ºjZˆ<–Xº&6<˝∫Ωv{.=ÒÄ6= PâΩ∂Ÿ’ºw=ÉΩm~ê<peÜΩÁd"Ω1`=¥‘êΩÃ«=]xâªA∫*=ˇ¡,Ω3m=È∫*)B2J å≥<¿£L=ı3fΩút1ΩËπû=ÒlÓºZõΩ`˜Oº*êB3JÄ6©#Ω0ûºˇ¿´Ω[õ=”∂’Ω9y; j=…1<;◊<ít<iôΩM¿ëºÓ`nΩÀ$òΩÛ€wΩtÒ=A·õº¶Õ=sQö=œºêº◊◊åΩÖóØΩëkGΩbµ=¥KÂΩîHöº∫⁄/=
+¶«=˙=ÇË√<‰ﬁ©=ùZg=ùK(=ÁΩÙÚºΩ&-√ºÎ=ªºÈ
+<˘÷XºÕ+?=’¢=Ñe@Ω^ÁΩnrΩƒ`Ω-[Ä=£Ω„÷eºw‘Óºß©óΩhY=	IOΩw ØªÌ‹§Ωù9Yºrp<…%‡ªÄa9ΩH„=ZkΩ—€ÖΩnNµΩÁÛ÷ºπ`‘ΩI˛◊=McHΩÜˆ+Ω.¶í<îÖ=Òüãª3|≥=B{ΩNmÉ=˜^•<B’∑Ωv’ºN®E=á≥=ê<–=õ“¡=°ÜEΩÎ}ÜΩ9%ΩKª¿Ω∞â;Ω·Ω„%=ï_¶=Ω_‚;ê¥¢Ω[X¿ΩHXΩC\S=˜<û8=W*>◊óÅ=€#=Û∑çª'Vl=˜==à˜ŒΩ©qêΩ?˚k;3b?=XIZ=IAöΩ?/˜Ω}¸zª∫AºÙ9.=E´Îºéƒ=OJâ<2˚∏=ëtõΩéˆf=?»<ˇ’4Ωcwû=Xà⁄Ω©Éﬁ=îç›<¡ü<	ˆá=@ˇ“<âêd="Íß=DÇ•ΩÏ\®=T)4ºtGÇºXKŸ<ˆä»=¶¥XΩuíΩvß=wÓ=ΩwÕ@=˚NºÆ™+=˙À=ÀÀMΩØ€BΩ∂sæ<¨ÎÔºΩêIΩ–3æLä=›÷º8U8ΩC]àΩ…t Ω‹è=”qb<ëWÙ=îÂD;]àª°®§=eÖäªxÅªº¿Ê"=àﬁœ=Ω %=¶ì¿=Q≥=„>=Ú⁄]=∞ÀP=îHÿ<ΩHÈ=4Ê=TrF=π>;π†ﬂ=∫‘≠Ω≈ƒ=?üÜ=ﬁc©=6ÔC:≈Ñ¨Ω|∏=†È6ΩEl=yNñ=¥m“ΩÿD_<%Ω©ª=CÜΩ®=-˝™=$fò=+ ˝=∆‚<Îq«Ωt≈¡=˜ø®<˝±/<c"–Ω™#oº$ CΩ%ä>BÇ∆=‚»=ﬂø=‹ÓtΩ˚'Ω8_Ω9ΩΩe∂–=’M=ÍÍ’=]Cù;rc¬Ω≈ºbd‘=Æ‚≥=;aE=ç(∑ºU‚‹Ω‰hÖΩ∏ÅÇ=iH`Ωê3;=›ä#=Æ«
+ΩC˜≤=o`ÿºçMC<%‰ÃºRª”Ω59=ÌßQ=–ˇ|Ω%Õò=À–Ω÷X„ΩjaâΩ¿0Ωù~∑ª$ªLº·Úà=ò%∆Ωñ£æ<äªÙ;+,=O˛=ÃC¢=™®gΩ‹L¥Ωçî§º.≥eΩ3f9=˙%ﬂ;¡¸…=3R=prvºÓ< ƒ= ˝ÀªJÕ”=®í™Ω%æâ=¯ÖΩ¬ëæΩÚ‹ZºgJé=Üƒ=z\-=h^¡ª$Âª˜7+Ω}7ÄªÏ$o∫ΩBﬂ=ôƒ†= €´Ω(ãG<·°ÇΩ†-ºC≠ÆΩ;ª=rûΩvˇ=%«=ΩñΩ∑“ΩãÜ;¢Ω%_=lD®Ωx‘3=…ŸΩû‰äΩ≤åΩ|o=Aö¿ªöüæÖäΩ^_Ωêq¯Ω≤ô <X§&=2‹ºπOΩ
+<ÚµΩÿ%ìΩˇc!<OÌÂ=ò–ÔºÓüÅ=ò“+Ω©)ºº§ÂΩ »=ÌãÏ=)åç9‡ú=ëg…=L∞Ç=∑ıÅ=à‰·Ω}±ŒΩ5˘≠ΩN*=F
+∆ΩˆV≠ΩrEΩÿÆ’Ω\ç(<‘}€<¿œñΩÆ!ú=Ω‰ÖΩÀW∏=›¡ÿ=ÔŸÜºâÕ§Ωe!fΩ¡¯ä<ºç=Àl=XΩP€ÊΩI÷ΩøΩwÙL:üıIΩ¢ŒƒΩ˘’<}«Ω/?ƒΩõ(–ΩﬁâΩ»=A∞%=´’™ºnÓô<g&=•Ê™ªz*ÕΩªÔ†Ωôm™Ω&Íª(,ÍΩg]∫º8˚Ω@>9\ÿ=«–õ= °I<Ωa_<3\≠Ω˘õdΩb	hº‚„ïºË”ΩÖˇj=6z€=+“eΩ˝¨-=#uª˙Ñ;¸?J<é/‡=Î«<\˘åΩhΩΩá=ôU-=‡<≈÷ËªLE"Ω2ÆΩ5◊aΩÅ÷<ÈL%=$‡«=K°º27Ä<iØ™=ˆ.t=¶«Ω<Ç"2=.h<PRøΩëı;<›ïºeJË=M‘Ê=fª=9,Ï=èOΩØoÂ=‰™‰=ˆ~∫;5îÆΩG®Áº>U≥º…Ä6<=á»Ω°G˝<o"Ω$P¨º1SΩ+ò{ºœ1ÕΩOJYΩ"r=zï⁄=Aã>=
+yΩÖh°=óRΩ˘ÉΩ-R≤<å” Ω¬T‚Ωgé˙Ω*jøΩZƒ=@⁄Ä=É†MΩ|àΩËyßΩ=*vΩÚ%ΩM˚ú= √8=ì‚ΩoóØ=yHéΩ⁄1∏ΩuÀˇ<-íkΩcT`=d0=Î,.Ω/ÛxΩ5~=æΩsÓ>ëHΩ˘í=_+§Ω*æåΩe?ƒ<“3j=Çî’=h‡=õ«<4∫Ô6ˇ<~7kº1Œu<<TÀΩ«ˆ§Ωıq√=πÆ`Ω>)·=˙Í<†3=A˚=∏ì\Ω÷áºŒ≠=”{S=~ç‹Ωdk=ÒesΩ%Ä√<∑=F¸ªÏt∑;·ﬁ:6ñ‹=øõ=~Ì<Ip}ΩhtdΩÌ–”=™¡=»èü=¢¨ΩÅÕ=Ç?DªI¬=l„=ÆÆ<7¢EΩé‰=jyΩ+é=5òˆΩxﬁ6Ωu$÷Ω∂ä\Ω⁄L=L`πΩ+ãÊΩŒ«û=ëi=¢º|πΩª‘Ω√ô3ΩP¨â=ú(ΩpFΩEhßΩ8CsΩÃ'Ç=∫où=¯So<)¡4ΩåmÍ=6œÖ<⁄]fΩÔSNΩÁÏ¨º$÷G=B(=¥òß=ª:)º¥¥æ=&‹RΩÌApΩf≠>Ω°EÏΩiÛ®Ω„Ω¿»!ºV8˙∫Î]Ω
+I¶Ω®;Ÿ=Ô‚&ΩÉz_=Ï•=∑£ΩêàÇº¢>ä=¿Ë=ÿZÚªUæ=Jª¨Ω˜?åΩ¢x◊=œîªª >èí<È† Ω*)B4J ¶Ë=£2Û=,Uñ<~liΩw,8ªî?ΩÔS·= J<*êB5JÄ?úà<˘Hñ=∏MB=n™ΩMm⁄=c∑¢=MèΩV≈=t&=„˘ºÚd¡Ω® £ºD|˙ΩE≠Ç=∫Á¨=sΩÕá˘=H{Ω ™≠<ˆ*≥Ω—éº QW=_XT=âæMº¡¨SΩ•Æ∫=OOì=±<A∫ÜΩ±º=<M∫≥<yæ‚= ˆÒªÚàø<;;,=lá‚ª<Oﬂ=cùä=â†∑ΩŒ˝<∑Ü¿ΩÊ—´Ωl@ˆ<¡lë<¿!]º—hÎ=ÎäåΩ⁄Ω¶¯◊ª@º=‘P<~‰ˇ=kçaΩàPåΩ!BB<ñ?‹=»x<"“ê=¥»= †¢=ù°=»-∑=7ïº;æΩà!àΩôÛW=ÿÙ∂=’√kΩ®‡=q˜!<Ô<<º‘√ê<-UºG˜=Ì-<ƒ≠à=7X·ΩáµâΩ§.<àœÃ=<aÉ=¸‰ =”¢ÿΩ£8<4πáΩÌ≤Ω•ﬁ<Z2vΩŸd˙=˜ülΩ”ä;=5)¢=Ü≠Ω;:ê=u˘(ªí=xò>~ Ωﬁ;0ΩÒÊ€=û,⁄<èÖ<‹–Â=“Û#Ω€ò<«”=6r=e¯èΩˆ-=T≠ΩV˙fΩ§µß=√ºÌ≥NΩ\vx<ï=¯†áΩMkíΩJˇ’ΩUì=	ÏàΩf¸®<pàº_xÇΩ∏o±ºG9òΩ öNΩë¨;iã¨Ω-lªΩåø=·êL<éÌTΩËYgª~<ƒ=YµΩ YΩŸÓãΩO˜˚;^.<Ö∆≠ΩÌF∫=]»¶Ωπuˇ=¯≠ÅΩí‹ê9f{=C4#Ω¯Ëˇ=›∞úΩÛ˘<2ÂüΩ™x=N·=òR¸=V0ò<N§LΩ¢_>àt<E«∑=bì8Ω-rNΩÏÁøΩÙﬁÒ=˜Jª<x!§Ωú™∂<ıV8Ω$g<¸éa=®íÄΩÔÁ¸<ºÃ^Ω√&=*?…ΩÍﬂ=Nò>sÅ˜=yI=ûÌ¨=j¸=ê|$=¯Õ==Yöº<≤…„=Ûû‡=ÛóFΩ;@‚:…wuΩÛÌ8=S≤⁄Ωÿ…*=j‹˛ºπ'R=∫∏$=,µ^Ω±íñ=íä=$A≥Ω}ı˛=0=¸=”ü=è(èºb2Y=-†ïΩl≠kΩô‚Ç=æG|= B=m'ÕΩ«õﬁ=˘6ΩUÎ·=Cÿ’=”â/=7o>îNú=h∆£=£∆	Ω¨ÎÂ=b=fê=>	ÔºÿØ=™=ﬁ=”è∂ΩJ„«=«yùΩ:•ΩT√Ωã=¶∞Ω+$ΩÑ'eΩ…=àÈΩ÷PZΩün :_`T<M{LΩù;=Ì˚ñΩNÇ“ΩÆt•ºçáΩπÕî=B7ÆΩZûºônL=ÂèŒΩùú¬=€ˇPΩ[Ω‚ÑΩzFΩ€"Ω£‹‚Ω{.==H¥;ï-˜=º4•=P–=ô¸=ﬂ9a=2¢‚=∑3«=+¿Ωb—‡ºo‰Ω{<oΩ°Ÿ=*"¬<ÅH»;b$§ΩìÈ±Ω\µ≈<Ò˛YΩ®EΩpæ∂=æaΩÔ;ΩÜ?«=ínW=¨üxΩöE,=Cá=Í ˛ΩuoY<¥n©<≈6º1Üﬁ=ÓZµΩÉHu=˘öåΩåﬂΩêU¥=O@bΩ”‡;A|ñ=∫Û∫ΩVÃΩöùU=≤Ï=f~&ºÎ¬=ßa= <=ÿeÑΩÃ0>™á=?Œ<ª·¿=\oÃΩ4É=èDΩón>º$¶#=,÷Q=Ä’Ö<Ì9‚Ω1Õ¥Ω7T¥ª’ñ‡ºæΩìy˚=∞º<+ßúΩ’H=ÁNm=€NáΩèƒW=£†ÉΩ¯wj=õ>`úΩ=Öﬂó=!Tº=ÇπK=j.=‹ÓEΩÁìÄºµNqΩ∞q–ΩOº˛ΩdVπΩB÷«Ωƒ‡>ÆYW=ˆLÂΩ!ÈÉΩW&=,T ΩØÄ3ΩΩ>3Ω≈Ú∂º†ê<	hà<å·ê=l6ç=9È∑=Ù◊Fº^ÿqΩmiœª¡™Ω€G3=#Ïìºi∞ΩÃk¿ΩÿÄ=ÿí=±FÎ=¬˜ΩS++=Ó´N<ÓäΩ°ØêΩ≈=à=¡DvΩèƒ∏=í#H=?˚G=Bƒß=ﬂ∫Ñ=/o=•ﬁä=˘Ö3Ω2(xΩ/¶º¨ç='˘™=Ó¶=&o&Ω4ˆâºC3óΩ¢“¢=ObìΩ˚Ñ(ΩÁ,÷=u=.Ω«íΩpÑóΩÒ««=Êì—Ω ¯›=SG»= m<.Îò∫,¡=ím=B Û=àµ=À≤Ωâxã=/¯B= O√Ω¥]c=ä/ñΩΩm¢Ω≥â< °àªˇd®º¨$ãΩÒ@ñ={5>-6õºlÁêΩpßb;\C»Ω"”¿ΩàËﬂº` º=ºàéΩQ„ë7◊*Ω· ΩÙúçºéí˛9/º/*»= Th=6Õ∞=_¯h=Q®<Xô=]ñáΩnfà=À§ç=Eø'Ωc;EÎ£ΩÚE≈Ω…•ö;·=Aóº_)= ≠øΩU˝gΩÏ. =º3›Ω!†Ï<+”=Çé‘=˝÷[=‡TŒΩ!â6<EtΩP¢·ºX‘À=huΩÊsΩΩaµΩÆüå=˛a6:à>±‰=Á˘”Ω3ô#=†‡È=L©ó=â?=ãD¨ΩÉ—çΩp⁄=®ŒRΩ÷ƒ/=¸ïp<Ì®Ü=πÒú<Æ~Ω_‰ŒºcÌ›=eCß<ﬂÀq=}pΩ◊%…=¡ÈŒºBÌ"Ω‹‰Ï<ç›Ωœ◊+ΩIcÌº{ôºãb¶Ω'Ì˜<†éÎΩYí=ePË='g¢<;ΩÕ≈¸Ω)’(=≠êÆ=JÉ∆=3·;!‰=wWÙ=êêπ</qΩÛ#æJ¯ =’?:=√åÀ=◊qΩÒvo=;ΩõwΩß)ç=ÌÆΩïπ‰=ô%õ=±IΩ|i°=Ô∑êº&*F<v1Ω®Sæ“÷ªÇ=÷Œ√ªcãQΩÁ‘4<Î‘ı<5?◊º1è…ΩFBêΩÆëΩ€)=Ÿ∂ÿ=ZÒâª
+-=0•õ=önΩôí-Ωó®•=∏D¬=’{®<*¨‰Ω6P=‚¡æd8ˆ<Ëÿ¶∫0á<ì•æTÛºÀy=B¢‘=?üfΩ©Y™=Ó64Ωzö≠ΩÍëÜΩLµN<*)B6J π˜Ω 	É=é™DΩ∂ÖŸºîÒΩ%•‹=Wﬁâº¸ˆ≈Ω*êB7JÄÒÏªp…≠;=C=hµ<º®=¸úΩÜTΩMÎº◊„<<&≥=ç"%9Â∫=)¶–=Ã˚1Ωß&ñº‚-WΩkûI=a¢ÄΩFI8=Ì3)<uù£ΩÍÑΩw`˜Ω≤◊öΩ/˜9=¿()πW-µ=3ﬁ‘ΩqnøªcÓΩB"ó;	=◊ô—Ωe-∫=7ΩaÇœ=ùåœºÏ_Ñ=M≤÷=G8ΩÉæº¡Ç=.∏ÀΩ£`ô=EïΩ•±ÿ=ÌúΩñ{GΩR≥=£;ΩXê’=∆«¶=‡o‚=M”ÊΩÍ˛ÊπKbDΩµ|»<ñ≤ Ωº’=oÚª3+äΩd
+–Ωc¨=%-Ω,Ë±=€gì<°=4=√9Eº˝âºórΩ¯Â…Ω@ö=ùÈ∫Ω\©ñ=	æ‡ºÊ‡ä=uΩ”=n•åΩ}—Ø=‡Eô;•k¨Ωp:=KSã=±oˆ=sÑÛΩ(a>˚Á…=”
+˜=π–¥=”≈ÇΩù2µ=§π>&ΩR°÷ª$-ı=Êë¡=–Ú∫=2À=°„§Ω:[Äº◊h+ΩíÜl=›G
+=6CØΩ8ôºìÃπΩS*ÔΩÑ’Œ=•!ñΩ≤@N=yåºÛ¯ΩŒá-∫J=–=AcÕºØë”=w †=ÍÈè=9∏ﬁΩ”ñ<ΩkÌ€Ω≤û”º“»yºò<êôÂ=\p=öÎΩ°Ë†ΩìÄ•=Ågk<~˜}<´oÉΩo‚˜ªæ¨<uùµΩ∆nã=¿çà=\ÍZΩ˝∑RΩ%ÔWºÁüÂ<N Ω‰B>ÈΩwøóΩñ¥°Ω$ “<=˘!< ®"Ωsﬁ=éﬂΩ».=tIéΩF˙ßºÎÕÙΩãí•Ω_πªΩQê8=±NΩ	”c=ò,lΩ+õæº ﬁı;IëΩ=2ﬂΩ"˜{=j◊<'≈Ö=&≤ä=+)=t◊+Ω êΩ})=œur=ÑÍ:º>Ú~=,)ÖΩ’ì=òJºtº¥ΩUΩÚ ≈Ω©î=ƒlôΩëΩ&ΩÀÒ\º„°Ωm¬^πü~™ºÊ˙<‹ﬂ±=5küΩ∞ml=+ºëCóΩÛ‘eΩz˝<KêÙ<:d+ºJﬂÜΩ∏i=π§<Ø˚ΩÁº™ÿΩ›ılΩëûîΩ£—“ΩŒr¯=ÍÍΩ8˜—=ë/ ΩΩÒΩ≤IeΩçNéΩÁ´D=‘Gñ=nŸäΩπ()Ωä=~=7≥Pº‹Z)=‚oò=™B$Ω<äbΩ∂G=—ÎΩÌföΩ ü]Ω$/RΩ ⁄=ó,ÿ<Äl=®‹e<:uÑΩT§Õ=ø“∏ºÎâáº[Ã‰=Ø}VΩÜÓ<é◊¨Ω´n•=éËQ=V5„Ωôéå=Ï¥ü<ÊªÖΩµ°ﬁ=<n=â¡k=Õ=˛ºà9iΩZ@VΩ∫ıe=Í/=¡ôÄΩÖhÏ=U¢=H˜"Ω>˛å=æ*2Ω˚€?=–ﬂ=’®»Ωü‹YΩë∆Ä:ú<‚‹ªΩ)èΩ]ô<äkºÂ$
+=∑=Î =äÙ›<∫=øb’;Û≈q=(ˆπ=Ü|2ΩAºbΩ.k=ÅCòΩáS´=Ω◊h=x$À<]Ω≈âJ;t∏∞Ωπ% ΩËòﬂ=õl›ΩıπΩ÷&ΩW¸<+Ò= •oΩ∑>çª§ÇΩá‚÷=ñí€=á=îÏ;‡v≈=»ˇ≠Ω9˙|=äòuΩµöÃ=ÏA¿Ω’[=ÌîπΩ˚’õ="IŒ<Hhﬂ=Œ?¢ΩN3™=ìmìΩŒÃKΩƒ>7=6}º'ù–ΩGŸΩ*Â—ºO7=≤†Ù=m—=˘¥ÿ;Ò~ΩøΩﬁë„=†ìqΩ=ÄºçO¨ΩlˇäΩ?ã=jæ⁄º¬≤ö<d<l±c<RpzºRŸ∂;‡î=QZÕ=¿r >—ã∑ΩD∂∏Ω=^ôªä¯cº‘Rò=:#Ï=ù65=…—äΩ›õÒ:
+®=◊S=£©õΩπHO<óÙ€Ω•-Ω“Ù∂=œË5Ωhü=nÏªΩìﬁ=ó∂h=e`•==e”<fΩ%vyΩµH»ΩXvø=!B/Ωπ≥Tªò2˜ΩC¿´<Ø˜HΩj¥Ω4ﬁ¶<¢C’ΩU∑ªìù∫Ωıü=V⁄¥Ω˝ä¿<4y=øh≤Ωi®=$¥–='3áΩ;qÅ<Xã*=w~‘=ã: =-ºΩ∞πΩ∏ßÀΩÍHΩµéîºπ≈$Ωjjõ=_h±ΩE2–Ω„«◊Ω˜òΩà°˘=≥à¢<ú`Øº`ΩΩ‰xÃΩÏ Ω6≤o=ôí=	6π=[5b<{ÄΩœjÅΩ·˜=<Æ“ΩÌ=√ï∫ªkõË=Hú=3DøºgΩΩ~áØ<9,•Ω‚Æ^º4d=óe=q¬Ω–%µΩ^nËΩLùÁΩ¥eÿ;'®Ω]™: íΩN3§ΩßQò=~P£=˛¢’=åı‚=•°†ΩëkΩ4ù£Ω%yñ=œ…Ñ=Y¿ß=rÜ®ΩÔ¨áΩ¥∂˜=Nﬁ»ΩTJ∞Ωo7=›ò“ΩëΩˇÚ1=CC =z˛º•o∫Ω(#ó=)¯>=ißΩÖ±Åº]≤≤ΩÌkÖΩw¨=™ﬁZ=8?=ZØΩÛ≥Ω˝†=µ öºeU-Ω/ÌñΩŒæ’=WáŒΩ{\»ΩœVû=I¿™Ωr;Ç=:$ñΩÒﬂºŒãΩÑx¥=èB¶=N<‚ªÈDΩ`ñJΩ˘ÕBΩ(~¯<Ì∫èº€nõ=T©[<õöuª€L¶Ω¢=œ’ÛΩ&ã∂<q°=W¬;W∏≤=›§Ω<ﬁ–¬º≠∫úΩ_Z”Ωí_è=Úä=&ìΩ/=√cΩkD⁄=CΩ∫°‚=ı‰Ω=]ù=)Ø=]2-=ﬂ•i=j˝√ΩtÎºÛîº:Ç=∫Ω|•ò=k
+Æ=pÔÄ=ÙU°=¶¿ºﬁg=ÇOΩ§Dª=ë.BºFFª√ﬂ—ΩÉÂÍ=-YººÒ(•=H[òΩx¸∑ΩO2ºÌ(©ΩdG=ÉÖg<'!Ω?≥=Ü´ï=Œ&œΩ˚ÆÆΩi⁄£=ÁuΩÏK
+=ÙÆ®º◊B=@JΩ∏⁄ºû÷\ΩoYCΩvÓäΩÇ ®<ï5∂==#.; {<”<‘=wŒ=L*Ÿª^xøΩ!ñ$=pm-=Æ5£Ωƒ¥¡Ω≈C∞<˚	>*)B8J œdƒΩ	@IΩNª?Ωùi¢ΩÌœÉΩÌ……=sÄ√="Ã¨Ω*êB9JÄøWºÌsøΩ ÿN= Ù∫Ω˙tΩ_ Ω{t<KTñ=´îÄΩ∂K=˘2ø=n∏Ωµ?≈<˛»øª≥‹ΩÁSå=íN$=Â¯øΩΩy⁄=À)õ=•õÀºÂÈ»=“Yü9p}ç=∑∏ŸΩﬁÖÃ= ÿ=)1∫Ωey¸Ω!ïkºÂGdΩ©8∆:’¬ﬁ<ÓÌk<P7=X{˛º)EOΩIŒÚΩ!±	=*dæH5\ºΩ^=Ìï°Ωv˚<\èN<πÕ™=ö®z=ÌÇ÷Ω ‰¡ΩOÄ@ΩÜãªΩnÁ)=qπ©Ω‘¶Ωq.=}ãÉ={XLΩÇΩÚΩ∫≠¨∫Tïj=¢=-“›∫P´=ÌƒÿΩŒ»≤=ﬁÃ≥ΩÈìΩ˚ÛÇ=˝’Ω∑Iw=Ùl“ΩÊ~∆=yÎ=:-=}ë—=Ût´Ω‘ÕªºjsE=—-å=LÕÄΩDΩÆ={$ΩâXΩ,†$=j2±Ω√ù∞ΩMœ]=ΩqA=Lk=•ã´º˝≈•ΩU·—ΩTÛ=Ú≥‡ΩΩ+*=YÁ∂=πƒ=\∫çΩ/€Ω©éËΩ›òÅ=ô∏Ω
+ÚΩt†∏ΩUhÿ=≈ƒ=Bå§=Õﬂë=N“sΩ§…ÉΩlúΩ…=•*Ô<ñëÆ<JeƒΩôV5;‡HΩ`ÌºtòÕºOu<∆é»ΩF/Ÿ=√ª8ΩÈ&=9î†=•{K=D`≥=‰Ö=pï=u\–<àJú=ÒsΩ£zΩ¸ÜN=[H<Uí<fïπΩãª9=kÚÀ=∞·mªxö<z≈h=-[æo¬ˇºÙ‰ÔºÖ¬ÑΩ´wí=†7¸=òõ<ÕÅ¢=ˆ†™Ω˘å=Ó';‘J¡Ω…ÿã<rw|=x#îª}¶ë=∆°=oÍ˜=ÍT <ˆ»a<∞Ω›ªŒ›«<”Z£Ω_P„ª)FÿΩ¢*òΩ
+„ÿΩG.√=]®ìΩm3+6K;˚;äv∞=ªP<ŒmΩ™-˙=aO	æõìH=•˙=VÅ›=˘ıΩ–ΩÍB=∆êµ=k¸ÇΩªÓÒ∫Œ$WΩ« É=mÉ¸<ÙÑ=äp9ΩgÉ‘ΩﬂbΩ¬ªΩ6Ω@:-=(ùÃΩM,º_lﬁΩA˙ÅΩB[òΩıo„ºt#Ω∆=¶≥ß=Ûú•=πX=ÿUß<LÂ£;¬êÃ=h’NΩq3∏=~∂ÏΩ´Y©Ω3¥˚<∞PΩ'-¶<º¡‹=∏NW=%=6ª9Ω›˙^ΩÈ*ºõ©ºÈjTΩá< ,=Ÿ}Ωb¶ò='™O=nVá=å¿Û<≠‘HΩã‡Y=ﬂ≈JΩ3ıÖΩÅØÌ=öÇ‘=U@πΩ™–==aÔ<ˇì=≠Ω˘=±(ªËîXΩ~·’=§uä9‡Í^Ω–Í¥ºZ>X=Ã·ÀºﬂΩﬂºJ≠;SnΩ˙=Lß£Ω ‚∫Ÿ1ºè/Ω‚Ë=4=wSy=©∞Ω´•-<øÿ<)˘Ä=$¶÷º!Æº>G¿Ω>Ç†=ó:ì=RóB=ßó4= Ωl=Ú∫ƒ=sH <8T=YN,=eéΩ¡ÿ<Y¯=ârπΩπ◊RΩ¢ÕïΩ“ÕìΩÊZ∏=E≤ù=3®áº?W=kÿÒºM€¡<p¡øºnΩnlΩ”ﬂ–=“y=âñOΩºoª5qıΩd>àº&Xå=F6;h∫•<ç®˜Ω’Àº*‡ö=–˙øΩ?„NΩ˜Ø=c£!=7/{=◊ΩzÉ§=Nn¸ºw‹bº“ê=ÜíõΩ¿h∫6”æp#·=c%ö;˛◊§ºõzHΩ«ng=˜qΩúπ‘;∞}ù=ßÜÕΩ~Í5ΩfS<ÀªGÂªxQæ=WΩ#n¨<'4ä=£åfºX•≠=…)ö=∆∫|=K±—º∏ˆ¡=sõµΩ®·À<ÉzRπ]»y=ïÙΩ|pÍ:'óΩU_e=í˚<?ÙÍΩù,º“àB<¯8=œ"¿=)´C=—aÿ<Æ>r=`…ÂΩÛ·©=\îÄºå=Ç =Ωù„ªWD≠=
+äΩ%p=:É=¿«Ωá}?=ö'·Ω|Ω˘Êu=Õ}=]÷‡Ωƒ#@=ü)è<Éé˙=FFﬂΩ¨N∫º–±uΩ.ÑÜΩﬂQºü—Ω6Á≤=bΩì∑9=fD2Ω)gÕ<°/ÊΩnı=érÌ=Çy=≈≠-ΩõÅ=Î—≠ΩÿÑÚ<€Ö»ºπúœΩä4‹Ω»
+˜Ω	 Î;2tΩ∂JΩü´Â=uAΩÿÒ<?ÈŸºøù=ú˜5=Ø=Èäÿ<Q˜*Ω,»π=Ãœüº≤8∂Ω`Ç∫<¯ËΩ„‡ÍΩGx';\t©ºV÷ÅΩ#øòΩUWGΩ⁄ßΩSE-ºáø=R:»Ω˙R<ΩjïΩÇ¯>ªÊx;êPöΩ%|\=˙d›Ω Ê=kU∏<Mı7ºÙ·:Ω™’=I´=·b•ΩºÑΩå∑=lººùEªΩ”˝Ω∏tmªËêº∑a¥ΩB,çΩÓäÀ</Ω∞=ˆ‚Á=Âqhº[ÕJ=&ŒΩRPû=ÿ®>x¯=©w3Ωl5>cFæ∂ºΩΩ£‘:ûÍΩàÖΩÀê√Ω¯J=‹∞:Ô¸o=IKoºòrı=¸ˆÏ<_®∏=•µ=oø€ΩOîΩü=*Ë=%ÿΩ>√ª«ˆbΩr‹=éaﬁ=¸œ=⁄ô=-âÒ;Õ∞˚=¸
+Ω¡Úº<±≠ºâ≈»Ω;pΩ¬Ôs=Ô|dºrGzΩ∞∆T<JÒz<!ªëΩ0û=§æÒΩN+ãº™€Ωpµ˜ΩFµÁº)‹≈=ÿH’=(º=ıß=bK†Ω4•Ø=7ø™=s“ÌΩ:	∑ΩÇ8&=z%“;NÌ≠Ω‹1∆Ω™Kæ=Ëë›;!ë∆ªıΩ¨t«=êÎçΩÉ1>=b»‚ªΩª›∑Ê<qâ\ΩdL/ΩM:›=±øΩÙJa<~π7ºÿƒºπiI=´ˆ<} ˜Ωmˆ‡=7óΩÑ∏=cÓΩÂ÷»=7ms<<>Ω1∞b=™ Ü;wÄΩÎÏb=v≤é=8º∫—=ˆ¡P<,MmΩ;˛zΩ$<¥=,iΩÈˇó=ıµ‰Ωê»•ºˇ ÿΩÊ\É<˘ó=å÷[=Ï]âΩ§+æ/áΩwé¬ΩÚ≥=SŒ¶ΩJ=`‹∑=**B10J ˚˚<FW“Ω˛ı©∫@Gπº”’ç=Êô:|„èº|è…=*ëB11JÄ¶âa=R-ï=SNΩ€Ñ∫=‘¨˛<aì?ΩC…:!¿ΩiÔ:öÎi=K|‡ΩœâΩóöó=«ö9º'›¬ª,Øq<eIrΩy	”=RÓ°;∫5xΩÏ>=#aæΩ≤{;Ω_p¥ª#LΩ èY=\ŒΩ]EöºÕPnΩkÿø=§ot=8p Ω≥\
+=‘ßa;ï°÷=áxÑ=„ƒVΩ⁄íı=±ó®ºÈ≤ª≤b= sÒ=KOC=<∂ÿΩ¨ë7Ω≥P>FŒØº_”SΩö’ôΩ_AΩıÉΩ	9	=≤†N=ΩÂ⁄=ÚÊa=1M≠ºüé=ì;@=⁄P˛Ωrˆm=UÆ÷ΩgÜ™=KﬂIΩ\CP=+˚∏∫_™=çrC=€ƒ≠Ωçç=U∑™=œlûΩË7πΩm<|ΩÃSCΩ–πºÚ•Ë<AQ<æΩ∆À¶=œÛ<ÖÔgΩıëÄº±<ÑΩóúIΩ3µ—Ωêõ∞<áY∑Ωâ]=a‹≤=ºêΩ ¥6ΩF†øΩBÇı<&˜Í<ìºåΩ7ä¢=m^=BõÿΩ <^¿0Ωdüº{,Ü=„º”l´ΩJ√±=0" ΩéSΩ8∞R=df›=äº¸=¯¡≥ºÉƒR=‚˜¿ΩVì≈ºÆÿœº—V/=W‚öΩNÙ=ë=…B≈=c}	ºªÄÔ=ÒÏ‰Ω …Œº¶3a=˛*=0)=iÛΩΩ<eá=˝ˇæÆ8¬ΩJû$ºu˛Ω˘ÊΩ‘…›Ωﬂ¯‚=ûC=TçΩ`≈Y<”ﬁΩ°√ÓΩÉ÷ÑΩùÎΩ@•=€2mΩ1Ö;ΩüÂ˝ΩÅÑ-<Î≠óº◊©∫Ω¶=ﬂE¬=ñÌ∞ΩÓÒ∑=ıÌ/:Ë·<M™ë=#ó®9JÏ=ëb∑=Ö|yΩugΩë“ΩípL=XFùΩ∏#≈Ω|∑âΩvƒÿΩÌ¡Ω›a‚=Ó˛ô=(G¸=Ø~/Ω
+;Èº¡`ÕºÉHÉ<¬™ëΩWΩ√<?•åΩGa€<ûô˜=ÙÓÕ<ßö»=≠E¢Ω˚/Oº©qΩΩM%:;{ ΩÏv_Ω=ñ›Ωí
+ΩZ™∆<Âˆ”ªõ¿ΩÓ∆=]◊¬=53Ω†®<8Õ¡=ø<ºΩ¿≤ΩáÜ=Ïf<¶‚?=DªqΩ$?I<è¶è=ÂΩ∏x2Ω¥aıΩˇ"ΩH‘f=ø+ÒΩrr ºº›î=§Ω¡ã4Ω>À$ΩlFÄΩ¨Èú<◊–ÁΩÈP	=@,”ºÎ2>ºæ´wº"éú= ∫íΩèﬁ·Ω-wöΩ≈Õ§ΩÚChΩ ƒ=’o∫Ω`]ìΩG&√ΩÿoÇΩ‹@Eºh6ñΩd\º”v=∞wüºLò1=øõﬂ<HÈ=NKQº£¡="Q±=∂ﬁ==∞ëu=y»õΩ–›®ΩﬂÁA=Œö6=›û÷=Ÿ]øºTSîº!§=\|ÃªaﬂÓ=6–jΩ· 7Ωø€‚;z=WÁΩÓBÌºÇÆ=8]s<∫¥=<òΩb§Ω˚6îΩTZΩ˝ÇîΩS8è=ﬁ:D=@nfΩO! >ßÆa=Ç|=Ã¬hΩöwè=À◊¬Ω◊á•=ÑﬁùΩ2»=áÏ5ΩÃ$á=ÄÙ⁄Ωâ·º–P‘º˙4jΩ…
+lΩïØ Ω ±Á<Ù≤ƒ=´ÚŸº >±øPΩNoΩ~C<|ø·ª÷·2=\ÈÏ=r≤.=Ml¶ΩKAΩTœ…º‘UµΩ+A=É◊=T9¶=ôY<<¨»≠ª(\7Ω1·I;&-÷=7õKΩ@ˇ<˛Ñ¨ΩŒVùºR¢<b¥Ω5B#=Áõ≥Ω†U;ΩÙ¶=ÆÙÛ=◊Jº#ÈØΩ÷I≥ΩYêºº-À]ΩÆ‘=—?ØΩ`&è=•üˆ<DΩ”ﬁ√=—»ô=E7ô;ùHõΩM÷ºpn7=⁄˙È=ÔåΩ»"Ωˇ¢ªΩÅ•á=ùÎ›=8sƒ=Ç·íΩ'V†=±NÙºj*ê=Ñíl=6Œ∞ΩÙ-=Y#<=X~Ω?º˚=æ/ =˚È=˛à+<X®OΩa
+WΩx3=»üàº¶Ωœ=rl≈=f\h<[»µΩ)∑C=jm›=ß”º	ÜΩå¨–ºôé<¬°ªΩKñ=wkÅ=6‰/Ωµ∏ıº)LΩM?µ=ûÖ•=ø{=ÖÑ º•†=Q€¸=√Ô$=µYQΩÌ&N=U∞GΩ:5ù:)ÖùΩ@ú⁄ªv‚<FÖÉΩÊ1Ø=<RË=”µΩT›1=ı˙úΩj˛fº{&u=&œ∏›Z2=≈°Âº≈“Ó=çk:ΩShÚ<@Ñ<(A¥=uÛh<Ω^ö=zÔﬁ<ôGù=–ç.<lx=Ëˆ=â•ΩÏ>eΩò:∑=0]a=® ¿Ω1øa=SÀΩn˘AΩ’iR=?°=
+üº[U√=ÄæÛ=˛‘¡=Ω7…Ω≠í)Ωu%<÷˝œ=πºå’<Õ†ä=™lÅΩ&&©Ω =ˆÈÅº7¢ß=?æ `QΩ=`õ=®ƒúº^I&=S$ªΩÁÅı=VºmΩ	√;vòΩ¨†nΩ+ﬂŒΩZÇ·ΩJÅ∆ºq5Ω=‹±=èvi;ÚÏ…=ÉL¥º’MÄ<Ií„=¨ô≥Ω∫‘FΩsbœ=kå∆º∞ÍºHo><'FèΩ`)∫∂iΩ–j(=ƒ£±º5ïΩ9(3ΩÏ¢
+=¨2z=6ŸΩ Ö∏Ω´ÅˆΩ|q=ÍÎµ=™ÙΩ∑Å÷<7m< ∆óΩK’<H∞=ÉrÕ=®#=-ØæºåFÖΩ;ÇΩÕÎ9S?öªòï¿=ﬁÁΩû–z<·∑Ω å=ø‰=#ìÜºÉºÂª ÜΩπeæÔÂΩ%Zi=*.≤Ωò“é=Ë>Ω' =DÖ§=4ó∫Ü˘<– ©=Ü¯uΩú=6yªΩ=≈=Æ]Ω¡Ñº≥Ï#=îåBºGM±=ŸâóΩa[ùΩΩ6ﬁ=M'¢Ω>wÖ=Ê4⁄=zw=—ÇΩﬁ£EºŒ⁄˘Ω•≥ôΩl÷ÊºQ»≠Ω¡m=)0ñ=ÖΩÔ€Òº‘Û˙=ÌΩ'ºGû©=œ‚=K÷0ΩΩÒ˚Ω∞J˘=¯≤nΩ„K»=I|îΩı˝°<Ôı∑<U-Ωk}û=41—ΩÀffΩóÔıº®[€=m§0=M—¨=Dºt=leœ=
+|/Ωœ„AΩRf,;tÒ˝<·WΩ‘ËN=a#F<l•;**B12J π(◊=fÔ=jø±=ˇÖ'ΩQj÷Ω6È≠={∂j=Z^∂=*ëB13JÄ"T=î<"<»1™ΩHÊæ˜=_˜Ÿ=MªÚºä˚ÿº‚Õë=¨“tΩ
+≠=q∂Ω˘Ω@'JΩÑ§ºﬁ,=‚√Ø=/oóΩ°ÛºÙ2≤<&œπº¿⁄∫Ÿä=≤~EΩpòâ=<bΩ=é-=ª3ΩØjâΩKﬂvΩ\ΩÅ,9=Pÿû=ED¥ºüıÒ=Ù6Ω†|Œ<UgøΩ∑&Œ:–¿ª=Ÿ<<£æºœëΩbˆ˝Ω?ÖÙΩíÃΩÈìô=©ÎâΩ’Œ≈ºëçÔΩ»«=ΩÍ,Æ=IÊ; Ωh˙ë=øÿ©=_≠®=ŸôΩoZ”:æòΩãµΩ<˙™=´}ΩUΩ7Îm=…Ñ…=NÛÂΩ”íΩ∫⁄OΩ<í=Å{=∞êó=ı‹≥=πA‹ºhƒ=v]Õ;õy<Õ2—ºàÊG=lP=.ºP‡=3È≠ºÑ=.?Ú=¥2ú="„º•‰~ΩV/∆<I•Ü<Ÿıw<j#©=V]=ıû´Ω++–Ωx6’=õW≈ªN∆
+Ω!¢ΩZS˛=¡ÏÑ=Ω–âΩ◊Ó»Ω€^÷=õƒ}=
+‹*Ω&¡ΩÒsƒ=]èΩ§ı^=Ÿ‘Ω˙=ßΩ¬›ÚΩk≈€=dl¯=aÒΩ.…í=µÑΩ€ÃΩè∫u=⁄9†=I≈ö=À?‘<e˚ˆ=òÂ«Ω'√p=éıΩ∫&y<1]±=&òΩß≥=!/Ñºq¿Ø=Õ?ÏºGÑX=}ˆ=ª&Ω¥%„Ωè|>q≈NΩdÅ=Öq§=ˆ8ºTØ”=VÇ∂=àáª\6=ß(=í4>ƒpò=z∏cΩà∆ä;Uãr=TÙ=‰è6=§∏Q=°ªj;jåXºÁéºΩÅ◊∆=∏9î=πüçΩ0ôÃΩíD”=0m√ΩTù=¶ÒÂΩIZΩbBΩ≥ˇ=!¡Jºæn>;qE=∫€=‡ ﬁ=¸∏ö=q„“==ãΩtl;Ωh{4=ïÓ=πHΩ∏pÀΩtê¶Ω˚i>Ω√Ò®<˚≠ºÓ-IΩid<Ω∆Å=‚1ØΩG·>jK¸8 v=mµ9=“#Áºiùﬂ=üŒ<¢Å´<—;≈Ω/Ùg<ª!W=G√G=˚êMΩ±I =·∫=;VÑ="®≥ºVhÍ<¡IìΩ±HüΩˆπÅª|<ù<SΩﬁ¶•ΩaÎk=ú;1=[OßΩË¶=ç6ºΩŒmß="tä=	F#ΩY‡=ZΩdΩtCtΩ≈Â¨=OrŸºgﬁwΩ¬F<ﬁ16º _ç=ôQ =ó<ä=	>∆<®€˝<s≠);ôˆ∏<«íC;§¿µ=§¢{=’\’º|Q=/˜•ªSﬁ∏<ıüÒ=•ΩΩÊ”0;]ı˝;†‰ÙΩıΩŸ}l<ÄÛ⁄=QÜ~Ωó˛=©√¢=I%êΩ_TÅ=í$=¶ ≠ΩÄ≠˚<ê◊Ωjº‹=ƒéu=hB=Ç∫=õÊæ=Ó‡Ó=ÏΩC=.®Ω<¶Ú=£Ò1=2QΩ)¸ Ω9™=—^:[&ü=PQπº?>ΩÎ™ΩcÁ==?€∫€ø‘=cFË<RQ,;Pˇó=ûº-ïÀºï9¯Ω˛◊≤ªïáõΩ)…v=?œ€=±Â˝ΩAÕàΩ)õı=Ä†ΩR™∫=ÒëÍ=4ºYΩ
+ô¡Ω8Àó=ZÒD=¬Ì=9Ô<óô=H˛¬ΩòˆÎ<»◊˙<#‹é=÷≤òΩÀªπºÙ-±Ω^•µΩπ®í<úÀ•ª†íe=Ωÿº≠7;®Ñú;≈
+=BQéΩ∏π
+=9é=P1 =Ÿ¥Ω4á¡=¨*ÆΩ˝ æ<uíÊ=e9√<)¢Ò;ø”„ΩÀJΩV YΩ´ÙΩø!Ω˙	¶=¬úº'ﬁ‘=?ÎΩv\=r(∂=:Ë=ºÆeΩPÈΩˆ¬óº∆”ç=eΩªu«=|WüΩûåΩfSÑ=Õx›<-â¨Ωà‹Ù=˝YeΩ–Á„Ω˛í=ÍeâΩ5mvΩEÜΩ€Õ”<,E=¶¨¢=y„ëΩ§ƒÒº⁄Ì=1‹ãΩÎ=SΩH∫ºÏ≠ÓΩG≈¬Ω:#›=)e<]∏º<‡àY=Biö=ªBù=ÏØ=®Ø0=ÚÊ°=⁄È~=òQΩ÷F’ª8†Ω’ú…Ω{∞=O¢Ω’„∏Ω « æn{èΩ∞7Û;jûY=´ÆΩaå√<≈5ûΩGã<ﬁ⁄´=tÂºóˆPΩ∏Åµ=UΩ‚}iº“Z¡Ω h∞=M}(=<Ω¿´=ûÈ=‚êA=o"´Ω3¿º8—=pQµ=ÈaΩˆ»ú=+®Ω^vy=ºƒ=FÜéºÄ–ÕΩ„¯=Zé=∞=º¬¢Ω˙∂ºÑd,ªÇ’¿ºtWÌºÖ÷ ΩAµ8=/îÇ=û+ªº√Æ‘=_⁄Ö<Ñ[ﬂ<Cˇ"=»≥Ωu⁄º≤∑X∫πJe=YÑΩFΩô⁄Ω-D`ΩË!N=Á»=”FÙΩÉhΩ+aq=|£çΩ6≥=Ùo!<¡H‘Ω<¯ﬁ<Y≠Ωµ=äo≈Ω"¥>ˆ8ÖΩñL≥=œ“úΩàôÓΩ}oY=ŸÖ=ö◊Dº{õ‚Ω£ 'ΩÄJ∑Ω◊Õ†<8!"ª©›û=ˆ˙÷=õ*ÆΩXÛÆ=π—£=«óì<á2ÔΩÂê£Ω√d^=Ì‘∞=VSá=Yt<’ËîΩÓªÊΩ§⁄wΩBTú;`<D<L'n=ÅµÌΩ√Ií=√˘¯=eŸﬁΩÀ®ÖΩ´«
+Ω'ª<˜A‚=¯È·<òØû=nóŒ=*“ =!›·Ω)≥úΩSlSº7€µªo\b;ˇÂ°=ë‚¡= aΩ¶nΩ[l5<ê<ó<Ï¸Z=ìä√<@/o<‘ï<<háò=[øk=*Ñ´ºl¨§ΩIø=∂7©;Ù]ØΩ‰,¡º^Qø=s#ÄΩìÍîº1Jﬂ<Ωˇå=eΩ#•øΩÚO∏Ω∂ÈRΩO£Ø:à-‰Ωvà=∂’@=¶ŒΩ·Yç=jÆpº(∞¡=‘∆Hº‚¨ºñªæá2ªΩ(Í√;^¥◊=⁄äΩÆΩ<(ØΩ}§æΩ5LΩ∫¡®Ω˙≈Ω™À,Ωóß°ºU_=«W+=UQ^ºîÓºù≠ºã„±ΩAªí=#©≈=GæU&·Ω~v„ΩG¯µºª÷´∫¯)™ΩjDÑ=t‰5;»ïΩ ÔΩ**B14J ¥…£=Ñ°¸=È5º<Ã3Ω_Ìê=˙	ß=1ÊÈºÅ™„=*ëB15JÄvˇ≥Ω…"¢ºµ˝∏=úIõΩ¢Ÿ`Ω∂uÄΩŸô0Ωè}ò=Œ (=ãîÕΩu¶£Ω˘7™;’Ñ≈º∂≈ÄΩWB‹Ωoºœ=F,°=BJL=3õΩà¨ÓΩïD´º#+=ı·ºR…=cVÿ<5i1<Q“t=ïà=◊J®Ω∑U=ÿìÀΩííãº†JΩt“=X¡ﬂΩÿ.=ÿ‚æΩá*Ç=6(2=Ø?Ωè≤º<ÁÇË=GÑß=xQ˘ΩÜ÷	ΩπB˜=Œ‡<ÊàØ<PE<≈OΩF§Ω<Í°<Ó´=â)Ω3$CΩï∂◊<l!tΩ•%√=ÿƒ◊=ÙC*º«`äΩ7ØÇ=ì^≈=QDx=¿'ò=ÏıiΩ¨…æ<vòΩ≈Ú<@ºï=:Ê…;¯9AºBÙ˚º…‹ºÙ@ßΩcÁ8Ωâ‚	=≠¢X=Lbº=M}<=‰<ÂΩÎî÷=LÁ=`McΩ√º¨n∂=âƒåΩûc =v*èªç˜4=iQW=-Æÿ=…Ió=nåïΩ1=jWdΩ!–†ΩEcÉºÃ")Ωæ∆ßΩ,‚ﬂΩ)Î°Ω‰⁄ ;⁄t=âaY=a˘Ü<H“…=˝ÓΩıèΩΩ8b=ÀËΩmJ⁄=æ“=lFΩﬂ‹=úiÜ=ˇóè=Ÿü=93º›∂—=Ÿ7å<?üŒ<°ã˜<í[ΩΩ
+ôéΩC€¶=èØΩ-Û˚<∑Ñå=<Á˛ΩŸaWΩ¡f";ù\=NåΩjS=6Y±Ω]ßQ=éAM=:¥ÉºK Ωæã€ΩÈhS=X£¢<Ω9§Ωuü=ï“Ω©0ΩÂ8Ñ=Ö∫.0+=‹ =z∆Ωïªeœ∏=‹∑∞ΩÈ±—;ﬂ˝ô=Tœ:zhΩE‘	=¬ŸΩﬁ µ=°kû=QÓFΩ#ÙfΩábΩÄ≠‘=¿ã]Ωê— <ìÙΩÇ	=ê∂i=å˘Õ<µçº-Ÿ—ªU∑=•#%=^
++Ω`2⁄Ωd˙õ=Ë‹NΩ
+ﬂã=fΩÂlJºhu÷ΩîxtΩ∑cŒªç«ælºΩ7•h=‡2î=Ç4ó=ﬁBZΩ_Ô·ªym·ΩŒÇ2=¢;ïw≤=mî«ºmÂÕ=Îcv=∑mΩ=á∫åºFd∂Ω÷(ΩΩ≠˚ÂΩ&k÷<π*†Ω ë+ΩˆS=°'·=‚<6ΩBBg=˛_–º-tΩLŒßºïâ3Ω8:W=≤åõª>˙)Ωú(œ=@éTΩƒâΩå=ïK§<„ÉΩcÕÃΩËyΩ—{¡Ω≥
+l=l˙ãº„C\=#™V=S√;ﬂäº˝—vΩ≤oÁ<"‘Ωc§ÄΩ‹∏=Kq÷ºH≤=].á=ÁÙ˘ºÒ Ωµvº=M®É;Yµ⁄=Ô·ΩÁé<≤'◊Ω^ãº7”‚Ωk∞ÍΩ,
+∫…íÈ=Ês<k˝1º¶J·=¢˝R<∑ãΩÆ	ç=¸û£=≠j«=/¿=˚Ì=
+<Ω]á6<ÀÙ2Ω?ŸàºbÏ=úë∫Ω˝ë•=”ŒlΩ≠;V<”s–:/äPΩËú<Ù’NΩåT…=2íΩ7œê=£Lﬂ;’FµΩÉ·ù=≠ º„˛;ΩØµ∫ª«ƒ≤;Åá!=o®∏º˛‘Ω;ä=´:3=sæ”=Àæ;QøΩ{uΩAg‹ºﬂøTΩﬁRΩöWcΩÀ.∑<Î˛<¬Çó=)òæœΩ¡=NÌ¶ºî‰Ω<9ô=*´ãΩ˘NxΩ” =á!x<yˆí=MË©ΩÅûÜ=Œ-{=˛ÃÜ=;SBΩQÓ<mU¬<ÀY»=sJ≠ΩΩ‘Ω ]‹Ω†–î<oππΩë¡ º7ñeΩsHB<ÚÀΩoay=˙ÔΩﬁyΩ_≠Ë<ß9˛Ω„Ïª<Î
+]Ω…îíΩSî=9ÖOΩL=5ÅΩ≤÷è=∆˙=†Ø>1âkΩ¡ÂÂΩõΩ?â
+=´©p=¸”Å=3Ç=‹‹	>¬ﬂáΩ{ÎíΩ'«ºëâ’=6Ω∏Ω_¥†=\á∑<æfé=√¿˜=√˚=M˝ˆ=P¨˜ºÛ|*ΩÕ^k=lî…=¨Sª÷ÇÍºG(ÑºÙ!ΩÕ0z=Ä„Ω6ÿ= ?;±°ΩS\#Ω¬xòΩ˚3…Ωelõ<T1Æºl[JΩ9Rbº¶ç9ºÌï8=‹GÕΩIò—ª¨•ªá4¿Ω?aÂ=…ÈaΩOl«=!ÿ¡=—obª J¶=ÕπΩ˚ràº‹[ÕΩÆ˝êΩ¨q!=!∑=LÉΩ√§dΩ¯róΩ‹Ùwºü>»Ω3·ºΩzü≤ºweÈ=qu∂<ë≠3Ωßû=©Z•=“pù=sQª;âmºnç•=sX®=¯a∆=§.«=ü≠3Ω˘Wµ=Á°w<üóﬂ=/Ü⁄=wî¡=ñò=ˇO™=Æ˛vΩ¥¢éºŸ∫«;*⁄#Ω◊NÒ=v∞
+=<E!Ω{3Ω.E◊Ωì18<¶aÿ=£˚û=Û‘µ=ªì•=ÓuE=áﬁª∂≠»Ω•C§=‡¥Ω˘xÅΩÌ≠X=∞d=TbΩ-Çï=8WÏΩÙ6‹<äõ/=ÃÌ≈<È»ÑΩƒÆúΩ=«≈=ü˘€<‡GΩa”Ï=~Î“º˘u§º¬Å=µÅ¬=¢`DΩç]G<˛êAΩ:r$ΩÇáºÍÒO<Zó=É÷≥Ω6ré=FëÕ=]ï‡ªvƒª|q=L
+ﬁΩ¯√=:0WºMö;whã==˘Ó^Ωl2≤Ω§@¯ΩÌ£ΩI•ΩÁ»ΩØ; ñDΩYæ=Ûì°=ß>pëáΩn™€ΩPtú=:iíº ÿü=‰@«Ωã,Ë=©ãΩg2æΩp◊V;˛™‰ºØ®YΩæDØ=ÄXÁ=>∏M=√mEªEË≤º,9ÇΩ_¢Ù=lIΩqE«Ω˝øÿ=Cs ∫≥ê=~∆4Ωı≈´=∑RõΩ∆∞=ÁJ⁄=j∑6< ¨º=œJV<JËΩêP=ÿ—∂Ω_=<ËøΩõ6ΩNA±ºÃÊΩ’ΩÎpMΩnπÂΩÖÿ◊Ω\Œ˜Ωü\òΩ(±º∑ú‰=$nöΩ?ìΩ‹ê∆ΩüõŸ=8pôºÍÁΩ^uà=¡oΩƒ0πºût¯=¸ì¶=¥9ÓΩfî>ΩäòÎ∫÷6%=år;ΩU!å=ìRW<˜P∑ΩU’Õ<#∂¬Ω«;ªUçæ*8WΩ√ÂRΩQ¢ ΩÜk·º^≠<*mΩ**B16J r«˙<"M=
+„í:ÿæÎΩ¿ÂÄ;ókaΩ5—:=F|æΩ*ëB17JÄ&ù√Ω®JZ<pü=9r}Ω5bbºëΩ•ªÚ®®Ωü!öºV´Àºå√<Ï'"=¢É`<âè=Õ•˝ºü¯ãΩoÕΩ=È≈≠=úáS=§yå=ÙAX=ù∂‚=ˆs°=Â7ÿΩê÷Ω B§ΩV§Æ=¸„=¶;ÏLúΩª"`ΩÆ2=‘E>ë|Ì<—?∂Ωq–˚=üR–=,oΩÃbèΩ©Ê_=ÖÇ∫Ω~ Ω=÷[¯º:t˚ªÓ“äΩ[ÚˆΩµ√ö<I SΩÉÉõΩ—|“=ÀÑX<Zˆº@¨ÍΩ‘wöΩ◊Î1Ω∂ˇT=ó√Ω™≠ì=‹ÎÃ=yëX=TÌΩ¢[Ú;ßΩ»1=Aƒ˙:Y]=ΩÜΩ=<'=Û±–ΩóÂ‹ª#∂=§ƒn=2†<Oúº9Úg=‰W«Ω>Kˇº•#‰=á®'<y9[ºüyæΩF˛ÜΩø„<ÕÄ°ΩB∞º	@:Ω»÷5=†◊<áY—Ω^J=§ë;;ˇΩí¬–=|Q|Ω;∆øΩdø <Õ€`Ω{g)ΩzeΩΩ
+Çº§î‚=6W ΩæÇΩ›èºùRØΩı< XwºŒÛ⁄=uÔΩq∫ß;I¸e={ãü<a÷·º=êÎ=¿z∞ΩF´È=È=‘tÖ= “Ω=ä±®<å¯¨<ÏÉNºÔ√ΩÆk=Ä%«=cVh=ß0áªé‘«ΩVsç;°,=»VßΩkË=∞∂∫π&=°~Ì=Ô¶r=vhΩrˇ_=·’∑=n§=U∏Ω©§+<Æı≤ΩôÊôº∑cΩ%ƒß=πÂ‡=5WΩΩ◊„yΩÙ§hΩ˚Ÿ¥ΩA†¿=P◊êΩrëjΩèZÆΩW<†zñΩ—9ÖΩŒß>ˆ+î=<≤Ü=á≈«=ˇ#(=ú∏'=6ú¬Ω7.l=(;£Ω†`bºY+ΩÀ\ΩÇNzΩÄ„Ω†ØâΩΩº¢Ωÿh‰ºµˆΩDB¢=zv]=∏ÿÔΩ7£ŒΩß‘éΩÉ?i=µÎÚ=˛%çºóY°=ˇOAΩ´˝Îºq
+@ºD„ΩUM<¶È°<C(°=ﬁD£Ω„V®ºqƒû<4≤<nI“<êZ¢Ω˛˙Î=d^ÁΩÃ√%Ωœ†ñ=D‘ΩskΩÖõﬁΩ{¨=¨W¿ª£ÃM=ºØ<ß^òΩóˇ…º°Õ€= &Ω∞[ΩòFy=EmΩEh‰<+ø|ΩT|5=h.x<¨øΩ—JúΩõUk=ü◊WºpŒ∏=è<2RΩq£wº¸VΩ”ˇ{=∏# =à∏kª√õΩ_s≤=Z√=‹Öü=4h.∫D™Â<î!Ö;$Ω)ΩãƒÎΩOMº"âm=≥ΩÜ=&¸∂<∞xk=¸ê=îŒº•º±=ü⁄2ªÌu&ΩTΩﬁzΩ+»µΩâ®¯<4Á=œ03<Æı]<≥Ωòd Ω|ÂºÃñ>=)ù‚<!œΩìQ%<6¢ºé	GªªÈª=9o4ΩA.Ú=‰√çΩP∞‘=πàK=ˆé'=≈ΩvπﬁºC—µΩq.ÎΩr¨Æ=Aø=LNΩ<eÛvΩ˚G;mø—º»á˝Ωn˝…Ω˚â=—àˇºAÑYΩgÈΩΩê9R=ùëáΩ⁄ÌΩù—y=∏	
+>Àn >@ÿ=B‹;3µ=
+¡“=s D=]¯<π!‰<Ω-~9¡•è=∆ªÃ<}d›Ωó§§Ω≈˙–Ω.≤:Ω¨-ªxw=Ωq√„ΩVè†Ω.¢@=ÎAÃºh∞øº‰}=}∆ Ω≈&]Ω5ÀΩ˜ZYΩÎÁΩ+ËΩÏ(Ω≠=ÃBÏ=◊√Áªñ§=<z=q¥≥ΩöXΩ‘ºä:¬Ωÿ§‚<¿O
+= ¨⁄ΩHv!ΩÖ<ÙΩ„Ã€=–-ù=[V2Ω?Æ=ƒ|ìΩ7‘=Í9sΩÄ=&∫Ø=í{R=Uƒ<ÖVº~Á;*ÄŸ=¥é4ΩJgmΩ_ø≥ªz;°Ω∫)fΩ8Ú^∫oú£=ôA=≈é£Ω%õ=¯˛)ΩÈT=^`<øÒƒ=ˆ¢‹ª◊ÔΩ;{ßºû·∫;†…PΩF¨¶=#.{ΩÂÂæ<WìπΩµ"rºÓ¡ªºw=GΩ“u=4˙œΩv}8<'◊@º]“fΩ†òæ=-”ù=sã)=Ü◊-ªº^|=>?ΩO§ÃΩLË=[“Ω∏<&=h;eÌ“=l˚=%KôΩÒNâ:±Æ∫Ω°h§=c˘Á=√∂Ωàs‰<`lìº?ã´ºW^“=Ñ¯ ΩP<ºëA:âÕΩ<Yh=áÑ´=E†≠Ω’E =ü¶5º|~Î=â∫ΩYï»=˝$ΩÉ≈=+é|Ω‡S≤<åÿ7<˝Ü=br4=‘L=bΩã ˛ΩF6uªÛ|—=pLÃ=Ó˙}Ω˚´∫=|f?=LÎçº“ùë=6Aºä6´;∞∏Ωöº≥éÍ=5ì=›ÂƒΩ4~úªΩ(õ=T7XΩƒi;º•œ=-˘…=O‹=≤Ú´Ω®ÌΩ˝N´=Pﬁº≤®Õ=%≤§=óOHΩ.wÒ<-…@=ÃΩì‘=$Ö<
+µΩœ°ÏΩD˜»=Â.ËΩµ=-¥3Ω}Ãºıø§<◊‚=ÉHóΩNwØΩ≥\w=‘‘ÉΩ∞@Ω8Ωw=nΩ≈Úy=˝=VΩ?Æ=]¡‹=éB¸;!Ωyg=«á-=ÒE±;Y”–=Œw;a§;=á‹Ω@ÕÑº.Në:œ›
+<ı©á=éº=„÷µ=áà5Ω^¿◊=_≤™=sL=†m§<buwΩò≤Ω´~≈º|∆Ωyi=dø
+æâîæÑôGΩÌ3±=®‘=—ΩRFôΩq¬±<Xjıºª¬—Ω(À=ô,’ΩC≠:˛∂-=ú⁄=(ÇÓΩ≠ï=Ëyº97 ù=Y∆=∆ΩçÁºNd4Ω?ú=H–óΩ–(Ç==t›º=Mô±=òQ¿=S"·Ω≤lÅΩ¨®Ω∆„Ö=„1Æ<Õı=˘=aÇªƒ`O=˙¨ìΩçÏä=]©‡ΩBGŒΩ¸uD=Ω—=Vû8Ω„ê«=Ù_HΩh‰≠Ω6Œ“ºª}]=ëïΩI|›=ÿ>îΩC&çΩ™nΩ YªΩ¥Ë“=Å¯úΩ˛xΩUŒΩƒ¨√=◊À=èÓ∆<—…RΩ6j= ),∫É≤ó=**B18J †zr<ƒ=-F¿=~é	=IòÏΩ5ê=Ñ'œΩââ<*ëB19JÄÏ^∫ˇ=Â=nãàΩÄa Ω#8m=WÏ¨=´Æ º†=¡å“=uòç<Á8*Ω9Z=ô;Õ=ß’&ΩaÅh=®F«ª¯#NΩ˚EΩCûøΩáX6=„æ¨Ω^;ΩΩ"a2Ω˘•úΩü∫ØΩ´¡mΩÎ.;ΩI$
+=n)B<Ég•ºC&≤<◊NßΩÙp«=<h=Íëç=ÄI⁄Ωµå®=tXò<ûÂΩÌÙ=Dˆ :?ÿı<#ü‡=SÁ≠=ZﬂÔ=ã'›ΩU˘=µÕ=9.X;ÏcªΩÍÌkΩã3ˆ=N¬=ˆΩ–=œﬁCªù0àΩ?Ø¿<jßëΩKrºΩ»ﬁÀ<ö#é=∫‰Ω
+∑˘Ω˝äD= wÏºs}ΩWM:<•D<\hΩ˚=/
+∑=Ã[1= ‹º¨˛¸:Ãë =§å√<h˚…Ω∫9=Eê=lQÕº˝±ºÒ„≈º—◊ë=îrÕ=Ó‘ΩDêê=FÚ&=F›—<§Ñ¨ΩzvÆΩŸj>c=Æ›Ω37;©∆=ÃyIΩŸ»Õ=¢⁄ Ω˜W&: :=]ºqΩC3π;CÊ<§GÍΩ[•º’X<X´ƒ=z∏Î<âÜÕΩtiΩ|«˚=ÌR?ºàø=£PÕ<∆¯®=}√7ΩPŸ>ÔÒÌ<ÙtÆº/œ=É=ÚÜïΩ“¶´;R∑=õ	=P“º∞PΩ»\ÜΩìxï=‘[ë=XÈœΩ%“ºÇ"=æè·ΩµF√=gÕóª¥∑ÒºÌPÄ<9Ü=ÂLp=œ%>C¡=)ÿ¿<9Ÿ:=ﬂ6=Ä<Ω•¨ΩÀ„!ºuOlΩn€Ωﬂ5=MÊÜΩ£yÓ=é-=Æø,=«îæ<Œû=Uà='Kú=†EØºsÙ=Ω^°¨<UÿpΩzﬁ6º`®∑<‚.=T◊˜ΩÓÁ=4mΩ∞rΩΩÁ∑uΩn|<≤ä=îáπΩFÎ&=!÷Ë=≠–ZΩ-ò=oΩ&Ω5^4=]â=ÖﬁqΩ”ƒI=‚?>≠
+à<2∆ãΩ`q<úÁ˜<≈;N=Äà·;¡~wº.!Ω3vÆ=≤æÑΩ⁄û‡ºÀLØ="2eΩ∏Å∑ª.òÉΩı˝„Ω»»W=ÜãåΩÿ¡}Ωz=˝º¡Gã<»äÀ=Ü∫Œ=@·˚<3‰†Ω@∞û<"Áœ<]øÌ=≈°Çº–≥Ω›,Å=…xºR=a=µK=MÉ=9¨Ω/ƒÀΩ{‚Ì=ö->¡"%Ωìo	>â≠1=˛"ºìl0Ωfq1ΩÖtÁ=cÓFΩ}øº[À>¶RΩ£¸=¯Å=|iÅ=Ó=≈Qº∫Nn=]l*=P¥]Ω–¥ΩF*©Ω6Qd:Ã
+,=§TÄΩ		=∏^¶=·K©=j\Ω·Œ=ÉS≥ΩAâ—=g,úΩbœ<3õºî¢Ω¶?ÀΩñ	íΩ∫∑§Ω*∆=®•ºeÌãΩ‘Î+<"BΩûtå;≈’ >®µΩææΩL'D=7Ö…=;W”ΩèéP=ﬂc>p.·ªiædΩëFó=Xók=Ïq¸º0oÁΩ°˚∏∫¥ÁƒΩŸπÚΩ>Ñå=ãå=î~&=òÚΩPA™=7ˇî=®§∑=ùº}Ê¯º¨—ÂΩ4©=∞⁄EºÌZˆΩ2¸‰=qﬂ{ºπŸ§=¡ò
+º4ºıDÚ=ËÈ=˛ı0ΩF* ∫ÊÓ¶=\èß;º©8ºZdı=(ÆÔ=Stöºƒ2›=ÑìK;~Êª›9∫=cbPº¢ÅTº§à›ºÙj“ΩBç∑=–Ü¡Ω. ≈Ω˙±;l£Àºá„™ª∞≠Óª––=ﬂÏæ≥ß≥Ω^Ë;*ÛΩìπ·Ω¥øò=≤‡=¡ˇTΩ˘pá<°™*<ÂHŒºzA∂=Ÿ·∂ªø´ç=_”ΩΩÔZΩŒ»K<·‰l=˜EΩ*”¢=å®”Ω‹å?Ω"ô®=(Ì√ΩtΩE©8Ω°‡ΩíèÈ<2™ΩËy)Ωôˇ=&{< ‘‘Ω\ÀΩ¥≠=°m=<k•=IO≠Ω 6/ºûiÛ=x3∆=∫*∞=gU¯=K–ΩBô∞Ω‹·ó=Îq©=¢Ú„º@lcªEûÖπˆûΩΩŒÛΩkÊº»‰s=ã®ºﬂÑ=øs˙=¢Jºœ|Cº©‚uΩY≈ª;∫
+∏Ω¶¡=MmÓ=´√F=>æ˛= eî=áÜΩ=HÚ=ÒPçΩ!ê;Iô]=~íººÜúΩ™¥Ωñy>Ω¥ ﬁºÛ@•ΩQ™ªº“ê™=—À#ΩÃıÜ=ë¢§Ω§q{Ω≥Ó<Èu>ñZΩΩÌá= È4=áöΩåÔäΩÂ•=ˇ](Ωëï…=2 ¬Ωz´∆=gk\Ωv?=|º3=F4¶Ω˙ïΩä∫ºQ^<|Qç=7’Ωé¥=˚[lΩßôQΩü‡∏=˘‹ºÖÕΩ∂é<Ï˚÷ºŸÕ¡<déêΩ›¢º8ÒöΩ¨xµΩ’7?<Xwî<yTT;⁄Ï
+>@G¥<$ß;hËM;	?¯Ω_-˝<G_ﬁ=öÒ:…U‡Ω…‡=Ã¸ÿ<8Ê∏=Y"^=ßGô<]™Óº<y◊< µ=üÄ•∫
+åΩQ5mΩFÕ¡Ω∆˙ΩI >ºïSÊ=µ]Ω
+:‡Ω8£=2'‹=m¥ΩÉA<äß2=9Ç§=1ÿº‘q=oø=„£=
+Úî=6B®=‘ü–Ω<˙<∏3¿=ÑæΩå#◊Ω<'…ΩéÍ=Tö>Â}f<ﬂŸΩÑÌ =T6èΩÆw=é2AΩW0cΩu1îΩCœ&Ωµé=îä<-ò=Hß˜Ω˚ã”Ω∞Ωà=6bµ=∆õ¬=ão»Ω®!Ö=õ-”ΩILΩº=¸y<–}ã=.Ù≈º—8∂Ω ΩyYΩöè≥=&˛U=7C[=èç«Ω'>›ΩΩ„=ïÆ=‹¢OΩ`Æà;ÔH£=&0œ=Z∑ÕΩ\ÏÅΩD6)=Ûo∞=Bˇà<∞,ºÛ¨<ªk*Ã=wÃΩ9e>=}ûªΩ?…õ;KvÒΩ≠tê=&óèΩ< 9C¬¶ΩY7;¥”ÑΩpWäΩP¬lΩ±ã=PF<ºIΩ"Z∫=ÛÕd<`¢=ΩË‡bºx~^ΩgD^Ω a1ΩQ≥≥<c∫‚Ω]KŒΩCíè=7àΩY|[ºÌî=2ÊÄΩ@¨î=NΩ·Ù,ª**B20J >†ΩD`s=(n™ΩA·î=EÓ≤º]≤›º≤ë’º“ë=*ëB21JÄı
+ >aF*=Í#®=ãÆ…ΩA›ºÎÖ~Ωåì£Ωw–À<≤}˙ºw=WÑΩ:^ÀΩŸzZΩäm›ΩÎßı<ÏÎ£ΩZl»=‰°j=äêΩ>,Ω=Ú“Ωh?ü=¬÷mΩPBøºº•à:Ó—M=–πΩ;òç=Rï=iß>ª≥=øΩÖëdΩF˙X;âº:hõ_=«¶≤=H˘®ΩœÚå= ¡¸<˚‰Œ=∫é=_õº;cºêÜΩÍ[	=Á∂Õ=•xS=\ì‹=A<u=£◊=0…öº
+2øΩ>º[≈⁄=À›=fΩØøÃ=fÀ=⁄c»ΩMéÊΩsdΩ'”º÷∂W=Kºf=áFß=ü≠MΩÜ∞=’∏=V"õΩ^ö¢Ω˜RJ=ï*Ò=vtäΩÿº»<˙VŸΩëtÆ=G3=ÿ‘ºëÁé=~ˇg=∫'Ω=aÀƒ<e+<}på=¯mR=å,¬Ω	ΩY“´=CdΩ‰óÜ=‰Ü!Ω'Ï¿=MæΩDGé=°QçΩ\Ü=EKn=ÌÚ<Òπﬁ<Ây=ÏW\Ω_{EΩZa®<^åøΩ”Bª2+=≈JÓΩ˙À'ΩBr·º‰HµΩ√∂b=%*˙º-®‚Ω´Ä£Ωs*ÇºŸº±=πXáΩ‹ò=µ=™ΩÒg‡Ωå∆=Ω1Y¡ΩéÍ<i ç=^⁄ΩDVóΩs£=¥-≠º◊õÛ=–cÙ='ùΩ°D£=U·ÿΩN•A=ë∂ôΩäÚº°f€=∫kÌ;rîΩóÓ5=∂›ºü3«=∞ò∆Ωb%`ª#j†Ωı“MΩUñΩSöΩY¶ΩdHΩNˆâΩ√†Ω	=ÿ(ÇΩˆó≠=0¨æ=ˆê¸=éÎ8=_Uh∫≥R"º/ã]Ω∆d‘=á3π=8˚◊=‘)π∫?GyΩ”¨>=]GË=•—†ªd°™=à¶ª=tÄI=p@¿ºpy·ºëeº∞}ß;+˙’ºô`ÔΩ±∑£Ω”°0Ω"∞=·<x=…ÌÁΩQ-´Ωód%ΩÒS·=ﬂÿÒ<C‰=F˝òΩ˝M>LÙ=≥=QE’º≈-ö=∞LΩ Ωıo=F\ÖΩMôZ=Õ\”;R6ñ<©r∏<<à=|∫óΩõÎI=ùf¸Ω‘ìa=ÙEπΩuSÛ=õ=Œ=L¡='∞Ã<ÏBEΩ7G·Ωù=ÍRô=¶Eóº”∏<Sº ùËºÄ|¢=wÙïΩ@®ËΩè•eº¬ñÑΩbßΩæß ΩK⁄jªæÏì=:!é={<∆=Ñ®=ùp§<n};≥Oªç∞⁄ΩZÉ<*Ê◊ºÄ∫PΩ∂‹=≤j=˝M±=A∫=ö¬sΩ a"=¥Hº‹ñU=3mÖ=îV¸ºª…=INBº7Ω7[ó=ü8ù=ozZΩ7UÉ=#Y6Ω@Dº≥C∏ΩÕ%ïΩÚûñªP°BΩ/í†ºı◊<÷÷DΩuºh=ÖzÏ=SáÀ=©^·=/ººﬂ@∫á‡ΩmΩ~ﬂΩ†	õ=;ê‚Ω‰íΩﬁ|=‹£Ñ=Í…¡ºÓ¥	Ω»ßçºìgΩ=Qh£=6 UΩ≥ﬂ< åÃΩ‡∂ÇΩeîO<6Z©º:ÙΩ∂¸=◊•=m;Û<YoÀªi;<3ÿ=ÍÆÏ:KR–<∑–Q=Zâ»=Ò¶Ω=ˇΩËâú=¢/Ö;ÖÑå<Ù6«ΩßPπ=üjF=INÖ<˝ßÈ<lNÔº_~úΩúÙ˚ºÖy◊Ω|<–=∆πO=¥¸<©rßΩ‚ùΩòä=≈Ω∫Ñ|=‘#Ù=√ Ωn-Û=tûΩÂ‡ºﬂ…‰=`©À=§Ê∆=H¶ˆ='ñ¡Ωô◊=ôÎ„ΩÁn=»<Î>ô=§f!<L,Ä=ç[ﬂ;Ω‘£ΩÓlCΩnG<rA∂Ωa…>Å ]Ω—èΩÿÊ>y›çΩ.F<Ω¥ﬂ<π4=YΩ™Sç=∞`åΩô¬ı<?ËﬂΩ∂(—Ω*1B=
+3Ç=ãJΩ*`?=⁄,√º¡Ìâ=vSâ<G˛¶º˙Íˆ<v ‘ΩsŸü=¸aÒ=é^·=aΩX2Ω˝ˇ.Ωmˆ<Ø⁄√Ωí<æΩ1ßáΩ⁄ƒ≤=ºYù<xﬂæü"êΩ¥–’Ω+£Ω6∞˛;©ÏìΩ!∂ΩN]ùºÊ®B<˝¢≥=bA:=êôÑΩ_‡Ω!<=JJﬂº f=µ:îΩ1ßºùãŸΩëÖ^Ωßò∑ΩT˝BΩâ»9Õ	È=VË”=VüÀ=Í‘Ï<˘edª⁄Vı=cd•ΩÊΩù#yΩ5√=≈ ˇ=&√:Ω∫éΩƒΩ1Õp=û“,Ωîí√=Ï5Ω¢Ó=w/≠=‰∞=òèí=çÑØΩ∏Õ <®|Ωµ3Ëº†ãó=k‚mΩ∫û=‹j;É÷iΩ
+mhΩd^ÔΩö =Hrü;/Â=P5=}Î=»„n∫F˝c=5Çèºø˝\=]sVΩœ∏ô=}õ<»¶P=]∞jº∂ê&=œæ= ãøªxã=ñ˘Ω·	ΩÊCŒΩ3I<5ˇ·<0˙={ >Ω„Ëu=G/9Ω»æºMG»=Øæ∏9ê<ı<£Ω€qÀ<ï∆⁄Ωö˚ªΩUèÄΩ’UÆ=%ù=P‘ö=WÔÿºKe¿=§MCΩº∞7:ÃÍΩÀ ªNƒ»<!D æ]2Ã=1ò<óÎﬂ=dWΩ’èßπ√r1Ω€!…=¿îΩô}=ÒeòΩ©W∆=π–ΩÌOΩ&x9ΩÕïMºÇ‹—;ÌÏ<=ßïË=±kë=ë˙bΩºIÁ=éºT—ÜΩm6=ÿÿùº9WË=)∂q<·6¶=áá˚<UæôΩlœ„<£™ãΩ™˜º„ 
+ΩÉjΩΩ¿*D=G›ù=YTæ=Qo=1ÀΩ’p˛ΩÉ“=–î€ª)i†Ωy´“=,á<ôàΩ¨wg=°H<Ìﬂ¨º◊»Ω†Mﬂ∫îõ=‘ÛSΩemã=Êå•ΩºQØºüí9ΩX¥ñΩP»g=+7»Ωˇ˚¬=ºπ=ÊD:¶°óΩÅ7FΩ+˝=£D‹=¨ßnΩáå≠ΩâÑΩ#XøΩËÂîºü≥¥Ω6ß©=Eÿ¶=EŒ°Ω#–=™”∞<i~£Ω⁄‡=¬£ŒΩ+πgΩA¢ΩívΩ0¶ºÏˇˇ<jp˚<N ⁄Ω∞·’Ω**B22J 69‰ª
+s‘=àvä=Ù)€=›⁄4ΩàeG=x‡æΩV®í=*Ò<		B23J‡<ôö<4Ã?;>¶º>©ºcÁº^ΩªBÀ>Ω6Ü<8™ºéò˛<j¥ºœ =&πA<(¶Ûº∞ZL;§Ü?Ω‡a
+º˜{˜<)Xa=Ü?»º∫4|<°	dºﬁi†<˜}”<“@‘ªßZ=Ω.A^ΩŒ˝◊:Œ&3Ω4Äìºg!ñ<éNΩ“Åì<oJº0èº√æº˘Ç-ºdeΩÓ§jºix5=ΩÇ;/M==Ω;~iw;íÁ<Ù¥SΩ35WΩÆòß;sh§ºòìV<&Yéº˙Õ<˜<ºÕ9º^ﬂ€ºò&ºÆ¶È;…–<~¡Ï;ò∆èª◊ˇ™:ÑP&=V˝Ê<hVΩ<‘9ÿºü
+º§î=KR=-Rª.¢≤<§Ô"<~’ =ß8<œQ≈ºMsËº·∂é<˘ƒ¶<è˚ö∫®á=BΩ*=È˛=_œ™<¬¯ΩO’Iª]í˚<›≠≈<NÍΩ ∂wºç =-Û‡ºf‘=≥Ïªñ}¯;ÒS˚<ó à<C´≠ºu±<A-ªº◊ù]ºàõªΩú›ªrç=lÇº?#={äæ<iÅª<π”"=%L•º∑Ωÿ';è–<!8=o„<‰	1=()Œ< aÛ<nCBºkt<‡MºŒºÆHºW©Éº≈œå∏Ë«´ª7|G=6òº<∫…¸ºò—;] =’2<≤xS<<Ò|<ù’$ª±
+_ºSÊº*øºu[ =›ΩﬂºA!ä<|Óº1v;∫ˇà≠;H‚°ª›$g<¶‰<Bà√º @ﬁ<FW9=U¯Wºt9<ïBºâ¡=í°∏"`ΩLı<TZ=Õú<)T	ºë¬∫¡9⁄<Ç!$=∆Øºx1è<Í/<…«y<Rf%<XèÑΩ#ÅΩÈt=Ωûâ<3´-ªCÛ;ËP—º˜}9Ω[ä‰ª÷'ΩôMZΩÍÔΩã•^ΩØÿ
+Ωõgﬁªã)Zº{b"ΩdÆ¢<T/Ω¥§%Ωï·¡;Fø±ªsP<•ı
+∫‡RNΩèZ©<ΩÔäª˘MçªÊe?Ω”¡¢<¨…Ωêãc8õ:æº¸˚Ìº’…ªΩç@ΩQ…IΩjZ9ìgË;‹¯Éª¥'ª‹7|;ïy,9&`º{nÿºüäÿ<ìË1<∂º@ª“VGºÆ+ïº‰µç<¢”lª~gi<Ö∞dºcÖºÃ);BLıºÛ@ıº®-F=§•1<_æÒ<|t*=UE·<ŒÑ˘ªxB™:ß˝˝;àıî<´DX<S¥º0û≈º≠ =W2;ìÑ°º>˝‰<\Ê¸ªΩ¥º6B=W∑ºD∫6ºy„6=vÕ<Î‡5ºΩäO=T—◊<Ú´Œº·˚%ºi(»∫ Âé;äUlºö:Ùù±<‘0pº	ãSº€ªﬂ<¸Ú<ˆ/Êº¥ÛΩ¥_N=Èáb=Æ˘ºqAs=∂bQ=‚F=I%ä;ﬂm±ªƒ5∫<`˚˛<©«`ºˆ<¨s=Ö†ªCÌüºŒÇºŸUøºR;ëº9¸ø∫≥âºb=3Ïg=j=¨W#=Øm«<dÊº›é=Ω6hHºK‚=,õÁ;·Òä<∫åºQŒéªlU;Z4;;ÿJ1∫∫÷À<‚“’;z≤7;ÂÓ∆ª‹6=}ûÑºÑ¬<"˝ºÔßûº¥	_=Ñ':<ƒM∫Æx"=‘Á%ºçP<ıÈ]<@Ó<é»„ªéƒàº—Y∂º¿È„:£]2=Œ5'∫k~<9C6=Ö,7º‚—f=ò‘‰<Å3õ: ¶A=vB=ÄÌ<bù˝<c≤Ô<ÈQO= €µ∏|ﬁÉ;5˙b=«Ñ;L<G<Ê‚º†É<	=≈án=ˇ»∏<Éœh<SW.=ßà ;ìÏΩ•œ∏<0ÎºÇ\=º7:«’=œÛuºBöºÁï=Wåª$C’ºß$Çº;ÒD=XÌP=)Æ=ÌîÑ;B∞	=ö»o<~∫<üa%<)øΩ9¡Ö<˜TD=•€W=âôΩ˛uIªêd}ª9*2=#ÀÙ<õñº´®<b∂Ë<2k•<Yº ºÎMºg!=ºïçπ—èºÅ3Jº©‡äºÃÙp=e3AºÏˆº«ﬁJ=b‡Õ;†Ñ¸º`t;ê”Ωhy=£4Ö<£ØNºØÍ8ΩX<â<ÃÜ~;≠=(óº´ßΩØkÓ;¯JƒºŒ,J<	L[<".ΩΩ¥“ºÏY∞ºı}&º!úÂªöò≥<≈ë√º"Ë<Î√º,=i Øº¸≈Ω`É¯<4ÔÙ<_èêª8;=~ìÇ<´ƒ•<d‡T;e;Êªnw}º”tÒºy3Ú<T\ı<#D=Üj—º¯:;=úe=ñXa<R¬ºLÆˇ<™Ô∆<«-=èÍüºG0†<∆0≠<¯˜º“π&=…†<¿g€ºw	ΩÃƒ!<m4=D∫ƒ<>Á/<≥©K;âΩ~íπ<˘xÁ<#1ÙºÆ–‹∏∆aH=‰≤¨ªòËº÷_Ï<˘"±<≥[=w=kºø∏Ë;‹à<*†,=ÈÂ=¸L<◊:OËfªGzµº¥≥ô<7t˚<1î|ºâçóºÜ˘=’ã;QLºD«<cAΩÌÜxº˚)Oº%Y•:ÁK+<^¶µ<…Cº≤Që∫1¬º·—–ºNêV<£\==dêÔº∫b¥<—T,º‡Îì:<ªt=zÏ=ÊS‰ºçI<˚Íﬁ<-ΩÉ<g>P;ÑÈ<º*[€ºóΩØ≥∫;9#ºÚA^<|«;ºÍ$!=°|∏º2Ü2=f¸Xº}î@<
+ÌÔª“nµ<o(=ÓÉ4=∏÷ûºG
+=_,=ª^ÈºO∑<ÉÅ<ıå‚<:=∞jô;¸Eº(”dº2ÁR<0mÚªd“ºÜow;%√<]r ;t™˙<?&ºËU=-‹è<¿ËTº«∆<\“–<⁄ºIº'ïçª∫¬<}dΩÕ É<—dv<◊€º4|ó∫™aÄ<
+u˜<m0 =©c¥º◊àºº[Cö<ãG3=;H=œûî<û%=‚ÌÉºm;ÛÎºü∫º≠h„ºIÑ“ºŒ	É<F‚d< Å<æƒ=
+/Íº≤Ãºéò=1Ω<§=duî<Rˇﬂº«ª<(y<ª⁄7<‹Âª•<î=C5=‹} ;ÇmΩ„™$=Z⁄ô<¬ï=?dÅ<%⁄:=–≠<YP=¡5;î-<PÏ∫ì|=uJ¥<>.Lπîı%=è)=	6=‰}<'ÿ<eÇáºÌÿ=‹‡º‰èΩbÒI<±ÚΩY~∑<%œnº2â;¨pºÃ@"=ƒ+‹ºu%<¥î¥:«óΩ$˚$=%Q<]€º Ω÷·Œ<ãA=*ÙºåkEºZxΩ®f=ÀË8º“'_º#>q<%ñ+=3r°<WˇJ<]!=&#9¸ap<•-9π™º‚∑Â;!.[º\∑.=/Ü}ºBâîºA◊“;`Æè<CøΩof$Ωë8ºø'Ω„ì1=Q6q=Ñ;=&xê<ÄR∞ºﬂÄπªø&ª'åT<œﬁº∞S2=
+Ù<2 =	rêª√ —ªCÜmªˆë<6+ΩòΩe5n<[(õºÀØ:ª•.÷<}"çª: ù:4x•ª¨Ô3ΩÅ$+Ω±Xí<}qº…Øø<PÆª∑Ò<cy¥<)8•ºæ`¬ºÉ‘ª"JWΩaU6Ωá#ºüSº59ªûåΩAë:<¡8ΩDO-Ωxπÿ<Á]>ºÚ9È;
+º€ΩdÓéª9∆><œ„<ÚwØ<?∞Y<˘y=Ìøè<¯ 9<µF(:{U< eò<õQü<Û˚<Ì
+Ñ<NÌªYU…<›/âª‹ﬁ=cÊR=Çõú<Ò¿1<ñ∏;<¡îë<·JΩ@J)º¡<dº˜ÏºàGΩºÎWÖº˛â0=;T=)È‡ºrõΩ˜+=ˇ ¥<w‰<k<’S/ª˘∏¿ª;ù=îm ΩØΩûÉ<4<ê; ëö<éQ˝<‡~º¸ºªq\º∆
+Ωn¨°∫Ωn!=°øf<P_=E∞·ª<¶<Ô±6º^<<=úb<(F8ºè·9=≈˚<≈t=_b_=•u=≤Úà<Ø=™≤7=hΩë‡„:°$=∏¡—;∏êºÈxµª¶dª≈—Á<Tˇ<ÛYs:2Õ√ºË6≈<h“<îL"ª,Í<õ6/π+üº<iﬁˇ<R¥<’"≤:@ØW=Ic—;T`Âºbc=TfE=‚∞ø<Ω=Xpπ<8ô†<pf=‘ˆƒºNﬂ6;*•6ºè3ï<äπ
+Ωúm<¥@ﬂ<}”«ºÀ0¢ººRΩG>ïºM,[Ω‹iäºBO<ña~<ﬂd˚ºyˇcªÇ∆ºD
+Ω{∫sΩ åwΩã·¬º42<¥;a=2i=úF=b…<<]ò<QQ3;ˆ)4Ωõº<rŒÉ<óñF;∞∏á–=a=L@Òª‡*◊ºïÌº‡—E<ßX|ºñ`Œº	±◊º´uÎ:¢ù≥<Cº{r˙∫qÖ<Ω›Ø:ΩrªΩqS´ºD∏‹º˚Œ&ΩIÁº¶°.ΩF«:∫k√ºKPº§sÆ<2Ø(ΩñùÌº˙¡õºÏäKΩòq<ÒRΩuï<¬Ô<ÊÕ:¥›':d#=πòº“Ö<0y=Yü,=⁄"à<∞Ô.<^/<|"∫º˚ß<√õ©º1Ûö<´ê;Bﬂ =üY:Eﬂ6=èk<!zªàΩZ—=íBö;PHˆº40ì;µ÷ﬁ<Ωnè;Óm)=›1∆<G‘iªBE =Œ]=/D¨;¡âã;ZJÎ<Âíx;’‡=g\˜ºuÁôº”5é<¥©	ΩQ=Öªå@Åº7”=©òâ< ;òº›í=∂$¢ººBº∫â<¸áºa„Z:˛Ωa7Æ;G{%ª)y='dÖº∆i ºó·È<U’<¿-<7e°<	r=?È™:SxΩl¡GΩ/=@;á6£<ó»'<⁄ÒÙºz∞º%qïºm˝=ª{¡<øº€‹ºé®=nì<í¬Q=é≠3º)ºƒS <ƒV=¡À=·ë==÷Ë=H¢=P∆[º7Tn=©ák:˘,=ä¡◊<√≈Öºˆ	D∫U’D;`3"=ú=Î◊¶<Ãˆº∏4¢<g∆=¥ŸºaC=tÊò;I≥=	0õ<å˚<–ΩR–$<˛Œ”ºCFÑ<hB=¿=ΩZõèº)pWº¡ï;EÃ`ºÄ]Ω˙Œ3<Óä;_¥∫Ï¶;ª`»«<∂;ŸπŸºÃ/¨<\\ƒ:dEÂªOg=ÿ<@KÉ<Ø¿%=E£M;*=- ºA⁄<	H<ñÙ< √=tÄÛº≠î=Zmª‚BÁ;ùì+Ωª¯ºµô=’[›∫Ÿ– <ì©=œºKh‘;^g,<Jdg<¯óºâ:Ω∏<Kº≤‘<E©Ω‘Ø’º£éª“=<'8!Ωe2Ω˚5º<∫#Åº.ﬂºúnΩ6=#Ûñº·˛ºªÀSΩı{
+ΩWÿ=IR˘<‹¢Ù∫?kCΩ∞pº‡ı;ª!=k˝<<Hâº= ﬁñ<àß⁄<Ï==ø<0°œ<ô %<"æ<UDª’!=÷õ±ºª1=¶∞ºw”pºÈÇº∫%Uªù],:|ZΩtd2=f∏=≤æÑ=ˆãºÇ´$ºƒw‘<∞ =.3=–Gπ<&Á<Ët*=üJ<ÅŸ∞º[Ä{º{]ºÓ25<±|*=GN◊<¸¨Äª† =8Àz=ßÔ§<ÖoJ<ìº<Ÿ¡∫Ús=J ºVf=<cñ=ÀÒ∂;+ÈºQ≥í<}S=≠ﬁ3;Ù˘πí˜Ω®&=÷û<µM/∫ïÍÂº«)≈ªi4ëºt∫<§¢=¢DGº√)=j`
+<Üg}πG™ıºa=Qº¿i=:Ä◊<§˝#=°•
+ºb4‡<™€<ù3l=HàæºGûã;Âò‹ºù~»;wƒºê|€º=*<b≠$=)∆=√øÌ<@ü"ªe™ªÎK¯º;,=â‘®<&⁄=‡∂ΩÌVÅª‡Î∂º›Ù§ºı€Øº-∑£<h*=Hl’<à¡ ºµ<@LB=mß<<>§∫)›º{=÷:Z<ØºwûÁ<	íy<∂QëªîÙº&@ß<vßª˝∆É;Èldª)=j√=Ù3=f˜<==Ã<ÉÖn=Ó-<Ò˘=æáÓ<xo’º®ú=œ·ú;2Ïhº±=`òÑº«<@Ωººé’ÿª‚	Ωïó%=≈fΩ<ŒR>=4Í’<Aå9âóÉ<öß#=ñ
+üº ïº†m2∫rXäº∑dÄ;ƒ¯A=ùô=π
+”º	
+@ºªn=èRT;√ºÂæg<¸ÜX;’ªü<∑i<nY”<æÍË<7Ωñ<[{Ñ<Fdöª6Ïº˘¿%;&Å›º@bzºfÕº´S;(r‡ºáÀó<u	µ<39=˝˙ºK=ÅÙ<132=Üﬂ=¿Ù6<≈7≈;ÂÛ'=X∫tº∆€#=Uú+=¿v∆<Éèπª‰˙òºèKƒ:?§:=Œ[Ÿ;ƒ,Ã∫w€AºB7<¬t =úë<v'§<ë√º	÷˝<NÅ<«ôºº|œ>=ï/=i¢<6‰<?éW='¯A=¡‘Ø<ı-=Lÿ<¢g€<–5(;t~^<=zÿ=ª(Î…ºÄ=dR28ˇ#=á1;~≤ñº˘;Ä<¸Ôÿ;Ø%¡<Ël‹ºVE≠º¥<¯M8= Zîº{GÇºN”•<âP=h«5=Ä≈∞ª_õ"<rK√ºãÛA=Yˆ<∑O<Ëù¡º¡Å˜<H¨º\ÂW;ã¥ı<…®2º4Ω6êk<©¢}<∑Häºv‡Ωo(Ωj‡"Ω)Ω‰ÏŒº…$:Ô∫ºW„·<’©Ω-”°º^˝“º“/;;„S<e98=≈AF={ß∆π'¬å<[o¡:‰=ñd¨<C8	=x∑ë<∫Î!=!ÆZª·›∑<ák⁄ºæ'ßº¡ÿ‹ª@áÃº—µŸ9¿ß]Ω¸⁄ºÕá,;=ƒÜ<Ù#= òºT∏</ º<⁄jºàM<:kÄºZ™ªá?…ºÃ6º¥ú∑ºtF#=Hû;$VÛº€a9‰<R vº\ï∏ºÕ∂ª@|Ωwhº«ƒ<gTñº MΩv7Yº{«∆º± ∫JrÜ<@&Æ<Öºl=Ô ⁄<ﬁx;§–:≈¶_ºs“‘<F`<arµ<ò®ƒºµÒ'=ÃΩ∂Ï<∂ÔºúÊ=≤uÄºY[≈ºç‡<ôÎ2=√;D√<3À/=ævÃºı±<lÈÄ<åSÉºÖ™ =Ω‚5=b"=Àå¶º	,=‹ö%=L∞ü<ıç:9è=D`ëºXqºé0˝<Æô=@T;$ 1=œJ»<√Ã<7˛=ï>=äb=:'-=ä˚Q<h} =)Ò<2"fºw>Ì<†ˆ<æã†ª˚=$=¬ÌÆ<˘v%=
+Ωè<÷©<ËÜÓ<V=EªmR˘<∞˙>ºÿP§;*Ñn<åÇ=>E÷<~n@=®ƒxºπµs;qŸ';9·%=¶A=Qz¶<:∫º»Ö¶ºRvÅ<z(Òº¶aıª!d≈ºb	Ë<ñ Ñ;ÿ0¨º¯à=Ÿ‘ŸºÃ…ñ;‡1=<‘<§ÏÍºS1A<ôõ);>RŸ<òÎ4=<b(=ê¿;P9ï<w…#Ωå)á<èA<Ÿ˛Ω>/∑ºU(lºaÔùºQ#Ÿ<U˘Üº_Ø-<E£ ΩMÖv<QΩ±øº@∑ôº$Dˇ∫◊hºhË◊ª™y¨ºÂ<ã`<±’Ω'N<HhŸ:!Ûvº#r&<àﬁí;B:=û◊+ΩÁ¨ Ω˝“8Ω!ı>Ωô¬Æ86Q«<F∏<V£Ö<Úı:k«àº5≈?Ω≤\¥<ØÏŸ<Ÿ∫ºxW‡∫á;ë>.=hYà:[>GºÌÃºñ
+…;˜©s<9Ωˇ˝]<rÄ<ÄïO;†K;ÅDΩÀ\pºfˇCΩŸ":_Ωê"dΩ‘≈0Ω›íº≥◊m;ÿDº<Á°ª%›<åÔºMa=Œœ<›f“<•Gµ<¯öºº„Ÿ	=´ÖΩi5ﬂº9¥ºï)lº%÷<˘W:Ÿπ˝ºqâ.=Xh!=¨Z∞<VdΩ˜Â<t<ya…∫Ûj¯º¨9=Caáªxsﬂº—Ñ=^ØÆ<\TÆ<5é=£M¨<î‹ª≈Øª	â=W’]:k™˝º∂√ºúøº(Ê˙;8g =ﬁ <¶9<®¢y<<‚ôºö=W]ç<híºx≤¥ºí<Ω6%º"∆=a°Ì;Wsº£ø~<~ÖØºÅı≠<≠i=4»’<®¢µªø3jºIXï<Ô <yX˘ª‹©ô;Kå;Ù8ı:î}Ëºï(—ºÇë=%bº≤ë=§y<∏≤ÖπÛÏ-ºπ'<Æ¬U∫–ÃíºQ ={ØÑ:Aœ*ªÊ¿ººÏÃ:<ªÀo<9©@=$‹øª∆aÁ<Ω6˙:•§∫<9gË:¿ﬂªzké<ÒÆLºmÁ<}0˚ºÎ Œº =Ó©ºh»‹º—Ω”0=ê≠°ª–Ω™AlºÄ;‹ºKàÂº˝ùº∆ø
+=sò\<‚ù≠<ßMπh≈•ºª…ºhÏΩ7·ΩnöΩ⁄]G<‘É<d ˝<jh≤ª˚º√JEºŸíı;«Y4ª-C◊ªrπ®:Í;Ω(Y·º˝úwºæ¨;öÖ“º©≠O<¨ºÖı$=„´Ãº,µö< +ëº}egº'Ωmﬂ=ΩÑ„3Ωïmƒ;¡<=<0A¸<6®b<ﬂ?=ºÃEGºMóLº{_#ΩÊØ∫<^øºì_ºöì<tqö;≤‡‡<°∆º&Ω	=ƒ´º?íq<∆=Ó|É;…©Ω;sΩíâ$=;MΩù\±º∞<÷qÁºô÷=è{A<ƒß6<ˇ=R<¡˘-<X‡ı<ˆ	Ω:ﬂ;Eπº¶5=è©+=sûº¨ÛÁ<Ω·J∫vb–<#sπªbëóºC—<*-”<¯≤6=2.ü<L.?º§Ó{<ƒÙ¬;i =leü<ºÚB=é/<}üºbLäº÷a0=eÛ-=∑nã<\^≤º&]=RÈ<gS≠ºó8»<íH=©wÖºòI5<Ö1é<πÎ‚ª!=9›9=›˝@=]º™º¬@<◊4&=©_&=C ¶ª“=?-=Œ<r5=/=µ;_W‰ªΩ¸Tº|Z“ºtŒãº≈⁄p<È^ø<∆^wª˛„“;Ü¸=ﬂv<{£úºkî#=è§˚<pk<ÚB˙<ˆ√º∏À=”¢<
+N¯;ŒªSò/=∂Nè<ÖpºËGÂ<§“~<J?ªÇ]=rÆN=÷ö<ƒ†ªÃÜ3ºjt=ºu6Í<ü=eYrºF<Ë$<AxŒ;ıïªM%Ïº‘£‘ºˆ*=≤~";j@<OT|º\a;h€ª4£M<º·›ºe\g<!‹ºØ
+üºùõ+<ˆ}u;s’ªa7˝<^q5<)åÇ<@q¬<û˛%<á†‘º¢Œ°ªûH=ıY=Ñ[∏<ÔÖ2=¶ÛIº§ısª ¶2;)<‹:G®2=i[˜º≥•†<NZC=≥ÄQº°ï"=ƒ“º™gq<_ºbß¥<$Ëë<?Æú<Ø¡9˚ILªÁhˆº`ßj<¥∂;=©«©º˚[πª0≈†<≈~˙<Òá¬<»5=·nY<‚π∫k«º ¯ºvE¶º˙ÍÒ<qµ>=qJ=0È)=¨(8<:[=Ñ–ª<G*óºGfÀ:wÈ‚º©¶3=rá°<ËÊB=åÁΩ;{„!=◊ÿﬂ<ã…†;˙p<Wi"=sIñ;à(=êü<ä™ØªÉ…ºﬂ~+ºÂP=Dœ$=ΩxÃªØ#œºÚ!=wÚ-;–óÀºb≤ï<,G§;Ó=sú<:?ºçãV;±äºjÛ<QØ∏<∫l=û√∞ºÒ&Pºc\dº*´®ºµT›º¥L©ºF=j]Å∫{∆
+;¥/£<ü˙¶<˛-Ê<ﬂYÅºœÀ7=ªÔ<aÜÈª8Î=U´ªº9¥Üºõ =7Ã…<¡.°ªı ¬;∞Oj;_·<´Wö<$‹≈<ßH$='¢éº.6≠ºT]:€ ºepèºw%C=À1=M;)=Ô:âºïÕ°;ê≤±ºyªrc,=«[Ä<»@Œ<µ{Âºî\◊<¥
+=4p¡ª”'=<‡<@Q¢º@°º!‚:<Z·ºΩëº*B24Jt “<9!ªªZ
 0
 
 
@@ -1005,11 +763,13 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 2
 
 
-Z
-3
-
-
-Z
+Z
+3
+
+
+
+
+Z
 4
 
 
@@ -1023,11 +783,13 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 6
 
 
-Z
-7
-
-
-Z
+Z
+7
+
+
+
+
+Z
 8
 
 
@@ -1041,11 +803,13 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 10
 
 
-Z
-11
-
-
-Z
+Z
+11
+
+
+
+
+Z
 12
 
 
@@ -1059,11 +823,13 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 14
 
 
-Z
-15
-
-
-Z
+Z
+15
+
+
+
+
+Z
 16
 
 
@@ -1077,11 +843,13 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 18
 
 
-Z
-19
-
-
-Z
+Z
+19
+
+
+
+
+Z
 20
 
 
@@ -1095,116 +863,18 @@ vºsu—º2Iº®lºn√ºÏ∑®∫*B46J,ûó=pC.=<=ΩZ
 22
 
 
-Z
-23
-
-
-Z
-24
-
-
 Z
-25
-
-
-
-
-Z
-26
-
-
-Z
-27
-
-
-Z
-28
-
-
-Z
-29
-
-
-
-
-Z
-30
-
-
-Z
-31
-
-
-Z
-32
-
-
-Z
-33
-
-
-
-
-Z
-34
-
-
-Z
-35
-
-
-Z
-36
-
-
-Z
-37
-
-
-
-
-Z
-38
-
-
-Z
-39
-
-
-Z
-40
-
-
-Z
-41
-
-
-
-
-Z
-42
-
-
-Z
-43
-
-
-Z
-44
-
-
-Z
-45
+23
 
 
 
 	
 	Z
-46
+24
 
 
 b
-84
+51
 
 
 

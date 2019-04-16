@@ -9,31 +9,31 @@ class TransformerNet(torch.nn.Module):
         if use_small_network:
             # Initial convolution layers
             self.conv1 = ConvLayer(3, int(alpha * 32), kernel_size=9, stride=1)
-            self.in1 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in1 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.conv2 = ConvLayer(int(alpha * 32), int(alpha * 32), kernel_size=3, stride=2, use_separable_conv=use_separable_conv)
-            self.in2 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in2 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.conv3 = ConvLayer(int(alpha * 32), int(alpha * 32), kernel_size=3, stride=2, use_separable_conv=use_separable_conv)
-            self.in3 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in3 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             # Residual layers
             self.res1 = ResidualBlock(int(alpha * 32))
             self.res2 = ResidualBlock(int(alpha * 32))
             self.res3 = ResidualBlock(int(alpha * 32))
             # Upsampling Layers
             self.deconv1 = UpsampleConvLayer(int(alpha * 32), int(alpha * 32), kernel_size=3, stride=1, upsample=2, use_separable_conv=use_separable_conv)
-            self.in4 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in4 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.deconv2 = UpsampleConvLayer(int(alpha * 32), int(alpha * 32), kernel_size=3, stride=1, upsample=2, use_separable_conv=use_separable_conv)
-            self.in5 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in5 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.deconv3 = ConvLayer(int(alpha * 32), 3, kernel_size=9, stride=1)
             # Non-linearities
             self.relu = torch.nn.ReLU()
         else:
             # Initial convolution layers
             self.conv1 = ConvLayer(3, int(alpha * 32), kernel_size=9, stride=1)
-            self.in1 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in1 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.conv2 = ConvLayer(int(alpha * 32), int(alpha * 64), kernel_size=3, stride=2, use_separable_conv=use_separable_conv)
-            self.in2 = torch.nn.InstanceNorm2d(int(alpha * 64), affine=True)
+            # self.in2 = torch.nn.InstanceNorm2d(int(alpha * 64), affine=True)
             self.conv3 = ConvLayer(int(alpha * 64), int(alpha * 128), kernel_size=3, stride=2, use_separable_conv=use_separable_conv)
-            self.in3 = torch.nn.InstanceNorm2d(int(alpha * 128), affine=True)
+            # self.in3 = torch.nn.InstanceNorm2d(int(alpha * 128), affine=True)
             # Residual layers
             self.res1 = ResidualBlock(int(alpha * 128))
             self.res2 = ResidualBlock(int(alpha * 128))
@@ -42,35 +42,57 @@ class TransformerNet(torch.nn.Module):
             self.res5 = ResidualBlock(int(alpha * 128))
             # Upsampling Layers
             self.deconv1 = UpsampleConvLayer(int(alpha * 128), int(alpha * 64), kernel_size=3, stride=1, upsample=2, use_separable_conv=use_separable_conv)
-            self.in4 = torch.nn.InstanceNorm2d(int(alpha * 64), affine=True)
+            # self.in4 = torch.nn.InstanceNorm2d(int(alpha * 64), affine=True)
             self.deconv2 = UpsampleConvLayer(int(alpha * 64), int(alpha * 32), kernel_size=3, stride=1, upsample=2, use_separable_conv=use_separable_conv)
-            self.in5 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
+            # self.in5 = torch.nn.InstanceNorm2d(int(alpha * 32), affine=True)
             self.deconv3 = ConvLayer(int(alpha * 32), 3, kernel_size=9, stride=1)
             # Non-linearities
             self.relu = torch.nn.ReLU()
 
     def forward(self, X):
         if self.use_small_network:
-            y = self.relu(self.in1(self.conv1(X)))
-            y = self.relu(self.in2(self.conv2(y)))
-            y = self.relu(self.in3(self.conv3(y)))
+        #     y = self.relu(# self.in1(self.conv1(X)))
+        #     y = self.relu(# self.in2(self.conv2(y)))
+        #     y = self.relu(# self.in3(self.conv3(y)))
+        #     y = self.res1(y)
+        #     y = self.res2(y)
+        #     y = self.res3(y)
+        #     y = self.relu(# self.in4(self.deconv1(y)))
+        #     y = self.relu(# self.in5(self.deconv2(y)))
+        #     y = self.deconv3(y)
+        #
+        # else:
+        #     y = self.relu(# self.in1(self.conv1(X)))
+        #     y = self.relu(# self.in2(self.conv2(y)))
+        #     y = self.relu(# self.in3(self.conv3(y)))
+        #     y = self.res1(y)
+        #     y = self.res2(y)
+        #     y = self.res3(y)
+        #     y = self.res4(y)
+        #     y = self.res5(y)
+        #     y = self.relu(# self.in4(self.deconv1(y)))
+        #     y = self.relu(# self.in5(self.deconv2(y)))
+        #     y = self.deconv3(y)
+            y = self.relu((self.conv1(X)))
+            y = self.relu((self.conv2(y)))
+            y = self.relu((self.conv3(y)))
             y = self.res1(y)
             y = self.res2(y)
             y = self.res3(y)
-            y = self.relu(self.in4(self.deconv1(y)))
-            y = self.relu(self.in5(self.deconv2(y)))
+            y = self.relu((self.deconv1(y)))
+            y = self.relu((self.deconv2(y)))
             y = self.deconv3(y)
         else:
-            y = self.relu(self.in1(self.conv1(X)))
-            y = self.relu(self.in2(self.conv2(y)))
-            y = self.relu(self.in3(self.conv3(y)))
+            y = self.relu((self.conv1(X)))
+            y = self.relu((self.conv2(y)))
+            y = self.relu((self.conv3(y)))
             y = self.res1(y)
             y = self.res2(y)
             y = self.res3(y)
             y = self.res4(y)
             y = self.res5(y)
-            y = self.relu(self.in4(self.deconv1(y)))
-            y = self.relu(self.in5(self.deconv2(y)))
+            y = self.relu((self.deconv1(y)))
+            y = self.relu((self.deconv2(y)))
             y = self.deconv3(y)
         return y
 
@@ -103,15 +125,17 @@ class ResidualBlock(torch.nn.Module):
     def __init__(self, channels):
         super(ResidualBlock, self).__init__()
         self.conv1 = ConvLayer(channels, channels, kernel_size=3, stride=1)
-        self.in1 = torch.nn.InstanceNorm2d(channels, affine=True)
+        # self.in1 = torch.nn.InstanceNorm2d(channels, affine=True)
         self.conv2 = ConvLayer(channels, channels, kernel_size=3, stride=1)
-        self.in2 = torch.nn.InstanceNorm2d(channels, affine=True)
+        # self.in2 = torch.nn.InstanceNorm2d(channels, affine=True)
         self.relu = torch.nn.ReLU()
 
     def forward(self, x):
         residual = x
-        out = self.relu(self.in1(self.conv1(x)))
-        out = self.in2(self.conv2(out))
+        # out = self.relu(# self.in1(self.conv1(x)))
+        # out = # self.in2(self.conv2(out))
+        out = self.relu((self.conv1(x)))
+        out = (self.conv2(out))
         out = out + residual
         return out
 
