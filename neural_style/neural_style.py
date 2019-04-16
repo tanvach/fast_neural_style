@@ -34,12 +34,18 @@ def train(args):
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
 
-    transform = transforms.Compose([
+    transform_array = [
         transforms.Resize(args.image_size),
         transforms.CenterCrop(args.image_size),
+    ]
+    if args.bw:
+        transform_array.append(transforms.Grayscale(num_output_channels=3))
+    transform_array.extend([
         transforms.ToTensor(),
-        transforms.Lambda(lambda x: x.mul(255))
+        transforms.Lambda(lambda x: x.mul(255)),
     ])
+
+    transform = transforms.Compose(transform_array)
     train_dataset = datasets.ImageFolder(args.dataset, transform)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size)
 
@@ -220,6 +226,8 @@ def main():
                                   help="Use small network architecture")
     train_arg_parser.add_argument("--use-separable-conv", action='store_true',
                                   help="Use separable convolutions")
+    train_arg_parser.add_argument("--bw", action='store_true',
+                                  help="Optimize for black and white images")
 
     eval_arg_parser = subparsers.add_parser("eval", help="parser for evaluation/stylizing arguments")
     eval_arg_parser.add_argument("--content-image", type=str, required=True,
