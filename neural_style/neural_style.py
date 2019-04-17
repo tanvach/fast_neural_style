@@ -16,6 +16,7 @@ import utils
 from transformer_net import TransformerNet
 from vgg import Vgg16
 
+from thop import profile
 
 def check_paths(args):
     try:
@@ -134,6 +135,7 @@ def stylize(args):
     device = torch.device("cuda:" + str(args.cuda - 1) if args.cuda else "cpu")
 
     content_image = utils.load_image(args.content_image, scale=args.content_scale)
+    width, height = content_image.size
     content_transform = transforms.Compose([
         transforms.ToTensor(),
         transforms.Lambda(lambda x: x.mul(255))
@@ -152,16 +154,19 @@ def stylize(args):
             )
             state_dict = torch.load(args.model)
             # remove saved deprecated running_* keys in InstanceNorm from the checkpoint
-            for k in list(state_dict.keys()):
-                if re.search(r'in\d+\.running_(mean|var)$', k):
-                    del state_dict[k]
+            # for k in list(state_dict.keys()):
+            #     if re.search(r'in\d+\.running_(mean|var)$', k):
+            #         del state_dict[k]
             style_model.load_state_dict(state_dict)
+
             style_model.to(device)
             if args.export_onnx:
                 assert args.export_onnx.endswith(".onnx"), "Export model file should end with .onnx"
                 output = torch.onnx._export(style_model, content_image, args.export_onnx).cpu()
             else:
                 output = style_model(content_image).cpu()
+            flops, params = profile(style_model, input_size=(1, 3, width, height))
+            print(f"Flops: {flops}, Parameters: {params}")
     utils.save_image(args.output_image, output[0])
 
 
