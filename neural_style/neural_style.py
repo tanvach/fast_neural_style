@@ -13,7 +13,7 @@ from torchvision import transforms
 import torch.onnx
 
 import utils
-from transformer_net import TransformerNet
+from transformer_net_xsmall import TransformerNet
 from vgg import Vgg16
 
 from thop import profile
